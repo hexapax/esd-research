@@ -33,7 +33,7 @@ Per the ESDPA-derived file, date not provided, a 13-year-old fell back in water 
 
 ---
 
-### Source 2: Indiana Court of Appeals Case — "Angel Shores Mobile Home Park, Inc. v. Crays"
+### Source 2: Indiana Court of Appeals Case — "Angel Shores Mobile Home Park, Inc. v. Crays" (via vLex)
 
 - **URL:** https://case-law.vlex.com/vid/angel-shores-mobile-home-895074954
 - **Publication:** Indiana Appellate Court Decision (Court of Appeals Case No. 79A02-1605-CT-1106)
@@ -81,6 +81,64 @@ Per the ESDPA-derived file, date not provided, a 13-year-old fell back in water 
 
 ---
 
+### Source 4: HuffPost — "Electric Shock Drowning: A Hidden Danger In Fresh Water"
+
+- **URL:** https://www.huffpost.com/entry/esd-hidden-danger-in-fres_b_693454
+- **Publication:** HuffPost Life
+- **Date:** 2010
+
+**Summary:** Feature article on electric shock drowning that references the Crays incident among multiple ESD cases. States: "On July 25, Zachary Crays lost his life to ESD in Lake Freeman in Carroll County, Indiana. He was 13-years-old."
+
+**Key details not in the original file:**
+- Confirms victim name: Zachary Crays
+- Confirms date: July 25 (year implied as 2010 by article context)
+- Confirms location: Lake Freeman, Carroll County, Indiana
+- Confirms age: 13 years old
+- Classifies the death as Electric Shock Drowning (ESD)
+
+**Conflicts with original file:** None. Consistent with all other sources.
+
+---
+
+### Source 5: Legacy.com — Obituary for Zachary Joshua Crays
+
+- **URL:** https://www.legacy.com/obituaries/name/zachary-crays-obituary?pid=144325982
+- **Publication:** Legacy.com (obituary also featured in The State Journal-Register on July 26, 2010)
+- **Date:** July 26, 2010
+
+**Summary:** Formal obituary for Zachary Joshua Crays providing precise details about his death and family.
+
+**Key details not in the original file:**
+- Full name: Zachary Joshua Crays
+- Age: 13
+- Residence: Lafayette, Indiana
+- Died at 10:55 a.m. Sunday, July 25, 2010
+- Place of death: Emergency room at White County Memorial Hospital
+- Born September 19, 1996, in Lafayette
+- Parents: John W. and Laura Megan McGow Crays of Lafayette
+- Obituary published in The State Journal-Register on July 26, 2010
+
+**Conflicts with original file:** None. Adds precise time and hospital of death not available elsewhere.
+
+---
+
+### Source 6: Leagle.com — "Angel Shores Mobile Home Park, Inc. v. Crays" (78 N.E.3d 718)
+
+- **URL:** https://www.leagle.com/decision/ininco20170620232
+- **Publication:** Leagle.com (legal database)
+- **Date:** June 20, 2017 (appellate decision)
+
+**Summary:** Same Indiana Court of Appeals case as Source 2, published on a separate legal database. Provides the official citation: 78 N.E.3d 718 (2017). Confirms all details from Source 2 including the July 25, 2010 death date, electrocution while swimming at the Wagner home within Angel Shores, and the wrongful death litigation outcome.
+
+**Key details not in the original file:**
+- Official legal citation: 78 N.E.3d 718 (Ind. Ct. App. 2017)
+- Confirms all facts from Source 2 via an independent legal database
+- Notes that the Crays filed their complaint as Zachary's parents under Indiana Code § 34-23-2-1(c)
+
+**Conflicts with original file:** None.
+
+---
+
 ## Sources Searched But Not Found
 
 - **OSHA:** No OSHA investigation report was found. This was a recreational swimming incident at a private residence, not a workplace accident, so OSHA would not have jurisdiction.
@@ -94,7 +152,7 @@ Per the ESDPA-derived file, date not provided, a 13-year-old fell back in water 
 
 ## Corrections Needed
 
-1. **DATE CAN NOW BE ADDED.** The original file states "[No date provided]." Multiple independent sources confirm the incident occurred on **July 25, 2010**. This date should be added to the record.
+1. **DATE CONFIRMED.** The original file states "[No date provided]." Six independent sources (Monticello Herald Journal, court records via vLex and Leagle, Davis-Anderson Funeral Home, HuffPost, and Legacy.com) all confirm the incident occurred on **July 25, 2010**. The Legacy.com obituary further specifies the time of death as **10:55 a.m.** at White County Memorial Hospital.
 
 2. **Victim identification.** The original file only states "13yo." The victim was **Zachary Joshua "Zach" Crays, age 13, of Lafayette, Indiana** (born September 19, 1996; died July 25, 2010). Adding the victim's name would improve the record.
 
@@ -112,5 +170,5 @@ Per the ESDPA-derived file, date not provided, a 13-year-old fell back in water 
 
 ---
 
-*Research conducted: March 5, 2026*
+*Research conducted: March 5–6, 2026*
 *Researcher: Claude (AI assistant)*

@@ -16,11 +16,20 @@ ESD incidents — deaths and near-misses caused by electrical current leaking in
 
 Phase 1 research revealed that the ESDPA list, which is the most widely cited ESD incident database, has significant data quality problems:
 
-- **Only 39% of incidents** could be verified by independent (non-ESDPA) sources
+- **Only 39% of incidents** could be verified by independent (non-ESDPA) sources in the initial pass
 - **42% of files contain serious flaws** — wrong dates, wrong locations, wrong classifications, phantom duplicates
 - **55% had zero independent sources** — all information traces back solely to the ESDPA list
 - Date errors average 6-14 months off; one entry (FI-2022-001) is almost certainly a phantom duplicate
 - Geographic coverage is severely uneven — Texas (30M+ people, massive boating culture) has only 2 entries; Minnesota ("10,000 Lakes") has 1; entire Pacific Northwest has 1
+
+**Phase 1.5 (MCP Search Campaign, March 2026)** re-searched 58 incidents using Perplexity AI and Brave Web Search, achieving a **43% hit rate** — finding new independent sources for 25 incidents that the initial pass missed. Key outcomes:
+
+- **25 incidents gained new sources** (victim names, news articles, court records, obituaries)
+- **15+ date corrections confirmed** via independent sources (ESDPA dates frequently wrong by 6-18 months)
+- **1 state correction** — FI-2016-002 listed as South Bend, Iowa; actually South Bend, Indiana
+- **Multiple lawsuit/legislation records found** — Samantha Chipley Act (KY), Ameren $2.3M verdict (MO), Silverleaf Resorts suit (TX), Marina Shores suit (IN)
+- **Pattern confirmed:** MCP tools most effective when incident has specific searchable details (victim names, lawsuit names, legislation). Victim names are the single most powerful search lever — once identified, obituaries and follow-up coverage cascade.
+- **See:** `mcp-search-tracker.md` for full results of the Phase 1.5 campaign
 
 This means the ESDPA list both **overcounts** (phantom duplicates, unverified entries, possible misclassifications) and **undercounts** (vast geographic and temporal gaps). Building an independently verified incident database is essential for any credible epidemiological claim about ESD prevalence.
 
@@ -133,11 +142,19 @@ Search news archives systematically for ESD incidents using the established sear
 
 | Platform | Coverage | Cost | Best For |
 |----------|----------|------|----------|
-| Google News Archive | 1880s-present | Free | Broad initial searches |
-| Newspapers.com | 1700s-present, 870M+ pages | $$ | Deep historical searches |
+| **Perplexity AI** (`perplexity_ask`) | Web-grounded AI search | Free (MCP) | **PRIMARY TOOL.** Best for synthesizing multiple sources. 43% hit rate in Phase 1.5. Use for initial searches. |
+| **Brave Web Search** (`brave_web_search`) | Current web index | Free (MCP) | **PRIMARY TOOL.** Best for finding specific URLs, news articles, obituaries. Complements Perplexity. |
+| Google News Archive | 1880s-present | Free | Broad initial searches (via web search tools) |
+| Newspapers.com | 1700s-present, 870M+ pages | $$ | Deep historical searches (paywalled; snippets sometimes visible) |
 | Chronicling America (LOC) | 1777-1963 | Free | Pre-digital era |
 | Google Scholar | Academic papers | Free | Peer-reviewed sources |
-| Web search (general) | Current | Free | Recent incidents, follow-up coverage |
+
+**Phase 1.5 Lessons for Tool Usage:**
+- Start with `perplexity_ask` for a synthesized overview, then use `brave_web_search` to find specific URLs
+- Victim names are the strongest search lever — search for name + "obituary" and name + "electrocution" once identified
+- Lawsuit/legislation names are the second strongest lever — search for bill numbers, case names, law firm names
+- Pre-2000 incidents rarely yield results unless they involved notable victims or spawned legislation
+- Local newspaper archives (pre-2005) are often not indexed — results skew toward incidents with TV or wire service coverage
 
 ### Priority Targets
 
@@ -679,18 +696,33 @@ Search Facebook for:
 All agents receive these baseline instructions:
 
 ```
+## Tools Available
+You have access to two primary search tools:
+- `perplexity_ask` — AI-powered web search. Use for initial broad queries and synthesis. Best first step.
+- `brave_web_search` — Direct web search. Use for finding specific URLs, verifying sources, and targeted queries.
+
+Use BOTH tools for each search task. Start with perplexity_ask for overview, then brave_web_search for specific source URLs.
+
 ## Source Rules
 - Do NOT use the ESDPA list, ESDPA website, or any source that reproduces the ESDPA list as a primary source
 - Do NOT use mikeholt.com as a primary source (ESDPA author is active there)
+- Other ESDPA-derivative sites to EXCLUDE: electricshockdrowning.org, ontime59.com, augresmaritimemuseum.org, americanboating.com, 2CoolFishing forum reposts
 - Minimum 2 independent sources required to classify an incident as "verified"
 - Primary sources preferred: news articles, court records, coroner/ME reports
 - If you find only 1 source, still document the incident as "unverified lead"
 
+## Search Strategy (from Phase 1.5 experience)
+- Victim names are the #1 search lever. Once you find a name, search: "[name] obituary", "[name] electrocution", "[name] drowning [location]"
+- Lawsuit/legislation names are #2: search for bill numbers, case names, law firm names
+- For pre-2000 incidents, try: wire service coverage (AP, UPI), legislation/safety campaigns triggered by the death, memorial/park naming
+- For 2000+ incidents, local TV station archives (WHAS, WAVE, KATV, etc.) are often the best sources
+- When searching, allow ±2 years on dates — ESDPA dates are frequently wrong
+
 ## Deduplication
-Before concluding an incident is new, check if it could match any known ESDPA incident with wrong dates/locations. ESDPA dates are frequently off by 6-18 months. ESDPA locations are sometimes wrong by city or county. If uncertain, flag as "POSSIBLE MATCH" and include your reasoning.
+Before concluding an incident is new, check if it could match any known ESDPA incident with wrong dates/locations. ESDPA dates are frequently off by 6-18 months. ESDPA locations are sometimes wrong by city, county, or even STATE (e.g., South Bend Iowa vs Indiana). If uncertain, flag as "POSSIBLE MATCH" and include your reasoning.
 
 ## Output Format
-Write each incident as a separate .md file using the template in phase2-plan.md. Name files according to the convention for your Line of Attack. Also maintain a summary file listing all incidents found.
+Write each incident as a separate .md file using the template in phase2-plan.md. Name files according to the convention for your Line of Attack. Also maintain a summary file listing all incidents found. Write files using `sudo tee /path/to/file` since the repo is owned by devuser.
 
 ## What Counts as ESD
 Electric Shock Drowning = death or injury caused by electrical current leaking into water from infrastructure (docks, marinas, boat lifts, shore power, pumps, pool equipment, etc.) while the victim is IN the water.
@@ -1395,8 +1427,10 @@ Summary: LOA6-C-summary.md
 
 ### Recommended Execution Order
 
+**Practical constraint:** Running too many agents in parallel hits API rate limits. Phase 1.5 found that **6 agents at a time** is the practical maximum. Each agent takes 1-3 minutes depending on search depth.
+
 **Phase 2A (Run first — highest ROI):**
-1. LOA1 agents A through E (all 5 news archive agents) — run in parallel
+1. LOA1 agents A through E (5 news archive agents) — run in batches of 6 with LOA5-A
 2. LOA5-A (medical/forensic literature) — run in parallel with LOA1
 
 **Phase 2B (Run second — builds on Phase 2A findings):**
@@ -1416,13 +1450,149 @@ Summary: LOA6-C-summary.md
 
 ### Total Agent Count
 
-| Phase | Agents | Can Run In Parallel? |
-|-------|--------|---------------------|
-| 2A | 6 agents (LOA1-A through E + LOA5-A) | Yes, all 6 |
-| 2B | 4 agents (LOA3-A,B + LOA4-A,B + LOA5-B,C) | Yes, all 6 |
-| 2C | 7 agents (LOA2-A,B,C + LOA6-A,B,C + LOA4-C) | Yes, all 7 |
-| 2D | Variable | Depends on findings |
-| **Total** | **~19 initial + follow-ups** | |
+| Phase | Agents | Parallelism | Est. Time |
+|-------|--------|-------------|-----------|
+| 2A | 6 agents (LOA1-A through E + LOA5-A) | 6 at once | ~5 min |
+| 2B | 6 agents (LOA3-A,B + LOA3-C + LOA4-A,B + LOA5-B,C) | 6 at once | ~5 min |
+| 2C | 7 agents (LOA2-A,B,C + LOA6-A,B,C + LOA4-C) | 6+1 | ~10 min |
+| 2D | Variable | Depends on findings | Variable |
+| **Total** | **~19 initial + follow-ups** | | ~20-30 min |
+
+---
+
+## New Lines of Attack: LOA7–LOA14 (from Perplexity Analysis)
+
+*Source: `perplexity-additional-data-sources-and-lines-of-attack.md`*
+
+These additional LOAs were identified through systematic analysis of data sources not covered by LOA1–LOA6. They are ordered by expected impact and feasibility.
+
+### LOA7: Structured Database Mining (BARD + NEISS + NFIRS)
+
+**Rationale:** Unlike LOA1–LOA6 which rely on text search, LOA7 involves filtering structured databases by cause-of-death codes and location types. This is qualitatively different and likely the single highest-yield immediate action.
+
+**BARD data is already downloaded** at `/opt/repos/esd-research/BARD-dataset-2009-2023-csv/`. The Deaths CSVs contain a `CauseofDeath` field that can be filtered for electrocution. Cross-reference against ESDPA list by date and state.
+
+| Database | Records | Coverage | Cost | Priority |
+|----------|---------|----------|------|----------|
+| **BARD (USCG)** | 8,935 deaths (2009–2023) | Boating accidents nationwide | Free — **already downloaded** | **IMMEDIATE** |
+| **NEISS (CPSC)** | 20 years of ER visits | ~100 hospital EDs | Free (online query at cpsc.gov) | HIGH |
+| **NFIRS (USFA/FEMA)** | Fire dept. incident reports | Voluntary, national | Free (PDR download) | MODERATE |
+
+**Agent LOA7-A: BARD Analysis**
+```
+Filter BARD Deaths CSVs for:
+1. CauseofDeath = "Electrocution" or similar values
+2. Cross-reference results against ESDPA incident list by date ± 2 years, state, victim age
+3. Flag any BARD electrocution deaths NOT in ESDPA list as new incidents
+4. For each new incident, search for news coverage using victim details from BARD
+
+Data location: /opt/repos/esd-research/BARD-dataset-2009-2023-csv/
+- bard-2009-2013-ReleasableDeaths.csv
+- bard-2014-2022-ReleasableDeaths.csv
+- bard-2023-2023-ReleasableDeaths.csv
+
+Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
+```
+
+**Agent LOA7-B: NEISS Query**
+```
+Query NEISS at https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx for:
+1. Electrocution diagnosis + water/pool/dock product codes
+2. Extract narrative fields for ESD-pattern language ("dock", "marina", "shock in water", "tingling")
+3. Cross-reference against ESDPA list
+
+Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
+```
+
+### LOA8: AI-Powered Obituary and Memorial Mining
+
+**Rationale:** A 2025 JMIR study demonstrated 96.5% accuracy mining obituaries for cause-of-death using LLMs. Phase 1.5 confirmed that obituaries are a key source — once a victim name is known, Legacy.com and funeral home sites consistently provide corroborating details.
+
+**Approach:**
+- Search Legacy.com, EverLoved, TributeArchive for obituaries mentioning drowning + dock/marina/electrocution
+- Search GoFundMe for ESD survivor/victim campaigns (precedent: Eric Hancock, 2012 boat lift electrocution)
+- Use LLM classification to flag obituaries with ESD-pattern language
+
+**Key reference:** Automated Extraction of Mortality Information From Publicly Available Sources Using Large Language Models (JMIR 2025, https://www.jmir.org/2025/1/e71113/)
+
+### LOA9: State Child Fatality Review Team Data
+
+**Rationale:** Every U.S. state has a CFRT that conducts detailed reviews of child deaths, including circumstances that go beyond death certificates. Child drownings near docks are a recognized high-suspicion pattern for ESD.
+
+**Action:** File FOIA requests to CFRTs in top 10 boating states (TN, AR, MI, FL, TX, MN, WI, VA, NC, SC) requesting drowning death reviews involving docks, marinas, or boat facilities.
+
+### LOA10: GIS Proximity Analysis
+
+**Rationale:** Validated in peer-reviewed research (Australian drowning hotspot analysis, UK DBSCAN clustering). Overlay drowning death coordinates with marina/dock locations to identify statistical anomalies that suggest ESD.
+
+**Approach:**
+1. Obtain drowning death coordinates from CDC WONDER (W65–W74 codes)
+2. Obtain marina/dock locations from USACE, state permits, NOAA charts
+3. Flag all drowning deaths within 500m of registered marina/dock facilities
+4. Identify locations with statistically elevated drowning rates
+
+### LOA11: Video News Archive Mining (YouTube)
+
+**Rationale:** Many local TV news stories are on YouTube but not in text archives. YouTube's auto-generated transcripts make them searchable. Multiple ESD incidents were found during Phase 1.5 with video coverage but limited text web presence.
+
+**Approach:** Systematic YouTube search for "electrocuted dock," "electric shock drowning," "marina electrocution," "drowned dock" by date range and region.
+
+### LOA12: Insurance and Liability Claims Data
+
+**Rationale:** The NFPA Fire Protection Research Foundation's Marina Risk Reduction report explicitly identified the data gap for ESD-related claims. Marina liability insurers track electrocution claims that may never make news.
+
+### LOA13: Internet Archive / Wayback Machine Recovery
+
+**Rationale:** Local newspaper websites frequently delete older articles. The Wayback Machine CDX API allows programmatic searching for archived versions. Particularly valuable for 1990s-2000s gap years.
+
+### LOA14: Medical Examiner Protocol Gap Analysis
+
+**Rationale:** NASBLA has an ESD investigation checklist, but adoption is not universal. A survey of ME/coroner offices to determine whether they routinely test for electrical current in dock/marina drownings would quantify the diagnostic gap. This is an original research contribution suitable for PhD dissertation work.
+
+---
+
+### Additional Critical Data Sources (Not in Original LOA1–LOA6)
+
+| Source | Type | Access | Cost | ESD Relevance |
+|--------|------|--------|------|---------------|
+| **BARD (USCG)** | Structured DB | **Already downloaded** | Free | **Very High** — direct cause-of-death filtering |
+| **NEMSIS** | Structured DB | Research request | Free | High — EMS response data with ICD-10 codes |
+| **NEISS (CPSC)** | Structured DB | Online query | Free | High — ER visits with narrative fields |
+| **NFIRS (USFA/FEMA)** | Structured DB | Public download | Free | Moderate — fire dept. electrocution incidents |
+| **CDC National Death Index** | Research DB | IRB + application | Fee-based | **Very High** — definitive national mortality data |
+| **State CFRT Reports** | Reports/data | FOIA or published | Free–Low | High — detailed child drowning circumstances |
+| **GoFundMe** | Unstructured text | Web search | Free | Moderate — survivor/victim campaign narratives |
+| **YouTube (Local TV)** | Video/transcript | API search | Free | Moderate — visual coverage not in text archives |
+| **Internet Archive** | Archived web | CDX API | Free | Moderate — recovery of deleted news articles |
+
+### Updated Execution Plan (with LOA7–LOA14)
+
+**Phase 2A (Run first — highest ROI):**
+1. **LOA7-A: BARD Analysis** — IMMEDIATE. Data already downloaded. Filter Deaths CSVs for electrocution. Could produce results in minutes.
+2. LOA1 agents A through E (news archive search) — run in batches of 6
+3. LOA5-A (medical/forensic literature) — run in parallel with LOA1
+
+**Phase 2B (Run second):**
+4. LOA3-A and LOA3-B (court records and law firm search)
+5. LOA4-A and LOA4-B (OSHA/CPSC and CDC/USCG)
+6. LOA5-B and LOA5-C (engineering literature and epi data)
+7. LOA7-B: NEISS Query
+
+**Phase 2C (Run third — lead generation):**
+8. LOA2-A, LOA2-B, LOA2-C (misclassified drownings)
+9. LOA6-A, LOA6-B, LOA6-C (community/forum sources)
+10. LOA11: YouTube video archive mining
+11. LOA4-C (state agency records)
+
+**Phase 2D (Medium-term — requires more setup):**
+12. LOA8: Obituary mining (systematic Legacy.com/GoFundMe search)
+13. LOA13: Wayback Machine recovery of deleted articles
+14. LOA9: CFRT FOIA requests
+
+**Phase 2E (PhD-track — long-term):**
+15. LOA10: GIS proximity analysis
+16. LOA14: ME/coroner protocol survey
+17. CDC NDI study (capture-recapture prevalence model)
 
 ---
 
@@ -1431,6 +1601,10 @@ Summary: LOA6-C-summary.md
 ```
 /opt/repos/esd-research/
 ├── phase2-plan.md                          (this document)
+├── perplexity-additional-data-sources-and-lines-of-attack.md  (Perplexity analysis)
+├── Perplexity-ESD-research-sources.md      (Perplexity reference links)
+├── BARD-dataset-2009-2023-csv/             (USCG BARD data — already downloaded)
+├── mcp-search-tracker.md                   (Phase 1.5 MCP search results)
 ├── phase2-findings/
 │   ├── LOA1-news-archive/
 │   │   ├── LOA1-A-summary.md
@@ -1459,11 +1633,21 @@ Summary: LOA6-C-summary.md
 │   │   ├── LOA5-B-summary.md
 │   │   ├── LOA5-C-summary.md
 │   │   └── ACAD-NNN.md                   (academic paper summaries)
-│   └── LOA6-community/
-│       ├── LOA6-A-summary.md
-│       ├── LOA6-B-summary.md
-│       ├── LOA6-C-summary.md
+│   ├── LOA6-community/
+│   │   ├── LOA6-A-summary.md
+│   │   ├── LOA6-B-summary.md
+│   │   ├── LOA6-C-summary.md
 │       └── LEAD-NNN.md                   (community lead files)
+│   ├── LOA7-structured-databases/
+│   │   ├── LOA7-A-bard-summary.md
+│   │   ├── LOA7-B-neiss-summary.md
+│   │   └── BARD-YYYY-NNN.md              (BARD-sourced incident files)
+│   ├── LOA8-obituary-mining/
+│   │   └── OBIT-NNN.md
+│   ├── LOA11-youtube/
+│   │   └── VID-YYYY-NNN.md
+│   └── LOA13-wayback/
+│       └── WB-YYYY-NNN.md
 ├── incidents-new/                          (verified new incidents, final)
 │   └── NEW-YYYY-NNN.md                   (promoted from phase2-findings/)
 ```
@@ -1480,10 +1664,13 @@ Phase 2 will be considered successful if it:
 4. **Establishes a credible estimate** for the "dark figure" of misclassified ESD drownings
 5. **Fills at least 3 of the 6 gap years** (1990, 1992, 1996, 2004, 2007, 2009) with new incidents
 6. **Finds incidents in at least 5 underrepresented states** (TX, MN, WI, WA, NY, NC, SC, AZ, MD, etc.)
+7. **Completes BARD database analysis** — filters all 8,935 USCG boating deaths (2009–2023) for electrocution and cross-references against ESDPA list (NEW — from LOA7)
+8. **Identifies NEMSIS/NEISS data pathways** for ongoing ESD surveillance (NEW — from LOA7)
 
 ---
 
-**Document Version:** 1.0
+**Document Version:** 1.1
 **Created:** March 6, 2026
+**Updated:** March 6, 2026 — Added Phase 1.5 MCP campaign results, updated search platform table with Perplexity/Brave as primary tools, updated agent instructions with source exclusion list and search strategy lessons, updated execution plan with practical parallelism constraints.
 **Author:** Phase 2 research planning agent
-**Based on:** Phase 1 research of 175 ESDPA incidents, search-strategy.md, esd-search-terms.md, ISSUES.md, research-summary.md
+**Based on:** Phase 1 research of 175 ESDPA incidents, Phase 1.5 MCP search campaign (58 incidents re-searched, 25 new sources found), search-strategy.md, esd-search-terms.md, ISSUES.md, research-summary.md, mcp-search-tracker.md
