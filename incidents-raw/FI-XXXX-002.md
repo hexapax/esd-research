@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Date** | Date Unknown |
+| **Date** | June 8, 1986 |
 | **Location** | St Croix River, Prescott Wisconsin |
 | **Classification** | Fatal Incident |
 | **Outcome** | Dead: 1 |
@@ -15,7 +15,7 @@ A 44-year-old diver disappeared while approaching a swim platform on the St Croi
 
 ## Classification Notes
 
-No date provided in PDF. Filed as FI-XXXX-002. Battery charger fault. No AC grounding.
+Date confirmed as **June 8, 1986** by OnTime59.com compiled list and AuGres Museum records (secondary sources). Battery charger fault. No AC grounding. ESDPA lists "Date Unknown."
 
 ---
 *Source: "Electric Shock Drowning Incidents -- Marinas(c)"*
