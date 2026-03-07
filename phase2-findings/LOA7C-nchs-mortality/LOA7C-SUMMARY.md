@@ -1,4 +1,4 @@
-# LOA8: CDC NCHS Multiple Cause of Death — ESD Cross-Tabulation
+# LOA7-C: CDC NCHS Multiple Cause of Death — ESD Cross-Tabulation
 ## Line of Attack: Structured Federal Mortality Database
 **Status:** COMPLETE
 **Analyst:** Claude (AI research assistant)
@@ -214,6 +214,6 @@ From BARD (primary curated ESD incident database):
 
 | File | Description |
 |------|-------------|
-| `LOA8-SUMMARY.md` | This file — complete findings and analysis |
-| `LOA8-RAW-HITS.md` | All 55 co-occurrence records with full code sets |
-| `LOA8-ESD-CANDIDATES.md` | Filtered 42 natural-water + electrical records |
+| `LOA7C-SUMMARY.md` | This file — complete findings and analysis |
+| `LOA7C-RAW-HITS.md` | All 55 co-occurrence records with full code sets |
+| `LOA7C-ESD-CANDIDATES.md` | Filtered 42 natural-water + electrical records |

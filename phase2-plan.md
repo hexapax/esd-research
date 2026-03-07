@@ -734,7 +734,7 @@ INCLUDE: freshwater dock/marina electrocutions, boat lift electrocutions, pool/s
 
 ---
 
-### LOA1 Agents: Direct News Archive Search
+### LOA1 Agents: Direct News Archive Search ✅ COMPLETE
 
 #### Agent LOA1-A: Gap Years Search (1990, 1992, 1996)
 
@@ -903,7 +903,7 @@ Summary: LOA1-E-summary.md
 
 ---
 
-### LOA2 Agents: Misclassified Drownings
+### LOA2 Agents: Misclassified Drownings ✅ COMPLETE
 
 #### Agent LOA2-A: Autopsy Red Flags Search
 
@@ -995,7 +995,7 @@ Summary: LOA2-C-summary.md
 
 ---
 
-### LOA3 Agents: Legal Record Mining
+### LOA3 Agents: Legal Record Mining ✅ COMPLETE
 
 #### Agent LOA3-A: Federal and State Court Search
 
@@ -1091,7 +1091,7 @@ Summary: LOA3-C-summary.md
 
 ---
 
-### LOA4 Agents: Regulatory and Government Records
+### LOA4 Agents: Regulatory and Government Records ✅ COMPLETE
 
 #### Agent LOA4-A: OSHA and CPSC Records Search
 
@@ -1192,7 +1192,7 @@ Summary: LOA4-C-summary.md
 
 ---
 
-### LOA5 Agents: Academic and Epidemiological Research
+### LOA5 Agents: Academic and Epidemiological Research ✅ COMPLETE
 
 #### Agent LOA5-A: Medical and Forensic Literature
 
@@ -1304,7 +1304,7 @@ Summary: LOA5-C-summary.md
 
 ---
 
-### LOA6 Agents: Community and Forum Sources
+### LOA6 Agents: Community and Forum Sources ✅ COMPLETE
 
 #### Agent LOA6-A: Reddit and Boating Forum Search
 
@@ -1466,7 +1466,7 @@ Summary: LOA6-C-summary.md
 
 These additional LOAs were identified through systematic analysis of data sources not covered by LOA1–LOA6. They are ordered by expected impact and feasibility.
 
-### LOA7: Structured Database Mining (BARD + NEISS + NFIRS)
+### LOA7: Structured Database Mining ✅ COMPLETE (LOA7-A BARD, LOA7-B NEISS abandoned, LOA7-C NCHS MCod done)
 
 **Rationale:** Unlike LOA1–LOA6 which rely on text search, LOA7 involves filtering structured databases by cause-of-death codes and location types. This is qualitatively different and likely the single highest-yield immediate action.
 
@@ -1503,6 +1503,14 @@ Query NEISS at https://www.cpsc.gov/cgibin/NEISSQuery/UserCriteria.aspx for:
 
 Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
 ```
+
+**LOA7-C: NCHS Multiple Cause of Death Cross-Tabulation ✅ COMPLETE**
+- Output: `phase2-findings/LOA7C-nchs-mortality/`
+- Result: 42 ESD candidates (natural water + electrical codes), 11 high-confidence (W86 + natural water), 2003–2023
+- Method: Full 21-year scan of ~61M NCHS MCod records using Python (streaming zip parse); DEFLATE64 support via system unzip
+- Script: `/tmp/nchs_scan2.py`
+
+---
 
 ### LOA8: AI-Powered Obituary and Memorial Mining
 
@@ -1567,27 +1575,31 @@ Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
 
 ### Updated Execution Plan (with LOA7–LOA14)
 
-**Phase 2A (Run first — highest ROI):**
-1. **LOA7-A: BARD Analysis** — IMMEDIATE. Data already downloaded. Filter Deaths CSVs for electrocution. Could produce results in minutes.
-2. LOA1 agents A through E (news archive search) — run in batches of 6
-3. LOA5-A (medical/forensic literature) — run in parallel with LOA1
+**Phase 2A — COMPLETE ✅**
+1. ~~LOA7-A: BARD Analysis~~ ✅ Done — 3 new incidents found
+2. ~~LOA1 agents A through E~~ ✅ Done — 1 new verified incident + multiple corrections
+3. ~~LOA5-A (medical/forensic literature)~~ ✅ Done
 
-**Phase 2B (Run second):**
-4. LOA3-A and LOA3-B (court records and law firm search)
-5. LOA4-A and LOA4-B (OSHA/CPSC and CDC/USCG)
-6. LOA5-B and LOA5-C (engineering literature and epi data)
-7. LOA7-B: NEISS Query
+**Phase 2B — COMPLETE ✅**
+4. ~~LOA3-A and LOA3-B (court records and law firm search)~~ ✅ Done
+5. ~~LOA4-A and LOA4-B (OSHA/CPSC and CDC/USCG)~~ ✅ Done
+6. ~~LOA5-B and LOA5-C (engineering literature and epi data)~~ ✅ Done
+7. ~~LOA7-B: NEISS Query~~ ✅ Done — abandoned (structural reasons; 0 ESD records)
 
-**Phase 2C (Run third — lead generation):**
-8. LOA2-A, LOA2-B, LOA2-C (misclassified drownings)
-9. LOA6-A, LOA6-B, LOA6-C (community/forum sources)
-10. LOA11: YouTube video archive mining
-11. LOA4-C (state agency records)
+**Phase 2C — COMPLETE ✅**
+8. ~~LOA2-A, LOA2-B, LOA2-C (misclassified drownings)~~ ✅ Done — 25 SUSP files; 6 high-probability
+9. ~~LOA6-A, LOA6-B, LOA6-C (community/forum sources)~~ ✅ Done — 52 LEAD files
+10. **LOA11: YouTube video archive mining** ← NEXT (agent-ready)
+11. ~~LOA4-C (state agency records)~~ ✅ Done
 
-**Phase 2D (Medium-term — requires more setup):**
-12. LOA8: Obituary mining (systematic Legacy.com/GoFundMe search)
-13. LOA13: Wayback Machine recovery of deleted articles
-14. LOA9: CFRT FOIA requests
+**LOA7-C (added after original plan) — COMPLETE ✅**
+- ~~NCHS Multiple Cause of Death 21-year cross-tabulation~~ ✅ Done — 42 ESD candidates found
+- Output: `phase2-findings/LOA7C-nchs-mortality/`
+
+**Phase 2D (Next — agent-ready):**
+12. **LOA8: Obituary mining** (Legacy.com, EverLoved, GoFundMe) ← NEXT
+13. **LOA13: Wayback Machine recovery** of deleted articles ← NEXT
+14. LOA9: CFRT FOIA requests (requires external filing)
 
 **Phase 2E (PhD-track — long-term):**
 15. LOA10: GIS proximity analysis
@@ -1638,11 +1650,15 @@ Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
 │   │   ├── LOA6-B-summary.md
 │   │   ├── LOA6-C-summary.md
 │       └── LEAD-NNN.md                   (community lead files)
-│   ├── LOA7-structured-databases/
+│   ├── LOA7-structured-databases/        (LOA7-A BARD ✅, LOA7-B NEISS ✅ abandoned)
 │   │   ├── LOA7-A-bard-summary.md
 │   │   ├── LOA7-B-neiss-summary.md
 │   │   └── BARD-YYYY-NNN.md              (BARD-sourced incident files)
-│   ├── LOA8-obituary-mining/
+│   ├── LOA7C-nchs-mortality/             (LOA7-C NCHS MCod ✅ COMPLETE)
+│   │   ├── LOA7C-SUMMARY.md
+│   │   ├── LOA7C-RAW-HITS.md
+│   │   └── LOA7C-ESD-CANDIDATES.md
+│   ├── LOA8-obituary-mining/             (PENDING — agent-ready)
 │   │   └── OBIT-NNN.md
 │   ├── LOA11-youtube/
 │   │   └── VID-YYYY-NNN.md

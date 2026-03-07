@@ -1,4 +1,4 @@
-# LOA8: ESD Candidate Records — Natural Water Drowning + Electrical
+# LOA7C: ESD Candidate Records — Natural Water Drowning + Electrical
 ## 42 Records from NCHS Multiple Cause of Death, 2003–2023
 
 **Definition:** Death certificate with BOTH:

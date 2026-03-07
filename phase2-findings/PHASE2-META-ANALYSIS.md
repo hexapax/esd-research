@@ -1,13 +1,13 @@
 # Phase 2 Meta-Analysis: Mining ESD Incidents from Structured and Unstructured Sources
 
-**Date:** 2026-03-07  
+**Date:** 2026-03-07 (updated 2026-03-07)
 **Purpose:** Evaluate the yield, limitations, and future potential of each Line of Attack (LOA) for identifying Electric Shock Drowning incidents missed by the ESDPA incident list. Written for research partners unfamiliar with the data collection process.
 
 ---
 
 ## Background
 
-The ESDPA (Electric Shock Drowning Prevention Association) maintains a manually-compiled list of ESD incidents. Phase 2 of this research project used 7 Lines of Attack (LOA1–LOA7) to systematically identify incidents not on that list and to quantify the structural reasons why ESD deaths are systematically undercounted in U.S. government databases.
+The ESDPA (Electric Shock Drowning Prevention Association) maintains a manually-compiled list of ESD incidents. Phase 2 of this research project used 8 Lines of Attack (LOA1–LOA7, including LOA7-A/B/C sub-tracks) to systematically identify incidents not on that list and to quantify the structural reasons why ESD deaths are systematically undercounted in U.S. government databases.
 
 Each LOA used AI-assisted web search (Perplexity + Brave) and/or structured database analysis. Below is a quantitative and qualitative assessment of each.
 
@@ -133,12 +133,12 @@ Each LOA used AI-assisted web search (Perplexity + Brave) and/or structured data
 
 ### Critical Negative Findings
 
-- **CDC W74+W86 cross-tabulation never performed** — Drowning (W74) and electrical exposure (W86) ICD-10 codes have never been cross-tabulated in CDC WONDER. This single analysis could identify hundreds of previously unknown ESD deaths.
+- **CDC/NCHS W74+W86 cross-tabulation completed as LOA7-C** — Full 21-year NCHS Multiple Cause of Death scan found 55 records with drowning + electrical codes on the same death certificate; 42 are natural-water ESD candidates. See `phase2-findings/LOA7C-nchs-mortality/`.
 - **USCG annual deaths (2019–2024):** 613, 767, 658, 636, 564, 556 — ESD not subcategorized.
 - Geographic negatives confirmed: MN, WI, NY, MD, TN (post-2014) all show zero ESD fatalities in state databases — consistent with prevention working OR continued underreporting in jurisdictions without mandatory investigation protocols.
 
 **Mining potential going forward:** MODERATE via FOIA:
-1. **CDC WONDER cross-tab (W74+W86, 2000–2024)** — free data request, no FOIA required
+1. ~~**CDC WONDER cross-tab (W74+W86)**~~ — ✅ **Completed as LOA7-C.** 42 ESD candidates found 2003–2023.
 2. **CPSC NEISS full narrative export** — FOIA request
 3. **USCG BARD narrative text** — data already in hand
 
@@ -171,7 +171,7 @@ Each LOA used AI-assisted web search (Perplexity + Brave) and/or structured data
 
 **Confidence: LOW** — the study that would establish a better estimate has never been conducted.
 
-**Mining potential going forward:** LOW for new incidents; HIGH for methodology validation. The most valuable unperformed analysis is the CDC WONDER W74+W86 cross-tabulation.
+**Mining potential going forward:** LOW for new incidents; HIGH for methodology validation. The CDC WONDER/NCHS W74+W86 cross-tabulation has now been completed as LOA7-C (see below).
 
 ---
 
@@ -239,7 +239,37 @@ Each LOA used AI-assisted web search (Perplexity + Brave) and/or structured data
 
 4. **NEISS is a sample (~100 hospitals) not a census** — Even correctly-coded cases may not appear in the sample.
 
-**Recommendation:** Do not invest further effort in NEISS for ESD research. See CDC WONDER W74+W86 cross-tabulation (LOA4 section) as the productive alternative.
+**Recommendation:** Do not invest further effort in NEISS for ESD research. The productive alternative — NCHS Multiple Cause of Death cross-tabulation — has been completed as LOA7-C.
+
+---
+
+### LOA7-C: NCHS Multiple Cause of Death Cross-Tabulation ✅ COMPLETE
+
+**Data source:** NCHS Multiple Cause of Death public-use files, 2003–2023 (~61M records scanned)
+**Output directory:** `phase2-findings/LOA7C-nchs-mortality/`
+**New named incidents found: 0** (MCod public-use files are de-identified — no names, dates, or county)
+
+**This is the first-ever systematic cross-tabulation of drowning (W65–W74) + electrical exposure (W85–W87) codes on the same US death certificate.**
+
+| Category | Count |
+|----------|-------|
+| Total records scanned (2003–2023) | ~61 million |
+| Both drowning + electrical on same death certificate | **55** |
+| ESD candidates (natural water + electrical) | **42** |
+| Highest-confidence (W86 "other specified" + natural water) | **11** |
+| Mean ESD candidates per year | **2.0** |
+| Null years (0 co-occurrence) | 5 (2004, 2005, 2007, 2017, 2019) |
+
+**Key findings:**
+- T751 (drowning effects) + T754 (electrical effects) appear on >95% of hit records — certifying physicians/MEs recognized both mechanisms
+- W86 (other specified electrical current = dock/marina wiring) + natural water appears 11 times — highest-confidence dock ESD deaths
+- 2020 and 2023 each had 6 ESD candidates — highest single-year totals
+- ~86% male, consistent with known ESD demographics
+- Alcohol codes co-appear in ~15% of records (X44/X45)
+
+**The underreporting math:** NCHS MCod captures ~2 ESD candidates/year on average; BARD captures ~8% of known incidents; ESDPA documents 4–6/year. All three figures are consistent: the MCod cross-tab represents deaths where both codes were applied, not total ESD deaths.
+
+**Mining potential going forward:** HIGH via CDC Research Data Center restricted-data request. The 11 W86 + natural-water records are the top-priority targets — a formal DUA would allow access to decedent names, county, and ME narrative notes for those 11 records, potentially yielding newly identified ESD fatalities. State-level MCod requests (CA, FL, TX, NC) would add geographic resolution.
 
 ---
 
@@ -262,10 +292,10 @@ DEATHS WITH CONFIRMED ELECTRICAL INVOLVEMENT
       ↓
 DEATHS WITH ICD-10 W86 (electrical exposure) + drowning code
       |
-      | W86+W74 cross-tab never performed; no published analysis
+      | LOA7-C DONE: 42 ESD candidates found in 21-year NCHS scan (~2/year)
       ↓
 DEATHS IN GOVERNMENT DATABASES
-      BARD:  captures ~8% | CDC WONDER: cross-tab not done | NEISS: structural zero
+      BARD: ~8% capture | NCHS MCod LOA7-C: 42 ESD candidates (2003-2023) | NEISS: structural zero
       ↓
 ESDPA INCIDENT LIST
       (4–6 confirmed deaths/year documented)
@@ -281,24 +311,34 @@ ESDPA INCIDENT LIST
 | LOA4 (government) | 3 | ~5 |
 | LOA5 (academic) | 0 | 0 |
 | LOA6 (community/hotspots) | ~10–15 | ~15 |
-| LOA7 (BARD) | 1 fatal + 2 near-miss | — |
-| **Total** | **~40–50 new incidents** | **~60 unverified leads** |
+| LOA7-A (BARD) | 1 fatal + 2 near-miss | — |
+| LOA7-B (NEISS) | 0 (abandoned — structural) | — |
+| LOA7-C (NCHS MCod) | 0 named; 42 statistical ESD candidates | 11 high-confidence (W86+NW) |
+| **Total** | **~40–50 new named incidents** | **~60 unverified leads + 42 statistical candidates** |
 
 ---
 
 ## Highest-Priority Future Research Actions
 
-1. **CDC WONDER W74+W86 cross-tab** — Free data request at wonder.cdc.gov. Cross-tabulate ICD-10 codes W74 (drowning, undetermined) + W86 (electrical exposure) for 2000–2022. Could identify hundreds of previously unknown ESD deaths.
+*Note: The original #1 priority (CDC WONDER/NCHS cross-tabulation) has been completed as LOA7-C. Priorities renumbered.*
 
-2. **ME records in high-incidence states** — Public records requests to ME offices in TN, AR, MI, VA, MO, FL, IN for drowning investigations within 100 feet of powered water infrastructure.
+1. **Lake of the Ozarks 2015–2017 deep dive (LOA11-A)** — Missouri State Highway Patrol (Water Patrol Division) records + Lake Expo/Columbia Missourian archives. Missourinet (2017) directly states 3 additional deaths in this period. Agent-ready.
 
-3. **Lake of the Ozarks 2015–2017** — Missouri State Highway Patrol (Water Patrol Division) records + Lake Expo/Columbia Missourian archives. Missourinet (2017) directly states 3 additional deaths in this period.
+2. **Smith Mountain Lake VA 2017–2023 deep dive (LOA11-B)** — Roanoke County + Bedford County drowning records near powered docks. 97% dock stray voltage documented in 2017 survey, 7 years before first confirmed death. Agent-ready.
 
-4. **Smith Mountain Lake VA 2017–2023** — Roanoke County + Bedford County drowning records near powered docks. 97% dock stray voltage documented 7 years before first confirmed death.
+3. **LOA8: Obituary and memorial mining** — Systematic search of Legacy.com, EverLoved, GoFundMe for drowning victims near docks/marinas using ESD-pattern language. Agent-ready; estimated yield: 5–15 new incidents.
 
-5. **Paid newspaper archive access** (Newspapers.com / ProQuest) — Would unlock pre-2000 incident discovery that free search tools cannot reach.
+4. **LOA11: YouTube video archive mining** — Local TV news ESD coverage exists on YouTube but is absent from text archives. Systematic search by date range and region. Agent-ready.
 
-6. **Tennessee SFMO inspection database** — Inspection violation records cross-referenced with drowning death locations; public records under Noah Dean and Nate Act.
+5. **LOA13: Wayback Machine recovery** — CDX API recovery of deleted local newspaper articles, especially 2000–2010. Agent-ready.
+
+6. **CDC Research Data Center restricted-data request** — Formal DUA to access decedent identifiers for the 11 highest-confidence LOA7-C records (W86 + natural water). Would potentially yield newly identified ESD fatalities. Requires institutional affiliation.
+
+7. **ME records in high-incidence states** — Public records requests to ME offices in TN, AR, MI, VA, MO, FL, IN for drowning investigations within 100 feet of powered water infrastructure. Requires formal FOIA filing.
+
+8. **Tennessee SFMO inspection database** — Inspection violation records cross-referenced with drowning death locations; public records under Noah Dean and Nate Act.
+
+9. **Paid newspaper archive access** (Newspapers.com / ProQuest) — Would unlock pre-2000 incident discovery that free search tools cannot reach.
 
 ---
 
