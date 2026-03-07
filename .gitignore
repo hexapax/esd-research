@@ -44,3 +44,10 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# NCHS Mortality raw data files (2.4GB — not committed to git)
+NCHS-mortality/mort*.zip
+NCHS-mortality/mort*.txt
+
+# NEISS raw xlsx (41MB — not committed to git)
+NEISS-dataset/neiss*.xlsx
