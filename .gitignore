@@ -52,5 +52,8 @@ NCHS-mortality/mort*.txt
 # NEISS raw xlsx (41MB — not committed to git)
 NEISS-dataset/neiss*.xlsx
 
+# Generated dataset exports (regenerate with esd-dataset/export_dataset.py)
+esd-dataset/exports/
+
 # Private drafts (not for public repo)
 drafts/
