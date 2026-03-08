@@ -176,6 +176,39 @@ Using patterns identified during Phase 1 (geographic gaps, temporal gaps, common
 ### Phase 3: Dataset Consolidation
 All ESDPA entries and Phase 2 findings were merged into the unified [`esd-dataset/`](esd-dataset/) with YAML frontmatter designed for programmatic parsing and Excel export. The schema supports both incident-level and victim-level analysis. See [`esd-dataset/SCHEMA.md`](esd-dataset/SCHEMA.md).
 
+## Using the Dataset
+
+### Pre-built exports (no setup required)
+
+CSV and XLSX files are in [`esd-dataset/exports/`](esd-dataset/exports/). Download directly from GitHub:
+
+- **Small** (18 columns) — Nicole's column spec: ID, date, name, location, counts, notes, source URL
+- **Medium** (30 columns) — adds verification level, ESDPA status, electrical details, legal outcomes
+- **Large** (42 columns) — adds all source URLs, ESDPA data issues, fault descriptions, research notes
+
+Each XLSX file has two sheets: **Incidents** (one row per incident, 193 rows) and **Victims** (one row per person, 334 rows).
+
+### Regenerating exports
+
+Requires Python 3 with `pyyaml` and `openpyxl`:
+
+```bash
+pip install pyyaml openpyxl
+python3 esd-dataset/export_dataset.py
+```
+
+Outputs CSV and XLSX files to `esd-dataset/exports/`. No other files are created.
+
+### Extracting ESDPA data quality issues
+
+```bash
+python3 esd-dataset/extract_issues.py              # markdown report to stdout
+python3 esd-dataset/extract_issues.py --csv         # CSV to stdout
+python3 esd-dataset/extract_issues.py --out report.md  # write to file
+```
+
+Scans all 193 dataset files and extracts the 220 documented ESDPA data quality issues (date corrections, location errors, misclassifications, phantom duplicates).
+
 ## Remaining Research Tracks
 
 | Track | Description | Requirement |
