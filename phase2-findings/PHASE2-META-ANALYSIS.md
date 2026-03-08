@@ -1,13 +1,13 @@
 # Phase 2 Meta-Analysis: Mining ESD Incidents from Structured and Unstructured Sources
 
-**Date:** 2026-03-07 (updated 2026-03-07)
+**Date:** 2026-03-07 (updated 2026-03-08)
 **Purpose:** Evaluate the yield, limitations, and future potential of each Line of Attack (LOA) for identifying Electric Shock Drowning incidents missed by the ESDPA incident list. Written for research partners unfamiliar with the data collection process.
 
 ---
 
 ## Background
 
-The ESDPA (Electric Shock Drowning Prevention Association) maintains a manually-compiled list of ESD incidents. Phase 2 of this research project used 8 Lines of Attack (LOA1–LOA7, including LOA7-A/B/C sub-tracks) to systematically identify incidents not on that list and to quantify the structural reasons why ESD deaths are systematically undercounted in U.S. government databases.
+The ESDPA (Electric Shock Drowning Prevention Association) maintains a manually-compiled list of ESD incidents. Phase 2 of this research project used multiple Lines of Attack (LOA1–LOA7 including sub-tracks, plus LOA11) to systematically identify incidents not on that list and to quantify the structural reasons why ESD deaths are systematically undercounted in U.S. government databases.
 
 Each LOA used AI-assisted web search (Perplexity + Brave) and/or structured database analysis. Below is a quantitative and qualitative assessment of each.
 
@@ -273,6 +273,50 @@ Each LOA used AI-assisted web search (Perplexity + Brave) and/or structured data
 
 ---
 
+## LOA11: YouTube Video Archive Mining ✅ COMPLETE
+
+**Target:** Local TV news ESD coverage on YouTube; auto-generated captions make YouTube searchable for coverage not in text archives
+**Agents:** 3 (LOA11-A: year-range sweeps 2000–2025; LOA11-B: hotspot states TN/AR/MI/MO/IN/FL/OK/KY/VA/OH; LOA11-C: underrepresented states TX/WA/OR/NC/SC/MN/WI/NY/PA/MD/AZ/NV)
+**Output directory:** `phase2-findings/LOA11-youtube/`
+**Files produced:** 35 VID-YYYY-NNN incident files + 3 summary files
+
+### Yield
+
+| Category | Count |
+|----------|-------|
+| Total unique incidents documented | 27 |
+| Confirmed/probable NEW incidents (not in ESDPA) | **17** |
+| ESDPA-listed incidents with YouTube documentation added | 10 |
+| YouTube URLs catalogued | 55+ |
+
+### Key New Incidents
+
+| Victim | Age | Date | Location | Status |
+|--------|-----|------|----------|--------|
+| Rachel Rosoff | 17 | Sep 3, 2016 | Heritage Point pool, Raleigh NC | ESDPA footnote explicitly excludes; pool pump wiring |
+| Shelly Darling & Elizabeth Whipple | 34/41 | Apr 14–15, 2017 | Lake Tuscaloosa, AL | Coroner ruled DIRECT ELECTROCUTION — not in ESDPA |
+| Jesse Hamric | 18 | Jul 4, 2024 | Smith Mountain Lake, VA | Boat lift stray voltage; post-database |
+| Gabriel Gonzalez | 21 | Jul 10, 2025 | Marina Shores, Portage IN | Post-database |
+| Thomas "Shep" Milner | 24 | Jul 27, 2023 | Lake Lanier, GA | Forsyth County confirmed ESD |
+| Dr. Eric Hughes | 37 | Aug 2015 | Lake Tuscaloosa, AL | Ruled drowning; electrocution suspected |
+| James DeAngelo | 23 | Jul 4, 2021 | Monongahela River, PA | PA Senate legislation filed |
+| Raul Hernandez Martinez | 27 | Aug 31, 2013 | Houston Hilton pool, TX | Pool electrocution; outside ESDPA marina scope |
+| James Tramel | 43 | Mar 27, 2016 | Palm Springs, CA | Fountain electrocution (not marina) |
+| Timothy & Michael Miller | 53/50 | Jul 12, 2020 | Lake Pleasant, AZ | Brother pair; lake near marina |
+
+### Qualitative Assessment
+
+**What worked:** Perplexity search significantly outperformed Brave for ESD-specific YouTube video discovery. Year-range + location query structure ("electric shock drowning [state] [year] site:youtube.com") proved effective. Local TV news channels (WSET, WBIR, WTAE, KPRC, ABC15) are primary repositories of local ESD coverage not indexed by text news archives.
+
+**Key structural finding:** YouTube auto-generated captions make local TV segments searchable by spoken content, not just metadata. This enables recovery of 2000–2015 era coverage that predates digital-first local news publication. The Shelly Darling/Elizabeth Whipple case (ruled direct electrocution by coroner, April 2017, Lake Tuscaloosa AL) represents a confirmed double death in the ESDPA category that the ESDPA list does not include — the most significant single discovery of the LOA11 campaign.
+
+**Mining potential going forward:** MODERATE for additional discoveries. Specific follow-up searches recommended:
+- Arkansas: KATV report referenced "5 ESD deaths in AR" — specific incidents not identified
+- Lake of the Ozarks 2016–2017: 3 unidentified deaths (Angela Anderson testimony)
+- Michigan: Clinch Marina/Park — WZZM/WXYZ channel deep dives
+
+---
+
 ## Cross-LOA Summary: The Underreporting Stack
 
 Every layer of U.S. data infrastructure fails to capture ESD:
@@ -314,23 +358,24 @@ ESDPA INCIDENT LIST
 | LOA7-A (BARD) | 1 fatal + 2 near-miss | — |
 | LOA7-B (NEISS) | 0 (abandoned — structural) | — |
 | LOA7-C (NCHS MCod) | 0 named; 42 statistical ESD candidates | 11 high-confidence (W86+NW) |
-| **Total** | **~40–50 new named incidents** | **~60 unverified leads + 42 statistical candidates** |
+| LOA11 (YouTube) | **17** confirmed/probable new | 10 ESDPA incidents + YouTube docs |
+| **Total** | **~55–70 new named incidents** | **~70 unverified leads + 42 statistical candidates** |
 
 ---
 
 ## Highest-Priority Future Research Actions
 
-*Note: The original #1 priority (CDC WONDER/NCHS cross-tabulation) has been completed as LOA7-C. Priorities renumbered.*
+*Note: The original #1 priority (CDC WONDER/NCHS cross-tabulation) has been completed as LOA7-C. LOA11 (YouTube) is now complete. Priorities renumbered.*
 
-1. **Lake of the Ozarks 2015–2017 deep dive (LOA11-A)** — Missouri State Highway Patrol (Water Patrol Division) records + Lake Expo/Columbia Missourian archives. Missourinet (2017) directly states 3 additional deaths in this period. Agent-ready.
+1. **LOA8: Obituary and memorial mining** — Systematic search of Legacy.com, EverLoved, GoFundMe for drowning victims near docks/marinas using ESD-pattern language. Agent-ready; estimated yield: 5–15 new incidents.
 
-2. **Smith Mountain Lake VA 2017–2023 deep dive (LOA11-B)** — Roanoke County + Bedford County drowning records near powered docks. 97% dock stray voltage documented in 2017 survey, 7 years before first confirmed death. Agent-ready.
+2. **LOA13: Wayback Machine recovery** — CDX API recovery of deleted local newspaper articles, especially 2000–2010. Agent-ready.
 
-3. **LOA8: Obituary and memorial mining** — Systematic search of Legacy.com, EverLoved, GoFundMe for drowning victims near docks/marinas using ESD-pattern language. Agent-ready; estimated yield: 5–15 new incidents.
+3. **Lake of the Ozarks 2015–2017 deep dive** — Missouri State Highway Patrol (Water Patrol Division) records + Lake Expo/Columbia Missourian archives. Missourinet (2017) directly states 3 additional deaths in this period. LOA11 search corroborates the 2016–2017 gap.
 
-4. **LOA11: YouTube video archive mining** — Local TV news ESD coverage exists on YouTube but is absent from text archives. Systematic search by date range and region. Agent-ready.
+4. **Arkansas KATV follow-up** — LOA11 uncovered a KATV report referencing "5 ESD deaths in AR" — individual incidents not identified. Direct KATV channel search recommended.
 
-5. **LOA13: Wayback Machine recovery** — CDX API recovery of deleted local newspaper articles, especially 2000–2010. Agent-ready.
+5. **Michigan Clinch Marina deep dive** — LOA11 found strong signal for WZZM/WXYZ coverage; channel-level search recommended.
 
 6. **CDC Research Data Center restricted-data request** — Formal DUA to access decedent identifiers for the 11 highest-confidence LOA7-C records (W86 + natural water). Would potentially yield newly identified ESD fatalities. Requires institutional affiliation.
 
