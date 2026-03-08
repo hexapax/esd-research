@@ -4,7 +4,7 @@ Independent research into Electric Shock Drowning (ESD) incidents in the United 
 
 ## What Is Electric Shock Drowning?
 
-Electric Shock Drowning occurs when AC electrical current leaks into water near docks, marinas, boats, or pools. A swimmer entering the energized water experiences involuntary muscle paralysis, loses the ability to swim, and drowns. ESD is frequently misclassified as ordinary drowning because the electrical component leaves little physical evidence.
+Electric Shock Drowning occurs when AC electrical current leaks into water near docks, marinas, boats, or pools. A swimmer entering the energized water experiences involuntary muscle paralysis, loses the ability to swim, and drowns. ESD is frequently misclassified as ordinary drowning because the electrical component leaves little physical evidence at autopsy.
 
 ## Source Data
 
@@ -17,20 +17,22 @@ The ESDPA list is the most comprehensive catalog of ESD incidents available. Thi
 This project **independently verifies, corrects, and expands** on the ESDPA list using primary sources only:
 
 - News archives (local and national)
-- Obituaries
+- Obituaries and memorial records
 - Court records and legal filings
 - OSHA and NTSB reports
-- CDC MMWR (Morbidity and Mortality Weekly Report) publications
+- CDC MMWR publications and NCHS mortality data
+- USCG Boating Accident Report Database (BARD)
 - Trade journal articles (EC&M, Soundings, etc.)
 - Government and legislative records
+- YouTube local TV news archives
 
 The ESDPA list and its derivatives (mikeholt.com reposts, etc.) are explicitly **excluded** as verification sources to avoid circular sourcing.
 
-## Key Findings
+## Research Phases
 
-### Phase 1 & 2: ESDPA List Verification
+### Phase 1: ESDPA List Extraction and Verification (Complete)
 
-After researching all 175 incidents:
+Extracted all 175 incidents from the ESDPA PDF into structured files, then independently researched each one.
 
 | Metric | Result |
 |--------|--------|
@@ -41,85 +43,143 @@ After researching all 175 incidents:
 | Location errors found | 8 incidents |
 | Phantom duplicate entry | 1 (FI-2022-001 duplicates FI-2023-001) |
 | Near miss that was actually a double fatality | 1 (NM-2016-001) |
-| Two incidents merged into one entry | 1 (FI-2017-010) |
 
-The most common data quality issue is **incorrect dates**, with errors ranging from one day to nearly two years. Among the 15 incidents with date errors exceeding 6 months, 11 were placed in the wrong calendar year. See [ISSUES.md](ISSUES.md) and [research-summary.md](research-summary.md) for full details.
+**Results:** [`incident-research/`](incident-research/) (175 files), [`research-summary.md`](research-summary.md), [`ISSUES.md`](ISSUES.md)
 
-## Phase 3 Key Findings (Unlisted Incident Search)
+### Phase 1.5: MCP Search Campaign (Complete)
 
-Phase 3 used 8 Lines of Attack (LOA1–LOA7, with LOA7 having three sub-tracks A/B/C) to systematically find ESD incidents not in the ESDPA list. Highlights:
+Re-searched 58 incidents using Perplexity AI and Brave Web Search, achieving a 43% hit rate — finding new sources for 25 incidents the initial pass missed.
+
+**Results:** [`mcp-search-tracker.md`](mcp-search-tracker.md)
+
+### Phase 2: Unlisted Incident Search (Complete)
+
+Used 14 Lines of Attack (LOA1–LOA14) to systematically find ESD incidents not in the ESDPA list.
+
+| LOA | Description | Status | Key Result |
+|-----|-------------|--------|------------|
+| LOA1 | News archive search | Complete | 13 verified new incidents |
+| LOA2 | Misclassified drownings | Complete | 25 SUSP files; 6 high-probability |
+| LOA3 | Legal record mining | Complete | 20 LEGAL files; settlement/verdict data |
+| LOA4 | Government records (OSHA, CPSC, CDC) | Complete | 5 new incidents |
+| LOA5 | Academic/epidemiological literature | Complete | No new incidents; critical methodology findings |
+| LOA6 | Community/forum sources | Complete | 52 LEAD files; 10-15 new incidents |
+| LOA7-A | BARD structured database | Complete | 8% ESD capture rate; 3 new incidents |
+| LOA7-B | NEISS structured database | Abandoned | Structural zero — NEISS cannot capture ESD |
+| LOA7-C | NCHS mortality cross-tabulation | Complete | 42 statistical ESD candidates (2003-2023) |
+| LOA8 | Obituary/memorial mining | Complete | 4 victim IDs confirmed; Legacy.com tool ceiling found |
+| LOA11 | YouTube video archive mining | Complete | 17 probable new incidents; 55+ YouTube URLs |
+| LOA13 | Wayback Machine recovery | Complete | CDX structural gap confirmed; pre-2005 papers not crawled |
+| LOA9 | CFRT FOIA requests | Not started | Requires external filing |
+| LOA10-14 | GIS, insurance, ME survey, NDI | Not started | Advanced methodology track |
+
+**Results:** [`phase2-findings/`](phase2-findings/) subdirectories, [`phase2-findings/PHASE2-META-ANALYSIS.md`](phase2-findings/PHASE2-META-ANALYSIS.md)
+
+### Phase 3: Consolidated Dataset (Complete)
+
+Merged all ESDPA entries and Phase 2 findings into a single unified dataset with structured YAML frontmatter.
+
+| Metric | Count |
+|--------|-------|
+| Total incident files | 193 |
+| From ESDPA base list | 171 |
+| Net-new from Phase 2 | 22 |
+| Fatal incidents | ~130 |
+| Near-miss incidents | ~63 |
+| VERIFIED (multiple independent sources) | ~70 |
+| CONFIRMED (one independent source) | ~30 |
+| UNVERIFIED (ESDPA-only, no independent sources) | ~75 |
+| SUSPECTED (Phase 2 leads, not in ESDPA) | ~18 |
+| ESDPA date corrections applied | 25+ |
+| ESDPA location corrections applied | 4+ |
+
+**Results:** [`esd-dataset/`](esd-dataset/), [`esd-dataset/SCHEMA.md`](esd-dataset/SCHEMA.md)
+
+## Key Findings
 
 | Finding | Detail |
 |---------|--------|
-| New verified incidents found | ~40–50 |
-| Unverified leads (SUSP files) | ~60 |
-| NCHS death certificates with ESD signature codes (2003–2023) | **42 statistical ESD candidates** |
-| BARD capture rate for known ESD | ~8% (2 of 24 dock/marina ESD incidents) |
-| Lake of the Ozarks | Confirmed single deadliest US ESD site (5–6 deaths) |
-| Smith Mountain Lake VA | 97% of tested docks had stray voltage (2017 survey) |
-| Tennessee | Strongest ESD regulation in any US state (Noah Dean and Nate Act) |
-| Missouri | Recreational Use Act shields all private dock owners — zero successful ESD lawsuits despite 5–6 deaths |
+| New incidents found (beyond ESDPA) | ~55-70 verified + suspected |
+| Statistical ESD candidates in NCHS data | 42 (2003-2023) |
+| BARD capture rate for known ESD | ~8% |
+| Deadliest single US ESD site | Lake of the Ozarks, MO (6 deaths, 5 incidents) |
+| Highest dock stray voltage prevalence | Smith Mountain Lake, VA (97% of 209 docks, 2017) |
+| Strongest US ESD regulation | Tennessee (Noah Dean and Nate Act) |
+| Estimated true annual ESD deaths | 20-30 (vs. 4-6 documented) |
 
-See [`phase2-findings/PHASE2-META-ANALYSIS.md`](phase2-findings/PHASE2-META-ANALYSIS.md) for the complete cross-LOA analysis.
-
-## What's in This Repository
+## Repository Structure
 
 | Path | Description |
 |------|-------------|
-| `incidents-raw/` | 175 structured markdown files extracted from the ESDPA PDF. One file per incident. These represent the original ESDPA data. |
-| `incident-research/` | 175 independently researched files, one per incident. Each contains verification status, corrections found, independent sources, and additional details discovered. |
-| `phase2-findings/` | Results of the Phase 3 unlisted-incident search. Subdirectories for each LOA plus the cross-LOA meta-analysis. |
-| `NCHS-mortality/` | 24 years of NCHS Multiple Cause of Death zip files (2000–2023, ~2.4 GB). Excluded from git via `.gitignore`. |
-| `NEISS-dataset/` | NEISS 2023 ER visit data (41 MB xlsx). Excluded from git via `.gitignore`. |
-| `research-summary.md` | Comprehensive analysis of all 175 ESDPA incidents with statistics, notable cases, and pattern analysis. |
-| `ISSUES.md` | Data quality issues found during extraction and research: date errors, misclassifications, duplicates, location errors. |
-| `phase2-plan.md` | Detailed plan for all LOA search tracks, including those not yet executed (LOA8–LOA14). |
-| `search-strategy.md` | Detailed guide to ESD incident patterns, geographic gaps, and search terms. |
-| `esd-search-terms.md` | Practical search strategies for finding ESD incidents and independent sources. |
-| `CLAUDE-PROMPT.md` | Documents the extraction methodology used to create `incidents-raw/`. |
+| `esd-dataset/` | **Consolidated dataset** — 193 incident files in unified YAML+markdown schema. Designed for Excel export. |
+| `incidents-raw/` | 175 structured files extracted from the ESDPA PDF (original data). |
+| `incident-research/` | 175 independently researched files with verification status, corrections, and sources. |
+| `phase2-findings/` | Results of the unlisted-incident search, organized by LOA. |
+| `BARD-dataset-2009-2023-csv/` | USCG Boating Accident Report Database CSV exports. |
+
+### Root Documents
+
+| File | Description |
+|------|-------------|
+| [`research-summary.md`](research-summary.md) | Phase 1 verification results — statistics, date errors, notable corrections. |
+| [`ISSUES.md`](ISSUES.md) | All ESDPA data quality issues found during extraction. |
+| [`phase2-plan.md`](phase2-plan.md) | Research plan for all LOA tracks with execution status. |
+| [`phase2-findings/PHASE2-META-ANALYSIS.md`](phase2-findings/PHASE2-META-ANALYSIS.md) | Cross-LOA analysis, underreporting model, priority next actions. |
+| [`esd-dataset/SCHEMA.md`](esd-dataset/SCHEMA.md) | Dataset schema documentation — YAML fields, verification levels, Excel export spec. |
+| [`search-strategy.md`](search-strategy.md) | ESD incident patterns, geographic gaps, and search methodology. |
+| [`esd-search-terms.md`](esd-search-terms.md) | Practical search queries for finding ESD incidents. |
+| [`source-count-by-incident.md`](source-count-by-incident.md) | All 175 ESDPA incidents ranked by independent source count. |
+| [`CLAUDE-PROMPT.md`](CLAUDE-PROMPT.md) | Extraction methodology used to create `incidents-raw/`. |
 
 ### Phase 2 Findings Subdirectories
 
-| Path | LOA | Description |
-|------|-----|-------------|
-| `phase2-findings/LOA1-news-archive/` | LOA1 | 25 incident files from direct news archive search; 1 new verified incident |
-| `phase2-findings/LOA2-misclassified-drownings/` | LOA2 | 25 SUSP files; 6 high-probability ESD misclassifications |
-| `phase2-findings/LOA3-legal-records/` | LOA3 | 20 LEGAL files; settlements, verdicts, structural legal findings |
-| `phase2-findings/LOA4-government-records/` | LOA4 | 8 GOV files; OSHA, CPSC, CDC, USCG sources |
-| `phase2-findings/LOA5-academic/` | LOA5 | 34 ACAD files; peer-reviewed literature and epidemiology |
-| `phase2-findings/LOA6-community/` | LOA6 | 52 LEAD files; Reddit, boating forums, hotspot deep dives |
-| `phase2-findings/LOA7-structured-databases/` | LOA7-A/B | BARD (8% capture rate confirmed); NEISS (abandoned — structural) |
-| `phase2-findings/LOA7C-nchs-mortality/` | LOA7-C | NCHS MCod 21-year cross-tab: 42 ESD candidates, 11 high-confidence |
-| `phase2-findings/PHASE2-META-ANALYSIS.md` | All | Cross-LOA summary, underreporting analysis, priority next actions |
+| Path | LOA | Files | Key Finding |
+|------|-----|-------|-------------|
+| `LOA1-news-archive/` | LOA1 | 21 NEW + 5 summaries | 13 new verified incidents |
+| `LOA2-misclassified-drownings/` | LOA2 | 25 SUSP + 3 summaries | 6 high-probability ESD misclassifications |
+| `LOA3-legal-records/` | LOA3 | 20 LEGAL + 4 summaries | Settlements, verdicts, regulatory gaps |
+| `LOA4-government-records/` | LOA4 | 12 GOV + 4 summaries | OSHA, CPSC, CDC, USCG findings |
+| `LOA5-academic/` | LOA5 | 34 ACAD + 3 summaries | No peer-reviewed ESD epidemiology exists |
+| `LOA6-community/` | LOA6 | 52 LEAD + 3 summaries | Hotspot deep dives (LOTOZ, SML) |
+| `LOA7-structured-databases/` | LOA7-A/B | Analysis files | BARD 8% capture; NEISS structural zero |
+| `LOA7C-nchs-mortality/` | LOA7-C | 3 files | 42 ESD candidates in 61M death records |
+| `LOA8-obituary-mining/` | LOA8 | 21 research files | 4 victim IDs confirmed; LOTOZ/SML deep dives |
+| `LOA11-youtube/` | LOA11 | 35 VID + 3 summaries | 17 new incidents; 55+ YouTube URLs |
+| `LOA13-wayback/` | LOA13 | 2 files | Pre-2005 local papers not in Wayback Machine |
+| `PHASE2-META-ANALYSIS.md` | All | 1 file | Cross-LOA synthesis and underreporting model |
 
 ## Methodology
 
-### Phase 1: Extraction (completed)
+### Phase 1: Extraction
+The ESDPA PDF was processed into 175 structured markdown files in `incidents-raw/`, one per real-world incident. Classification rules and naming conventions are documented in [`CLAUDE-PROMPT.md`](CLAUDE-PROMPT.md).
 
-The ESDPA PDF was processed into 175 structured markdown files in `incidents-raw/`, one per real-world incident. Classification rules, naming conventions, and handling of ambiguous cases are documented in `CLAUDE-PROMPT.md`.
+### Phase 1 & 1.5: Independent Verification
+Each of the 175 incidents was independently researched using AI-assisted search (Claude Sonnet, Perplexity AI, Brave Web Search). For each incident, the researcher searched for independent primary sources, compared findings against the ESDPA entry, and documented corrections and verification status. The ESDPA list itself and sources deriving from it were excluded as verification.
 
-### Phase 2: Independent Research (completed)
+### Phase 2: Unlisted Incident Search
+Using patterns identified during Phase 1 (geographic gaps, temporal gaps, common misclassification as drowning), 14 Lines of Attack searched for ESD incidents not in the ESDPA list. The full plan is in [`phase2-plan.md`](phase2-plan.md). LOA1 through LOA8, LOA11, and LOA13 are complete. Remaining tracks (LOA9, LOA10, LOA12, LOA14) require institutional access or external filing.
 
-Each of the 175 incidents was independently researched using AI-assisted batch processing (Claude Sonnet). For each incident, the researcher:
+### Phase 3: Dataset Consolidation
+All ESDPA entries and Phase 2 findings were merged into the unified [`esd-dataset/`](esd-dataset/) with YAML frontmatter designed for programmatic parsing and Excel export. The schema supports both incident-level and victim-level analysis. See [`esd-dataset/SCHEMA.md`](esd-dataset/SCHEMA.md).
 
-1. Searched for the incident using victim names, locations, dates, and circumstances
-2. Located and evaluated independent primary sources
-3. Compared independent findings against the ESDPA entry
-4. Documented corrections, additional details, and verification status
+## Remaining Research Tracks
 
-**Source exclusions:** The ESDPA list itself and sources that derive from it (mikeholt.com forum reposts of ESDPA data, websites that reproduce the ESDPA list) were not counted as independent verification.
-
-### Phase 3: Searching for Unlisted Incidents (in progress)
-
-Using patterns identified during Phase 2 (geographic gaps, temporal gaps, common misclassification as drowning), 8 Lines of Attack searched for ESD incidents not in the ESDPA list. The full plan is in `phase2-plan.md`; LOA1–LOA7-C are complete. LOA8 (obituary mining), LOA11 (YouTube), LOA13 (Wayback Machine), and additional tracks remain to be executed.
+| Track | Description | Requirement |
+|-------|-------------|-------------|
+| LOA9 | State Child Fatality Review Team records | FOIA filing |
+| LOA10 | GIS proximity analysis (drowning deaths near marina coordinates) | GIS tooling |
+| LOA12 | Marina insurance/liability claims data | Industry contacts |
+| LOA14 | Medical examiner protocol gap survey | Institutional affiliation |
+| CDC NDI | National Death Index W86+drowning cross-reference | IRB approval + institutional affiliation |
+| NewspaperArchive | Pre-internet local newspaper keyword search (1980-2005) | API access agreement |
 
 ## Limitations
 
 - **Pre-internet era:** Incidents from the 1980s and early 1990s are largely unverifiable because local newspaper archives are not digitized.
 - **Near misses:** Non-fatal incidents where everyone survived rarely generate lasting documentation, resulting in a 43% verification rate for NM incidents vs. 70% for fatal incidents.
 - **Paywalled sources:** Some potentially relevant articles could not be accessed.
-- **Verification is not causation:** Confirming that an incident occurred does not confirm that ESD was the mechanism. Some verified incidents may have been ordinary drownings, direct electrocution, or other causes.
-- **Completeness unknown:** The true number of ESD incidents in the US is likely higher than 175. The search strategy document identifies significant geographic gaps (Texas, Pacific Northwest, Northeast) where incidents are likely underreported.
+- **Verification is not causation:** Confirming that an incident occurred does not confirm that ESD was the mechanism.
+- **Completeness unknown:** The true number of ESD incidents in the US is likely substantially higher than the 193 documented here.
 
 ## License
 

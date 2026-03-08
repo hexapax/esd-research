@@ -1577,7 +1577,7 @@ Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
 
 ### LOA14: Medical Examiner Protocol Gap Analysis
 
-**Rationale:** NASBLA has an ESD investigation checklist, but adoption is not universal. A survey of ME/coroner offices to determine whether they routinely test for electrical current in dock/marina drownings would quantify the diagnostic gap. This is an original research contribution suitable for PhD dissertation work.
+**Rationale:** NASBLA has an ESD investigation checklist, but adoption is not universal. A survey of ME/coroner offices to determine whether they routinely test for electrical current in dock/marina drownings would quantify the diagnostic gap. This would be an original research contribution.
 
 ---
 
@@ -1623,7 +1623,7 @@ Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
 13. ~~LOA13: Wayback Machine recovery~~ ✅ Done — CDX structural gap confirmed; pre-2005 papers not crawled
 14. LOA9: CFRT FOIA requests (requires external filing)
 
-**Phase 2E (PhD-track — long-term):**
+**Phase 2E (Advanced methodology — long-term):**
 15. LOA10: GIS proximity analysis
 16. LOA14: ME/coroner protocol survey
 17. CDC NDI study (capture-recapture prevalence model)

@@ -21,7 +21,7 @@
 - `ESD-1993-08-00-1.md` — August 1993, day unknown
 - `ESD-1988-00-00-1.md` — 1988, month and day unknown
 
-**Remapping note:** These IDs may be remapped to align with Nicole's existing Excel dataset. All files also carry cross-reference IDs linking back to every project file that documents the same incident.
+**Remapping note:** These IDs may be remapped to align with other existing datasets. All files also carry cross-reference IDs linking back to every project file that documents the same incident.
 
 ---
 
@@ -38,7 +38,7 @@ Each file uses **YAML frontmatter** (between `---` markers) for structured data,
 ```yaml
 incident_id: ESD-2012-07-04-1        # Primary ID (matches filename)
 date: "2012-07-04"                    # ISO 8601 date (use YYYY-MM or YYYY if partial)
-year: 2012                            # Separate year column (Nicole's request)
+year: 2012                            # Separate year column for filtering
 date_precision: exact                 # exact | month | year | approximate
 ```
 

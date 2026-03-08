@@ -51,3 +51,6 @@ NCHS-mortality/mort*.txt
 
 # NEISS raw xlsx (41MB — not committed to git)
 NEISS-dataset/neiss*.xlsx
+
+# Private drafts (not for public repo)
+drafts/

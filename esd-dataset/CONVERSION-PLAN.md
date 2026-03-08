@@ -44,7 +44,7 @@ Convert all unique ESD incidents from across the project into the unified `esd-d
 
 ## ID Assignment
 
-Format: ESD-YYYY-MM-DD-N (Nicole's preferred format)
+Format: ESD-YYYY-MM-DD-N
 
 For incidents with unknown dates:
 - Month unknown: ESD-YYYY-00-00-N

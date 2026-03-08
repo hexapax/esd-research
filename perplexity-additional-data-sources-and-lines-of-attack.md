@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-The Phase 2 plan in the esd-research repository lays out six well-structured Lines of Attack (LOA1–LOA6) covering news archives, misclassified drownings, legal records, government databases, academic literature, and community sources. This report identifies **nine additional lines of attack** and **several major data sources** that are either absent from the current plan or mentioned but not operationalized. The most impactful additions are the freely available USCG Boating Accident Report Database (BARD), the NEMSIS national EMS dataset, AI-powered obituary mining techniques proven in peer-reviewed research, and state Child Fatality Review Team records. Together, these additions could substantially increase both the number of verified incidents discovered and the rigor of prevalence estimates — exactly what an epidemiology PhD program would need.
+The Phase 2 plan in the esd-research repository lays out six well-structured Lines of Attack (LOA1–LOA6) covering news archives, misclassified drownings, legal records, government databases, academic literature, and community sources. This report identifies **nine additional lines of attack** and **several major data sources** that are either absent from the current plan or mentioned but not operationalized. The most impactful additions are the freely available USCG Boating Accident Report Database (BARD), the NEMSIS national EMS dataset, AI-powered obituary mining techniques proven in peer-reviewed research, and state Child Fatality Review Team records. Together, these additions could substantially increase both the number of verified incidents discovered and the rigor of prevalence estimates.
 
 ***
 
@@ -42,7 +42,7 @@ NEISS data can be queried online at cpsc.gov using product codes for docks, shor
 
 ### CDC National Death Index (NDI)
 
-The NDI is a central computerized index of all U.S. death records since 1979, maintained by NCHS. NDI Plus provides ICD-10 coded cause of death. This is the gold standard for mortality research and is specifically designed for the kind of epidemiological study a PhD program would undertake.[^14][^15]
+The NDI is a central computerized index of all U.S. death records since 1979, maintained by NCHS. NDI Plus provides ICD-10 coded cause of death. This is the gold standard for mortality research and is the appropriate tool for a rigorous epidemiological study of ESD prevalence.[^14][^15]
 
 Key capabilities:
 
@@ -50,9 +50,9 @@ Key capabilities:
 - NDI Plus provides cause-of-death codes without needing to contact individual state vital statistics offices
 - NIH has an agreement with NCHS that simplifies access for researchers and covers costs[^16]
 
-The PhD student's friend would need IRB approval through her university, but once approved, she could cross-reference W86 (electric current exposure) deaths with location data near water bodies and marinas. This would provide the most rigorous estimate of ESD prevalence ever attempted.[^15]
+A researcher with IRB approval through an academic institution could cross-reference W86 (electric current exposure) deaths with location data near water bodies and marinas. This would provide the most rigorous estimate of ESD prevalence ever attempted.[^15]
 
-**Action**: This is a medium-term play. The PhD student should plan an NDI-based study as part of her dissertation work. She would need to develop a study protocol, obtain IRB approval, and submit an NDI application. The payoff — a comprehensive national count of electrocution deaths near water — would be the definitive epidemiological contribution.
+**Action**: This is a medium-term play requiring institutional affiliation. The researcher would need to develop a study protocol, obtain IRB approval, and submit an NDI application. The payoff — a comprehensive national count of electrocution deaths near water — would be the definitive epidemiological contribution.
 
 ***
 
@@ -147,17 +147,17 @@ NASBLA (National Association of State Boating Law Administrators) has developed 
 - Identify states where ESD is most likely to be missed
 - Provide evidence for policy advocacy
 
-This would be an original research contribution appropriate for a PhD dissertation and would complement the incident-finding work by explaining *why* incidents are missed.
+This would be an original research contribution and would complement the incident-finding work by explaining *why* incidents are missed.
 
 ***
 
-## Integration with PhD Epidemiology Research
+## Integration with Formal Epidemiological Research
 
-Several of these additions align specifically with the academic rigor required for a PhD in epidemiology:
+Several of these additions align with the rigor required for peer-reviewed epidemiological research:
 
-| Research Component | Relevant LOA | Academic Output |
+| Research Component | Relevant LOA | Potential Output |
 |-------------------|-------------|-----------------|
-| Prevalence estimation | LOA7 (BARD/NEMSIS), NDI study | Dissertation chapter on true ESD incidence |
+| Prevalence estimation | LOA7 (BARD/NEMSIS), NDI study | True ESD incidence estimate |
 | Case ascertainment methodology | LOA8 (NLP mining), LOA10 (GIS) | Methods paper on ESD case finding |
 | Surveillance gap analysis | LOA14 (ME/coroner survey) | Policy paper on diagnostic gaps |
 | Risk factor identification | LOA10 (GIS proximity) | Spatial epidemiology study |
