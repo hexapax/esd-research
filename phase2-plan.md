@@ -45,6 +45,28 @@ Based on gap analysis:
 
 ---
 
+## Research Methodology Notes (Updated March 2026)
+
+### Most Effective Research Approach
+
+After extensive experimentation with multiple approaches, the **most successful method** for ESD incident research has been:
+
+**`claude-agent` tool (async) with MCP tools enabled (Perplexity + Brave Search)**
+
+Key lessons learned:
+- ✅ **claude-agent with MCP tools** — Full interactive Claude session with live web search via Perplexity MCP and Brave Search MCP. Produces real, sourced research. This is the gold standard.
+- ✅ **Model: claude-sonnet** — Use Sonnet (not Opus) to preserve API quota. Opus exhausts quota in ~20 minutes on batch tasks.
+- ❌ **`research-orchestrator.py`** — Calls `claude -p` (print mode) as a subprocess which has NO MCP tools. Can only use training data — produces stale/hallucinated results or "No sources found" stubs. Do not use.
+- ❌ **`claude_code` MCP tool** — Times out on research tasks longer than ~2 minutes. Not suitable for web research batches.
+
+### Workflow
+1. Launch batches of 5-10 targets using `query_mcp_claude-agent` (async mode)
+2. Prompt explicitly instructs agent to use Perplexity MCP and Brave Search MCP tools
+3. Poll with `status_mcp_claude-agent` until complete
+4. Check files written, commit, launch next batch
+
+---
+
 ## Source Independence Rules
 
 All Phase 2 research must follow these rules:
