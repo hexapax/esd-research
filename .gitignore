@@ -54,3 +54,6 @@ NEISS-dataset/neiss*.xlsx
 
 # Private drafts (not for public repo)
 drafts/
+
+# MCP tool configuration
+.mcp.json

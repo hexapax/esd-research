@@ -109,13 +109,19 @@ Merged all ESDPA entries and Phase 2 findings into a single unified dataset with
 
 ## Repository Structure
 
+### Primary Outputs
+
 | Path | Description |
 |------|-------------|
-| `esd-dataset/` | **Consolidated dataset** — 193 incident files in unified YAML+markdown schema. Designed for Excel export. |
-| `incidents-raw/` | 175 structured files extracted from the ESDPA PDF (original data). |
-| `incident-research/` | 175 independently researched files with verification status, corrections, and sources. |
+| `esd-dataset/` | **Consolidated dataset** — 193 incident files in unified YAML+markdown schema, with CSV/XLSX exports. |
 | `phase2-findings/` | Results of the unlisted-incident search, organized by LOA. |
-| `BARD-dataset-2009-2023-csv/` | USCG Boating Accident Report Database CSV exports. |
+
+### Source Data and Verification
+
+| Path | Description |
+|------|-------------|
+| `source-data/` | 175 structured files extracted from the ESDPA PDF, plus extraction methodology. |
+| `verification/` | 175 independently researched files with verification status, corrections, and sources. |
 
 ### Root Documents
 
@@ -124,12 +130,21 @@ Merged all ESDPA entries and Phase 2 findings into a single unified dataset with
 | [`research-summary.md`](research-summary.md) | Phase 1 verification results — statistics, date errors, notable corrections. |
 | [`ISSUES.md`](ISSUES.md) | All ESDPA data quality issues found during extraction. |
 | [`phase2-plan.md`](phase2-plan.md) | Research plan for all LOA tracks with execution status. |
+| [`DATA-GOVERNANCE.md`](DATA-GOVERNANCE.md) | Data sources, privacy considerations, and governance policies. |
 | [`phase2-findings/PHASE2-META-ANALYSIS.md`](phase2-findings/PHASE2-META-ANALYSIS.md) | Cross-LOA analysis, underreporting model, priority next actions. |
-| [`esd-dataset/SCHEMA.md`](esd-dataset/SCHEMA.md) | Dataset schema documentation — YAML fields, verification levels, Excel export spec. |
-| [`search-strategy.md`](search-strategy.md) | ESD incident patterns, geographic gaps, and search methodology. |
-| [`esd-search-terms.md`](esd-search-terms.md) | Practical search queries for finding ESD incidents. |
-| [`source-count-by-incident.md`](source-count-by-incident.md) | All 175 ESDPA incidents ranked by independent source count. |
-| [`CLAUDE-PROMPT.md`](CLAUDE-PROMPT.md) | Extraction methodology used to create `incidents-raw/`. |
+| [`esd-dataset/SCHEMA.md`](esd-dataset/SCHEMA.md) | Dataset schema / data dictionary. |
+
+### Reference Materials
+
+| Path | Description |
+|------|-------------|
+| `reference/search-strategy.md` | ESD incident patterns, geographic gaps, and search methodology. |
+| `reference/esd-search-terms.md` | Practical search queries for finding ESD incidents. |
+| `reference/source-count-by-incident.md` | All 175 ESDPA incidents ranked by independent source count. |
+| `reference/mcp-search-tracker.md` | Phase 1.5 MCP re-search results. |
+| `reference/additional-data-sources-and-lines-of-attack.md` | LOA7–LOA15 data source analysis. |
+| `reference/additional-research-sources.md` | Extended data source report with citations. |
+| `reference/BARD-dataset-2009-2023-csv/` | USCG Boating Accident Report Database (public domain). |
 
 ### Phase 2 Findings Subdirectories
 
@@ -151,7 +166,7 @@ Merged all ESDPA entries and Phase 2 findings into a single unified dataset with
 ## Methodology
 
 ### Phase 1: Extraction
-The ESDPA PDF was processed into 175 structured markdown files in `incidents-raw/`, one per real-world incident. Classification rules and naming conventions are documented in [`CLAUDE-PROMPT.md`](CLAUDE-PROMPT.md).
+The ESDPA PDF was processed into 175 structured markdown files in `source-data/`, one per real-world incident. Classification rules and naming conventions are documented in [`source-data/methodology/CLAUDE-PROMPT.md`](source-data/methodology/CLAUDE-PROMPT.md).
 
 ### Phase 1 & 1.5: Independent Verification
 Each of the 175 incidents was independently researched using AI-assisted search (Claude Sonnet, Perplexity AI, Brave Web Search). For each incident, the researcher searched for independent primary sources, compared findings against the ESDPA entry, and documented corrections and verification status. The ESDPA list itself and sources deriving from it were excluded as verification.
