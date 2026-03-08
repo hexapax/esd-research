@@ -1611,16 +1611,16 @@ Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
 **Phase 2C — COMPLETE ✅**
 8. ~~LOA2-A, LOA2-B, LOA2-C (misclassified drownings)~~ ✅ Done — 25 SUSP files; 6 high-probability
 9. ~~LOA6-A, LOA6-B, LOA6-C (community/forum sources)~~ ✅ Done — 52 LEAD files
-10. **LOA11: YouTube video archive mining** ← NEXT (agent-ready)
+10. ~~LOA11: YouTube video archive mining~~ ✅ Done — 17 probable new incidents; 55+ YouTube URLs
 11. ~~LOA4-C (state agency records)~~ ✅ Done
 
 **LOA7-C (added after original plan) — COMPLETE ✅**
 - ~~NCHS Multiple Cause of Death 21-year cross-tabulation~~ ✅ Done — 42 ESD candidates found
 - Output: `phase2-findings/LOA7C-nchs-mortality/`
 
-**Phase 2D (Next — agent-ready):**
-12. **LOA8: Obituary mining** (Legacy.com, EverLoved, GoFundMe) ← NEXT
-13. **LOA13: Wayback Machine recovery** of deleted articles ← NEXT
+**Phase 2D — COMPLETE ✅**
+12. ~~LOA8: Obituary mining~~ ✅ Done — 4 SUSP victim IDs confirmed; Legacy.com tool ceiling identified
+13. ~~LOA13: Wayback Machine recovery~~ ✅ Done — CDX structural gap confirmed; pre-2005 papers not crawled
 14. LOA9: CFRT FOIA requests (requires external filing)
 
 **Phase 2E (PhD-track — long-term):**
@@ -1680,8 +1680,12 @@ Output: /opt/repos/esd-research/phase2-findings/LOA7-structured-databases/
 │   │   ├── LOA7C-SUMMARY.md
 │   │   ├── LOA7C-RAW-HITS.md
 │   │   └── LOA7C-ESD-CANDIDATES.md
-│   ├── LOA8-obituary-mining/             (PENDING — agent-ready)
-│   │   └── OBIT-NNN.md
+│   ├── LOA8-obituary-mining/             (COMPLETE ✅)
+│   │   ├── LOA8-SUMMARY.md
+│   │   ├── LOA8-LOTOZ-2015-2017.md
+│   │   ├── LOA8-SMITH-MOUNTAIN-2017-2023.md
+│   │   ├── LOA8-SUSP-YYYY-NNN.md         (19 SUSP follow-up files)
+│   │   └── LOA8-D-SUMMARY.md
 │   ├── LOA11-youtube/
 │   │   └── VID-YYYY-NNN.md
 │   └── LOA13-wayback/

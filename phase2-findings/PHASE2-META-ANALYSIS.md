@@ -317,6 +317,59 @@ Each LOA used AI-assisted web search (Perplexity + Brave) and/or structured data
 
 ---
 
+## LOA8: Obituary and Memorial Mining ✅ COMPLETE
+
+**Target:** Obituaries (Legacy.com, EverLoved, Find a Grave, funeral home sites), GoFundMe campaigns, and regional news archives to: (1) verify/upgrade SUSP files; (2) deep-dive hotspot locations; (3) find new unknown ESD victims
+**Output directory:** `phase2-findings/LOA8-obituary-mining/`
+**Files produced:** 19 research files (7 SUSP follow-ups from initial session + 6 LOA8-B + 6 LOA8-C + 1 LOA8-D OBT file + 1 LOA8-D summary)
+
+### Yield
+
+| File | Victim | Outcome |
+|------|--------|---------|
+| LOA8-SUSP-2006-043 | **Nicholas "Nic" Harbison, 16** | VERIFIED — Spring Lake, DeSoto MO, March 18, 2006; $2.3M jury verdict vs AmerenUE (first MO stray-voltage utility verdict) |
+| LOA8-SUSP-2010-046 | **Zachary Crays, 13** | VERIFIED — Lake Freeman IN, July 25, 2010 (date corrected); coroner confirmed electrocution; ESDPA date 1 day off |
+| LOA8-SUSP-2013-048 | **Kevin Short, 34** | VERIFIED — Lake Cumberland KY, June 30, 2013; pushed son away from electrified ladder; cited in KY ESD legislation |
+| LOA8-SUSP-2014-047 | **Sarah Grace Tellifero, 13** | VERIFIED — Lake Bruin LA, Aug 24, 2014; church youth retreat; boat lift motor electrified pontoon ladder |
+| LOA8-SUSP-2015-054 | **Marcus Colburn, 21** | VERIFIED (upgraded from SUSP) — LOTOZ June 21, 2015; Taylor Curley survivor; technical cause confirmed |
+| LOA8-SUSP-2016-020 | **Donna Berger + Randy Freeney** | SOURCED — Chickamauga Lake TN, June 17, 2016; full obituaries found |
+| LOA8-SUSP-2017-042 | **Darling + Whipple (AL 2017)** | SOURCED — Coroner ruled DIRECT ELECTROCUTION; not in ESDPA |
+| LOA8-LOTOZ-2015-2017 | LOTOZ gap | NO new deaths — Missourinet "since 2015" was typo for "since 2012" |
+| LOA8-SMITH-MOUNTAIN | SML 2017–2023 | Michael Wood (Jul 2017, Pelican Point Yacht Club) is MODERATE ESD candidate |
+
+### Key ESDPA Data Corrections Found
+
+- **FI-2011-002 date:** ESDPA says May 28, 2011; correct date is **August 15, 2011** (Michael Knudsen, Traverse City MI)
+- **SUSP-2010-046 date:** SUSP file says July 26; correct is **July 25, 2010** (Zachary Crays, Lake Freeman IN)
+- **NM-2018-005 location:** ESDPA says "Smith Mountain Lake GA" (Georgia); correct is **Virginia**
+- **SUSP-2007-052:** ESDPA 2024 list erroneously dates as July 24, 2006; correct is **July 28, 2007**; victim is a 24yo female (not in SUSP file)
+
+### Structural Finding: Legacy.com Mining Limitation
+
+Direct keyword mining of Legacy.com, EverLoved, and TributeArchive is **not feasible via web search MCP tools** — these platforms do not expose obituary text to external search engines. The 25+ searches in LOA8-D confirmed this ceiling. Systematic Legacy.com mining requires direct browser-based on-site access or a dedicated data pipeline. This represents a significant remaining opportunity.
+
+**Mining potential going forward:** MODERATE for targeted follow-ups (known victim names); LOW for systematic new-victim discovery without browser access.
+
+---
+
+## LOA13: Wayback Machine Recovery ✅ COMPLETE
+
+**Target:** Deleted local newspaper articles from ESD gap years (1990, 1992, 1996, 2004, 2007, 2009) and underrepresented states via Wayback Machine CDX API
+**Output directory:** `phase2-findings/LOA13-wayback/`
+**Files produced:** LOA13-SUMMARY.md + LOA13-RECOVERED-001.md
+
+### Yield
+
+**New incidents found: 0**
+
+**Structural finding:** The CDX API returned null results across 11 queries targeting local newspaper domains for 2000–2009. Root cause: local newspapers either had no web presence pre-2000 or were not systematically crawled during 2000–2005. The Wayback Machine's coverage of small-town newspapers is sparse precisely in the years most needed for ESD gap research.
+
+**One article text recovered:** St. Louis Post-Dispatch, March 20, 2006, "De Soto teen is electrocuted; two others are hurt" — preserved in a Google Groups thread (not via Wayback Machine). Confirms Nicholas Harbison victim identity, names two injured survivors (Morgan Milfeld, 15 and Timothy Fitzpatrick, 15, both airlifted), and locates the site as Spring Lake, Summerset Lake subdivision. This duplicates the LOA8-B SUSP-2006-043 finding.
+
+**Mining potential going forward:** LOW via CDX API. The pre-2000 digitization gap is structural and cannot be closed by internet archive tools. Physical microfilm at county libraries and state newspaper archives remains the only path for pre-2000 gap years.
+
+---
+
 ## Cross-LOA Summary: The Underreporting Stack
 
 Every layer of U.S. data infrastructure fails to capture ESD:
@@ -359,17 +412,18 @@ ESDPA INCIDENT LIST
 | LOA7-B (NEISS) | 0 (abandoned — structural) | — |
 | LOA7-C (NCHS MCod) | 0 named; 42 statistical ESD candidates | 11 high-confidence (W86+NW) |
 | LOA11 (YouTube) | **17** confirmed/probable new | 10 ESDPA incidents + YouTube docs |
+| LOA8 (obituary mining) | 4 SUSP files upgraded (victim IDs confirmed) | 5 SUSP remain UNVERIFIED (offline records needed) |
+| LOA13 (Wayback Machine) | 0 new incidents; 1 article text recovered | Structural gap: pre-2005 local papers not crawled |
 | **Total** | **~55–70 new named incidents** | **~70 unverified leads + 42 statistical candidates** |
 
 ---
 
 ## Highest-Priority Future Research Actions
 
-*Note: The original #1 priority (CDC WONDER/NCHS cross-tabulation) has been completed as LOA7-C. LOA11 (YouTube) is now complete. Priorities renumbered.*
+*Note: LOA7-C (NCHS), LOA8 (obituary mining), LOA11 (YouTube), and LOA13 (Wayback Machine) are now complete. Priorities reflect remaining open tracks.*
 
-1. **LOA8: Obituary and memorial mining** — Systematic search of Legacy.com, EverLoved, GoFundMe for drowning victims near docks/marinas using ESD-pattern language. Agent-ready; estimated yield: 5–15 new incidents.
-
-2. **LOA13: Wayback Machine recovery** — CDX API recovery of deleted local newspaper articles, especially 2000–2010. Agent-ready.
+1. **~~LOA8: Obituary and memorial mining~~** ✅ Complete — Upgraded 4 SUSP files; confirmed 4 victim IDs; identified Legacy.com tool-access ceiling
+2. **~~LOA13: Wayback Machine recovery~~** ✅ Complete — CDX API structural gap confirmed; pre-2005 local papers not crawled
 
 3. **Lake of the Ozarks 2015–2017 deep dive** — Missouri State Highway Patrol (Water Patrol Division) records + Lake Expo/Columbia Missourian archives. Missourinet (2017) directly states 3 additional deaths in this period. LOA11 search corroborates the 2016–2017 gap.
 
