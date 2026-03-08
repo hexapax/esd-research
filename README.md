@@ -228,6 +228,10 @@ Scans all 193 dataset files and extracts the 220 documented ESDPA data quality i
 - **Verification is not causation:** Confirming that an incident occurred does not confirm that ESD was the mechanism.
 - **Completeness unknown:** The true number of ESD incidents in the US is likely substantially higher than the 193 documented here.
 
+## Related Repository
+
+This project has a private companion repository, [hexapax/esd-research-restricted](https://github.com/hexapax/esd-research-restricted), which holds restricted-access data obtained under Data Use Agreements, FOIA responses, and other sources that cannot be publicly redistributed. Only aggregate or de-identified results from that data are published back here. See [`DATA-GOVERNANCE.md`](DATA-GOVERNANCE.md) for the boundary between public and restricted data.
+
 ## License
 
 CC0 1.0 Universal. See [LICENSE](LICENSE).
