@@ -128,7 +128,6 @@ Merged all ESDPA entries and Phase 2 findings into a single unified dataset with
 | File | Description |
 |------|-------------|
 | [`research-summary.md`](research-summary.md) | Phase 1 verification results — statistics, date errors, notable corrections. |
-| [`ISSUES.md`](ISSUES.md) | All ESDPA data quality issues found during extraction. |
 | [`phase2-plan.md`](phase2-plan.md) | Research plan for all LOA tracks with execution status. |
 | [`DATA-GOVERNANCE.md`](DATA-GOVERNANCE.md) | Data sources, privacy considerations, and governance policies. |
 | [`phase2-findings/PHASE2-META-ANALYSIS.md`](phase2-findings/PHASE2-META-ANALYSIS.md) | Cross-LOA analysis, underreporting model, priority next actions. |
