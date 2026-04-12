@@ -2,7 +2,10 @@
   "mcpServers": {
     "context7": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"],
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ],
       "timeout": 10800000
     },
     "mongodb": {
@@ -18,11 +21,44 @@
     },
     "mem0": {
       "command": "npx",
-      "args": ["-y", "@pinkpixel/mem0-mcp"],
+      "args": [
+        "-y",
+        "@pinkpixel/mem0-mcp"
+      ],
       "env": {
         "MEM0_API_KEY": "m0-qgpEmR1pPYZCgtOBKTlq85W2IzTZKnLpcEAy03Oe",
         "DEFAULT_USER_ID": "jeremy",
         "DEFAULT_APP_ID": "devbox-claude"
+      },
+      "timeout": 10800000
+    },
+    "gdelt": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@missionsquad/mcp-gdelt"
+      ],
+      "timeout": 10800000
+    },
+    "courtlistener": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@us-legal-tools/courtlistener-sdk/mcp"
+      ],
+      "env": {
+        "COURTLISTENER_API_TOKEN": "REPLACE_WITH_TOKEN"
+      },
+      "timeout": 10800000
+    },
+    "newsapi": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-newsapi"
+      ],
+      "env": {
+        "NEWSAPI_KEY": "12741a47-d324-4701-8f7a-665975e3829b"
       },
       "timeout": 10800000
     }
