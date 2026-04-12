@@ -41,13 +41,12 @@
       "timeout": 10800000
     },
     "courtlistener": {
-      "command": "npx",
+      "command": "node",
       "args": [
-        "-y",
-        "@us-legal-tools/courtlistener-sdk/mcp"
+        "/usr/lib/node_modules/@us-legal-tools/courtlistener-sdk/dist/mcp/index.mjs"
       ],
       "env": {
-        "COURTLISTENER_API_TOKEN": "REPLACE_WITH_TOKEN"
+        "COURTLISTENER_API_TOKEN": "e359fe1a8ebdb6826ab5765f0eb94399cc284324"
       },
       "timeout": 10800000
     },
