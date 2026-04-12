@@ -2,6 +2,16 @@
 
 This file helps Claude Code (or any AI coding assistant) understand the structure, conventions, and rules of this research project so it can guide a researcher in adding to and maintaining the repository correctly.
 
+## Response Format
+
+**Prepend the current date and time (UTC) to every response in this project**, formatted as:
+
+```
+[2026-04-12 15:02 UTC]
+```
+
+Use the output of `date "+%Y-%m-%d %H:%M %Z"` at the start of each new response. This creates an audit trail for long-running research sessions and makes it easier to correlate findings with git history.
+
 ## Project Overview
 
 This is an epidemiological research project studying **Electric Shock Drowning (ESD)** — deaths and injuries caused by AC electricity leaking from dock/marina wiring into fresh water. The project independently verifies, corrects, and expands the ESDPA incident list using only primary public sources.
