@@ -55,7 +55,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "mcp-newsapi"
+        "newsapi-mcp"
       ],
       "env": {
         "NEWSAPI_KEY": "12741a47-d324-4701-8f7a-665975e3829b"
