@@ -1,0 +1,1409 @@
+[
+  {
+    "incident_id": "ESD-0000-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-0000-00-00-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-0000-00-00-3",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1981-07-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'brackish' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-1982-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1982-12-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('sailboat mast'); both flags false."
+  },
+  {
+    "incident_id": "ESD-1986-07-29-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Grosse Pointe Yacht Club' contains marina/yacht-club/boat-club/harbor keyword ('Yacht Club')."
+  },
+  {
+    "incident_id": "ESD-1986-07-29-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1986-07-29-3",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Harrods Creek Boat Harbor' contains marina/yacht-club/boat-club/harbor keyword ('Boat Harbor')."
+  },
+  {
+    "incident_id": "ESD-1987-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Bay Haven Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-1988-04-21-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1988-04-23-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1989-06-01-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1989-12-08-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1991-07-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1991-07-24-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1993-07-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1993-07-27-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1993-09-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-1993-09-05-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1994-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1994-00-00-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-1995-02-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1995-08-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Jamestown Resort and Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-1997-07-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1997-07-00-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1998-07-03-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1998-09-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Lake Sonoma Marina (operated by concessionaire for US Army Corps of Engineers)' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-1998-09-00-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "medium",
+    "reasoning": "narrative indicates marina / yacht-club / boat-club setting: 'drowned at a marina'."
+  },
+  {
+    "incident_id": "ESD-1999-07-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1999-07-00-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1999-07-18-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-1999-07-18-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Sligo Marina (B pier)' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-1999-08-01-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2000-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Whitman Hollow Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2000-09-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2000-09-30-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "narrative contains explicit private-dock cue: 'residential dock'."
+  },
+  {
+    "incident_id": "ESD-2000-09-30-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2001-04-10-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2001-06-06-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2001-06-22-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Timber Ridge Drive, Montclair community' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2001-09-15-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2002-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2002-05-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Marina houseboat dock' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2002-05-00-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2002-07-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2002-10-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2003-05-00-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private houseboat dock' contains explicit private-dock keyword ('Private houseboat dock')."
+  },
+  {
+    "incident_id": "ESD-2003-05-08-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2003-08-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "medium",
+    "reasoning": "narrative indicates marina / yacht-club / boat-club setting: 'marina manager'."
+  },
+  {
+    "incident_id": "ESD-2004-05-31-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2004-06-05-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2004-06-19-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Marina dock' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2004-06-19-2",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock with motorized boat lift' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2004-07-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Saguaro Lake Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2004-07-00-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "narrative explicitly states non-marina/non-dock context ('rather than commercial marina')."
+  },
+  {
+    "incident_id": "ESD-2004-08-08-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Marina dock (between two sections)' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2004-09-12-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Main Harbor Marina' contains marina/yacht-club/boat-club/harbor keyword ('Main Harbor')."
+  },
+  {
+    "incident_id": "ESD-2004-09-13-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2005-06-24-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2005-06-28-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Scotts Creek Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2005-07-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2006-03-18-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock with electric boat lift and lighting' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2006-05-21-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock/pier' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2006-05-22-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Racine Harbor' contains marina/yacht-club/boat-club/harbor keyword ('Racine Harbor')."
+  },
+  {
+    "incident_id": "ESD-2006-06-25-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "medium",
+    "reasoning": "facility_name 'Brady Mountain Resort' is a commercial resort/campground with dock/boat activity \u2014 shared-use marina-equivalent setting."
+  },
+  {
+    "incident_id": "ESD-2006-07-02-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('extension cord'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2006-07-14-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'River Street Marina, near 10th Street Bridge' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2006-07-24-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, 81 Mile Marker' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2006-07-24-2",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Family lake home, private dock' contains explicit private-dock keyword ('Family lake home')."
+  },
+  {
+    "incident_id": "ESD-2006-08-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "medium",
+    "reasoning": "narrative indicates marina / yacht-club / boat-club setting: 'at same Racine marina'."
+  },
+  {
+    "incident_id": "ESD-2007-07-01-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Collins Bay Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2007-07-20-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2007-07-28-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2007-08-28-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('irrigation pump'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2007-09-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "medium",
+    "reasoning": "facility_name 'Franklin Lock Campground' is a commercial resort/campground with dock/boat activity \u2014 shared-use marina-equivalent setting."
+  },
+  {
+    "incident_id": "ESD-2008-06-13-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2008-08-23-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "medium",
+    "reasoning": "facility_name 'Lake Hamilton Resort' is a commercial resort/campground with dock/boat activity \u2014 shared-use marina-equivalent setting."
+  },
+  {
+    "incident_id": "ESD-2010-05-24-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Neighbor's dock at 3830 N. Shore Drive' contains explicit private-dock keyword (\"Neighbor's dock\")."
+  },
+  {
+    "incident_id": "ESD-2010-05-29-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Stonewall Jackson Lake Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2010-05-29-2",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private covered dock with boat lift, approximately 200 feet from shore' contains explicit private-dock keyword ('Private covered dock')."
+  },
+  {
+    "incident_id": "ESD-2010-06-00-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2010-06-21-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2010-06-24-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2010-07-03-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'International Harbor' contains marina/yacht-club/boat-club/harbor keyword ('International Harbor')."
+  },
+  {
+    "incident_id": "ESD-2010-07-10-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "medium",
+    "reasoning": "appears to be public / park / boat-ramp setting; neither private nor marina."
+  },
+  {
+    "incident_id": "ESD-2010-07-25-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Angel Shores Resort (private dock)' contains explicit private-dock keyword ('private dock')."
+  },
+  {
+    "incident_id": "ESD-2010-07-31-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2010-09-01-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('fountain'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2010-09-05-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2011-03-18-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('fountain'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2011-05-28-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "medium",
+    "reasoning": "narrative indicates 'family home' on a lake/river with a dock/boat-lift \u2014 residential private-dock setting."
+  },
+  {
+    "incident_id": "ESD-2011-06-21-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Lou Wendell Marine' contains marina/yacht-club/boat-club/harbor keyword ('Wendell Marine')."
+  },
+  {
+    "incident_id": "ESD-2011-07-25-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Cornfield'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2011-08-15-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock between two houseboats' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2011-08-15-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Duncan L. Clinch Marina, F-Dock' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2011-08-28-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2012-05-28-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2012-06-27-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'fountain' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2012-07-04-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Gravois Arm, 6.5 Mile Marker' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2012-07-04-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'German Creek Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2012-07-07-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Hill Top Trail' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2012-07-07-2",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Dry Branch Cove, 5-mile marker' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2012-07-23-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2012-08-04-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "narrative contains explicit private-dock cue: \"neighbor's dock\"."
+  },
+  {
+    "incident_id": "ESD-2012-08-14-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2012-08-22-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('fire hydrant'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2012-08-30-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Irrigation canal'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2012-09-27-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock at family home' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2012-09-27-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'fountain' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2013-05-20-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Dock near Peter Cave marina' contains marina/yacht-club/boat-club/harbor keyword ('marina')."
+  },
+  {
+    "incident_id": "ESD-2013-05-27-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock (Evelyn Morrison residence)' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2013-06-18-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('flooded basement'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2013-06-30-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Garland Bend Road' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2013-07-00-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2013-07-04-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, 2300 block of 188th Street' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2013-07-11-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2013-07-16-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2013-07-19-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2013-07-24-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('downed power line'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2013-08-31-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2014-00-00-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2014-04-13-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2014-04-27-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2014-05-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2014-06-10-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Bullfrog Marina, Glen Canyon National Recreation Area' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2014-07-04-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2014-07-20-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "medium",
+    "reasoning": "facility_name 'Piney Shores Resort (Silverleaf Resorts)' is a commercial resort/campground with dock/boat activity \u2014 shared-use marina-equivalent setting."
+  },
+  {
+    "incident_id": "ESD-2014-08-02-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('irrigation pump'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2014-08-24-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private boathouse' contains explicit private-dock keyword ('Private boathouse')."
+  },
+  {
+    "incident_id": "ESD-2015-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2015-06-21-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Rental property dock, Woods Hollow Cove, 22.2 Mile Marker' contains explicit private-dock keyword ('Rental property dock')."
+  },
+  {
+    "incident_id": "ESD-2015-08-08-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Laurel Drive' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2015-08-25-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2016-03-27-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2016-04-16-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Johnson family lakehouse dock' contains explicit private-dock keyword ('family lakehouse')."
+  },
+  {
+    "incident_id": "ESD-2016-05-28-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2016-05-28-2",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2016-05-29-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2016-06-17-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2016-06-27-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2016-07-21-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('construction site'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2016-09-03-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2016-09-10-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Flooded basement'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2016-10-07-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Construction site'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Marina on a river (name withheld by MIFACE to protect privacy)' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2017-03-24-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'brackish' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2017-03-29-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('downed power line'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-04-14-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Darling family lakehouse dock' contains explicit private-dock keyword ('family lakehouse')."
+  },
+  {
+    "incident_id": "ESD-2017-05-01-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('sump pump'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-05-06-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('flooded street'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-05-19-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2017-05-21-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Flooded field'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-05-24-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2017-06-16-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Miller Marina, Bayview Avenue' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2017-06-17-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "medium",
+    "reasoning": "facility_name 'Private residence' on waterfront with dock/boat-lift \u2014 residential private-dock setting."
+  },
+  {
+    "incident_id": "ESD-2017-06-21-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2017-06-23-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2017-07-03-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock with boat lift' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2017-07-07-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2017-07-09-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2017-07-23-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('irrigation pump'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-08-05-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('mast struck'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-08-10-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('irrigation pump'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-08-28-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('downed power line'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2017-08-29-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Hurricane Harvey floodwater'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2018-05-14-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2018-06-02-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Gills Creek area' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2018-06-11-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "narrative contains explicit private-dock cue: \"neighbor's dock\"."
+  },
+  {
+    "incident_id": "ESD-2018-06-26-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'fountain' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2018-07-03-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock near J Road, 5 Mile Marker' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2018-07-04-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2018-09-30-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('bollard light'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2018-11-04-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "low",
+    "reasoning": "no explicit facility or narrative cue distinguishing private dock vs. marina."
+  },
+  {
+    "incident_id": "ESD-2019-04-01-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('irrigation canal'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2019-06-02-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2019-06-27-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2019-07-14-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2019-09-19-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Tropical Storm Imelda floodwater'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2020-05-11-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock (non-electrified; stray voltage from neighbor's dock)' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2020-07-12-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Scorpion Bay Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2020-08-29-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2020-11-11-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Flooded laundry'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2021-06-02-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('overhead power line'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2021-06-04-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Flooded street'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2021-07-04-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Beach Club Marina' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  },
+  {
+    "incident_id": "ESD-2022-00-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('fountain'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2022-04-22-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Prospect Yacht Club / Drift Bar, 1900 Victory Lane' contains marina/yacht-club/boat-club/harbor keyword ('Yacht Club')."
+  },
+  {
+    "incident_id": "ESD-2022-08-03-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'missing' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2022-08-16-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Flooded apartment'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2023-02-07-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Flooded apartment'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2023-07-09-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'salt' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2023-07-17-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Mid Lake Heights Drive' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2023-07-27-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock near Dove Trail, Lanier Beach South Road area' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2023-10-22-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'fountain' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2024-05-00-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "water_type 'pool' is not fresh; both flags forced false per rule."
+  },
+  {
+    "incident_id": "ESD-2024-07-04-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock, Lee Drive, Craddock Creek area' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2024-08-25-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('swimming pool'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2025-05-26-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "non-dock electrocution context detected ('Waterpark'); both flags false."
+  },
+  {
+    "incident_id": "ESD-2025-06-21-1",
+    "is_freshwater_private_dock": true,
+    "is_freshwater_marina": false,
+    "confidence": "high",
+    "reasoning": "facility_name 'Private dock' contains explicit private-dock keyword ('Private dock')."
+  },
+  {
+    "incident_id": "ESD-2025-07-10-1",
+    "is_freshwater_private_dock": false,
+    "is_freshwater_marina": true,
+    "confidence": "high",
+    "reasoning": "facility_name 'Marina Shores at Dune Harbor, D dock' contains marina/yacht-club/boat-club/harbor keyword ('Marina')."
+  }
+]

@@ -1,0 +1,202 @@
+incident_id,year,state,facility_name,body_of_water,electrical_source,water_type,setting
+ESD-0000-00-00-2,NA,OK,City recreational center pool,Community swimming pool,other,pool,Commercial
+ESD-0000-00-00-3,NA,TX,NA,Lake Travis,charger,fresh,Other/Unknown
+ESD-1981-07-00-1,1981,CT,NA,Connecticut River,shore_power,brackish,Other/Unknown
+ESD-1982-00-00-1,1982,WI,NA,Green Bay,dock_wiring,fresh,Other/Unknown
+ESD-1982-12-00-1,1982,TX,Near Johnson Creek,Lake O' The Pines,overhead_line,fresh,Other/Unknown
+ESD-0000-00-00-1,1986,WI,Unknown — near swim platform,St. Croix River,charger,fresh,Other/Unknown
+ESD-1986-07-29-1,1986,MI,Grosse Pointe Yacht Club,Lake St. Clair,dock_wiring,fresh,Commercial
+ESD-1986-07-29-2,1986,MI,NA,Little Traverse Bay (Lake Michigan),dock_wiring,fresh,Other/Unknown
+ESD-1986-07-29-3,1986,KY,Harrods Creek Boat Harbor,Harrods Creek (Ohio River),shore_power,fresh,Commercial
+ESD-1987-00-00-1,1987,MI,Bay Haven Marina,Lake Macatawa,dock_wiring,fresh,Commercial
+ESD-1988-04-21-1,1988,NY,State University of New York at Albany (SUNY Albany),Indian Lake (campus pond),other,fresh,Other/Unknown
+ESD-1988-04-23-1,1988,OK,NA,NA,other,fresh,Other/Unknown
+ESD-1989-06-01-1,1989,OK,NA,Lake B (southern Oklahoma — lake name anonymized by CDC),dock_wiring,fresh,Other/Unknown
+ESD-1989-12-08-1,1989,OK,NA,Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees),other,fresh,Other/Unknown
+ESD-1991-07-00-1,1991,AR,NA,Lake Hamilton,dock_wiring,fresh,Other/Unknown
+ESD-1991-07-24-1,1991,OK,NA,Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees),dock_wiring,fresh,Other/Unknown
+ESD-1993-07-00-1,1993,NY,NA,St. Lawrence River (Thousand Islands),dock_wiring,fresh,Other/Unknown
+ESD-1993-07-27-1,1993,OK,NA,Lake A (northeastern Oklahoma — lake name anonymized by CDC; likely Grand Lake O' the Cherokees),dock_wiring,fresh,Other/Unknown
+ESD-1993-09-00-1,1993,TX,NA,NA,boat_lift,salt,Other/Unknown
+ESD-1993-09-05-1,1993,OK,NA,Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees),other,fresh,Other/Unknown
+ESD-1994-00-00-1,1994,DC,Bolling Air Force Base (now Joint Base Anacostia-Bolling),Potomac River,other,fresh,Commercial
+ESD-1994-00-00-2,1994,TX,NA,NA,boat_lift,salt,Other/Unknown
+ESD-1995-02-00-1,1995,NV,NA,Lake Mead,shore_power,fresh,Other/Unknown
+ESD-1995-08-00-1,1995,KY,Jamestown Resort and Marina,Lake Cumberland,shore_power,fresh,Commercial
+ESD-1997-07-00-1,1997,DC,"Air Force Base, Washington DC (likely Bolling AFB / Joint Base Anacostia-Bolling)",Anacostia River / Potomac River,dock_wiring,fresh,Commercial
+ESD-1997-07-00-2,1997,NV,NA,Lake Mead,shore_power,fresh,Other/Unknown
+ESD-1998-07-03-1,1998,WA,NA,Lake Chelan,dock_wiring,fresh,Other/Unknown
+ESD-1998-09-00-1,1998,CA,Lake Sonoma Marina (operated by concessionaire for US Army Corps of Engineers),Lake Sonoma,dock_wiring,fresh,Commercial
+ESD-1998-09-00-2,1998,CA,NA,Sacramento River / Sacramento-San Joaquin River Delta,dock_wiring,fresh,Other/Unknown
+ESD-1999-07-00-1,1999,SC,NA,NA,unknown,fresh,Other/Unknown
+ESD-1999-07-00-2,1999,AZ,NA,Lake Mohave,shore_power,fresh,Other/Unknown
+ESD-1999-07-18-1,1999,AZ,NA,Lake Mohave,shore_power,fresh,Other/Unknown
+ESD-1999-07-18-2,1999,TN,Sligo Marina (B pier),Center Hill Lake,shore_power,fresh,Commercial
+ESD-1999-08-01-1,1999,OR,NA,Multnomah Channel (Willamette River),shore_power,fresh,Other/Unknown
+ESD-2000-00-00-1,2000,TN,Whitman Hollow Marina,Norris Lake,shore_power,fresh,Commercial
+ESD-2000-09-00-1,2000,NY,NA,Niagara River,dock_wiring,fresh,Other/Unknown
+ESD-2000-09-30-1,2000,TN,NA,Tims Ford Lake,dock_wiring,fresh,Other/Unknown
+ESD-2000-09-30-2,2000,OH,Possibly Crew's Nest (per local source),Lake Erie,shore_power,fresh,Other/Unknown
+ESD-2001-04-10-1,2001,LA,NA,NA,other,salt,Other/Unknown
+ESD-2001-06-06-1,2001,AR,Farr Shores,Lake Hamilton,shore_power,fresh,Other/Unknown
+ESD-2001-06-22-1,2001,VA,"Private dock, Timber Ridge Drive, Montclair community",Lake Montclair,charger,fresh,Residential
+ESD-2001-09-15-1,2001,MS,"Bay Marine Boat Works (151 5th St, Biloxi, MS 39530)",Biloxi Bay,dock_wiring,salt,Commercial
+ESD-2002-00-00-1,2002,FL,Multiple Florida marinas (aggregate report),NA,shore_power,salt,Commercial
+ESD-2002-05-00-1,2002,KY,Marina houseboat dock,Lake Cumberland,shore_power,fresh,Commercial
+ESD-2002-05-00-2,2002,TX,"Apartment complex pool, Arlington TX",Apartment complex swimming pool,pool_pump,pool,Commercial
+ESD-2002-07-00-1,2002,GA,NA,Allatoona Lake,shore_power,fresh,Other/Unknown
+ESD-2002-10-00-1,2002,SC,NA,Lake Murray,dock_wiring,fresh,Other/Unknown
+ESD-2003-05-00-1,2003,GA,Private houseboat dock,Allatoona Lake,shore_power,fresh,Other/Unknown
+ESD-2003-05-08-1,2003,FL,Private dock with boat lift,Canal (Caloosahatchee River estuary area),boat_lift,salt,Residential
+ESD-2003-08-00-1,2003,KY,NA,Green River Lake,shore_power,fresh,Other/Unknown
+ESD-2004-05-31-1,2004,KY,NA,Lake Barkley,shore_power,fresh,Other/Unknown
+ESD-2004-06-05-1,2004,NC,Houseboat dock,Lake Wylie,dock_wiring,fresh,Other/Unknown
+ESD-2004-06-19-1,2004,TX,Marina dock,Lake Travis,dock_wiring,fresh,Commercial
+ESD-2004-06-19-2,2004,NC,Private dock with motorized boat lift,Lake Waccamaw,boat_lift,fresh,Residential
+ESD-2004-07-00-1,2004,AZ,Saguaro Lake Marina,Saguaro Lake,shore_power,fresh,Commercial
+ESD-2004-07-00-2,2004,CA,NA,Sacramento River,other,fresh,Other/Unknown
+ESD-2004-08-08-1,2004,TX,Marina dock (between two sections),Lake Travis,dock_wiring,fresh,Commercial
+ESD-2004-09-12-1,2004,MS,Main Harbor Marina,Ross Barnett Reservoir,shore_power,fresh,Commercial
+ESD-2004-09-13-1,2004,MO,Private dock,Lake of the Ozarks,dock_wiring,fresh,Residential
+ESD-2005-06-24-1,2005,NY,NA,Lake Ontario,dock_wiring,fresh,Other/Unknown
+ESD-2005-06-28-1,2005,KY,Scotts Creek Marina,Cave Run Lake,charger,fresh,Commercial
+ESD-2005-07-00-1,2005,NY,"Private marina, Brooklyn",NA,other,salt,Commercial
+ESD-2006-03-18-1,2006,MO,Private dock with electric boat lift and lighting,Spring Lake (Summerset Lake subdivision),dock_wiring,fresh,Residential
+ESD-2006-05-21-1,2006,AL,Private dock/pier,Weiss Lake,dock_wiring,fresh,Residential
+ESD-2006-05-22-1,2006,WI,Racine Harbor,Lake Michigan,shore_power,fresh,Commercial
+ESD-2006-06-25-1,2006,AR,Brady Mountain Resort,Lake Ouachita,extension_cord,fresh,Commercial
+ESD-2006-07-02-1,2006,MN,NA,Lake L'Homme Dieu,extension_cord,fresh,Other/Unknown
+ESD-2006-07-14-1,2006,MI,"River Street Marina, near 10th Street Bridge",Black River,shore_power,fresh,Commercial
+ESD-2006-07-24-1,2006,MO,"Private dock, 81 Mile Marker",Lake of the Ozarks,dock_wiring,fresh,Residential
+ESD-2006-07-24-2,2006,GA,"Family lake home, private dock",Lake Lanier,dock_wiring,fresh,Residential
+ESD-2006-08-00-1,2006,WI,NA,Lake Michigan,other,fresh,Other/Unknown
+ESD-2007-07-01-1,2007,True,Collins Bay Marina,Lake Ontario,charger,fresh,Commercial
+ESD-2007-07-20-1,2007,OK,NA,Lake Arcadia,dock_wiring,fresh,Other/Unknown
+ESD-2007-07-28-1,2007,MO,Private dock,Lake of the Ozarks,dock_wiring,fresh,Residential
+ESD-2007-08-28-1,2007,NY,NA,Private farm pond,other,fresh,Other/Unknown
+ESD-2007-09-00-1,2007,FL,Franklin Lock Campground,Caloosahatchee River,shore_power,fresh,Commercial
+ESD-2008-06-13-1,2008,NC,"Ocean Isle Beach Marina, 2000 Sommerset Rd SW",Atlantic Ocean / Intracoastal Waterway,dock_wiring,salt,Commercial
+ESD-2008-08-23-1,2008,AR,Lake Hamilton Resort,Lake Hamilton,dock_wiring,fresh,Commercial
+ESD-2010-05-24-1,2010,IA,Neighbor's dock at 3830 N. Shore Drive,Clear Lake,boat_lift,fresh,Other/Unknown
+ESD-2010-05-29-1,2010,WV,Stonewall Jackson Lake Marina,Stonewall Jackson Lake,dock_wiring,fresh,Commercial
+ESD-2010-05-29-2,2010,NC,"Private covered dock with boat lift, approximately 200 feet from shore",Lake Waccamaw,dock_wiring,fresh,Other/Unknown
+ESD-2010-06-00-1,2010,AL,Private dock,Lewis Smith Lake,dock_wiring,fresh,Residential
+ESD-2010-06-21-1,2010,SC,Residential swimming pool,NA,other,pool,Other/Unknown
+ESD-2010-06-24-1,2010,TX,NA,Lake Travis,boat_lift,fresh,Other/Unknown
+ESD-2010-07-03-1,2010,TN,International Harbor,Fort Loudoun Lake,dock_wiring,fresh,Commercial
+ESD-2010-07-10-1,2010,KY,NA,Green River Lake,shore_power,fresh,Other/Unknown
+ESD-2010-07-25-1,2010,IN,Angel Shores Resort (private dock),Lake Freeman,dock_wiring,fresh,Commercial
+ESD-2010-07-31-1,2010,VT,NA,Lake Champlain,unknown,fresh,Other/Unknown
+ESD-2010-09-01-1,2010,FL,"Perrine Wayside Dog Park (Village Dog Park), 16425 S. Dixie Highway",Small lake at Perrine Wayside Dog Park,fountain,fresh,Commercial
+ESD-2010-09-05-1,2010,SC,NA,Hartwell Lake,dock_wiring,fresh,Other/Unknown
+ESD-2011-03-18-1,2011,TX,NA,Retention pond,fountain,fresh,Other/Unknown
+ESD-2011-05-28-1,2011,MN,"Family home, 1400 Central Point",Lake Pepin,boat_lift,fresh,Residential
+ESD-2011-06-21-1,2011,WV,Lou Wendell Marine,Kanawha River,dock_wiring,fresh,Other/Unknown
+ESD-2011-07-25-1,2011,IL,Cornfield with center pivot irrigation system,NA,other,fresh,Other/Unknown
+ESD-2011-08-15-1,2011,GA,Private dock between two houseboats,Lake Sinclair,dock_wiring,fresh,Residential
+ESD-2011-08-15-2,2011,MI,"Duncan L. Clinch Marina, F-Dock",West Grand Traverse Bay,dock_wiring,fresh,Commercial
+ESD-2011-08-28-1,2011,CT,Near Shady Beach,Long Island Sound,other,salt,Other/Unknown
+ESD-2012-05-28-1,2012,MO,NA,Lake of the Ozarks,dock_wiring,fresh,Other/Unknown
+ESD-2012-06-27-1,2012,FL,"Orange Lake Resort, miniature golf course",Mini-golf pond,pool_pump,fountain,Commercial
+ESD-2012-07-04-1,2012,MO,"Private dock, Gravois Arm, 6.5 Mile Marker",Lake of the Ozarks,dock_wiring,fresh,Residential
+ESD-2012-07-04-2,2012,TN,German Creek Marina,Cherokee Lake,shore_power,fresh,Commercial
+ESD-2012-07-07-2,2012,MO,"Private dock, Dry Branch Cove, 5-mile marker",Lake of the Ozarks,dock_wiring,fresh,Residential
+ESD-2012-07-23-1,2012,MO,Dock under electrical repairs,Lake of the Ozarks,dock_wiring,fresh,Other/Unknown
+ESD-2012-07-07-1,2012,MN,"Private dock, Hill Top Trail",Pokegama Lake,extension_cord,fresh,Residential
+ESD-2012-08-04-1,2012,MO,Dock at Gravois Arm,Lake of the Ozarks,dock_wiring,fresh,Other/Unknown
+ESD-2012-08-14-1,2012,CA,NA,Residential backyard swimming pool,other,pool,Residential
+ESD-2012-08-22-1,2012,CA,"Magnolia Boulevard at Ben Avenue, Valley Village",NA,overhead_line,fresh,Other/Unknown
+ESD-2012-08-30-1,2012,ID,Irrigation canal approximately 3 miles NW of Blackfoot,Irrigation canal,other,fresh,Other/Unknown
+ESD-2012-09-27-1,2012,TN,Private dock at family home,Tims Ford Lake,dock_wiring,fresh,Residential
+ESD-2012-09-27-2,2012,GA,"South Georgia Technical College, decorative fountain",NA,other,fountain,Other/Unknown
+ESD-2013-05-20-1,2013,KY,Dock near Peter Cave marina,Rough River Lake,shore_power,fresh,Commercial
+ESD-2013-05-27-1,2013,GA,Private dock (Evelyn Morrison residence),Lake Lanier,dock_wiring,fresh,Residential
+ESD-2013-06-18-1,2013,MO,Private residence — flooded basement,NA,other,fresh,Residential
+ESD-2013-06-30-1,2013,KY,"Private dock, Garland Bend Road",Lake Cumberland,extension_cord,fresh,Residential
+ESD-2013-07-00-1,2013,NC,Private dock,Lake Norman,dock_wiring,fresh,Residential
+ESD-2013-07-04-1,2013,MN,"Private dock, 2300 block of 188th Street",Eagle Lake,charger,fresh,Residential
+ESD-2013-07-11-1,2013,MO,Dock near 35 Mile Marker,Lake of the Ozarks,dock_wiring,fresh,Other/Unknown
+ESD-2013-07-16-1,2013,NC,Brookside Swim Club,Brookside Swim Club pool,overhead_line,pool,Commercial
+ESD-2013-07-19-1,2013,NY,"Private residence, Second North Street",Inflatable pool (backyard),extension_cord,pool,Residential
+ESD-2013-07-24-1,2013,GA,Private residence (babysitting location),NA,overhead_line,fresh,Residential
+ESD-2013-08-31-1,2013,TX,"Hilton Houston Westchase, 9999 Westheimer Road",Hotel swimming pool,pool_pump,pool,Commercial
+ESD-2014-00-00-2,2014,PA,"O'Connor Pool, 26th and South Streets",Public swimming pool,pool_equipment,pool,Commercial
+ESD-2014-04-13-1,2014,FL,"Private residence, 13005 Arch Creek Terrace",Private swimming pool,pool_pump,pool,Residential
+ESD-2014-04-27-1,2014,FL,"Palms West Condominiums pool, 1950 W. 56th St.",NA,pool_pump,pool,Commercial
+ESD-2014-05-00-1,2014,FL,"Apartment complex pool, Florida",Apartment complex swimming pool,pool_pump,pool,Commercial
+ESD-2014-06-10-1,2014,UT,"Bullfrog Marina, Glen Canyon National Recreation Area",Lake Powell,shore_power,fresh,Commercial
+ESD-2014-07-04-1,2014,MO,Cove near 7 Mile Marker,Lake of the Ozarks,dock_wiring,fresh,Other/Unknown
+ESD-2014-07-20-1,2014,TX,Piney Shores Resort (Silverleaf Resorts),Lake Conroe,dock_wiring,fresh,Commercial
+ESD-2014-08-02-1,2014,WA,Near 96th Street Bridge,Puyallup River,other,fresh,Other/Unknown
+ESD-2014-08-24-1,2014,LA,Private boathouse,Lake Bruin,boat_lift,fresh,Other/Unknown
+ESD-2015-00-00-1,2015,AL,NA,Smith Lake,dock_wiring,fresh,Other/Unknown
+ESD-2015-06-21-1,2015,MO,"Rental property dock, Woods Hollow Cove, 22.2 Mile Marker",Lake of the Ozarks,dock_wiring,fresh,Other/Unknown
+ESD-2015-08-08-1,2015,AL,"Private dock, Laurel Drive",Lake Tuscaloosa,unknown,fresh,Residential
+ESD-2015-08-25-1,2015,ME,Portsmouth Naval Shipyard marina,Piscataqua River,shore_power,salt,Commercial
+ESD-2016-03-27-1,2016,CA,"Private residence, 2300 block of Yosemite Drive",Private swimming pool,pool_pump,pool,Residential
+ESD-2016-04-16-1,2016,AL,Johnson family lakehouse dock,Smith Lake,dock_wiring,fresh,Residential
+ESD-2016-05-28-1,2016,NJ,"Aztec Motel, 400 block of East Lavender Road",Motel swimming pool,pool_pump,pool,Commercial
+ESD-2016-05-28-2,2016,AZ,"Private residence, near 43rd Avenue and Thomas Road",Private backyard swimming pool,pool_pump,pool,Residential
+ESD-2016-05-29-1,2016,PA,"Private residence, Rockledge Drive",Backyard pool,pool_pump,pool,Residential
+ESD-2016-06-17-1,2016,TN,Private dock,Chickamauga Lake,unknown,fresh,Residential
+ESD-2016-06-27-1,2016,AZ,"Private residence, near 43rd Avenue and Thomas Road",Private swimming pool,pool_pump,pool,Residential
+ESD-2016-07-21-1,2016,NA,New dock construction site,NA,boat_lift,fresh,Other/Unknown
+ESD-2016-09-03-1,2016,NC,"Heritage Point community pool, Valley Forge Road",Heritage Point community pool,pool_pump,pool,Other/Unknown
+ESD-2016-09-10-1,2016,IN,"Private residence, 17200 block of Madison Road",Flooded basement,other,fresh,Residential
+ESD-2016-10-07-1,2016,IL,Construction site,NA,other,fresh,Other/Unknown
+ESD-2017-00-00-1,2017,MI,Marina on a river (name withheld by MIFACE to protect privacy),River (specific river withheld in CDC report),unknown,fresh,Commercial
+ESD-2017-03-24-1,2017,NJ,Marina dock (specific marina not identified),Shrewsbury River,unknown,brackish,Commercial
+ESD-2017-03-29-1,2017,TX,Oakland Lake Park,NA,overhead_line,fresh,Commercial
+ESD-2017-04-14-1,2017,AL,Darling family lakehouse dock,Lake Tuscaloosa,dock_wiring,fresh,Residential
+ESD-2017-05-24-1,2017,LA,Private dock,Lake Pontchartrain,unknown,fresh,Residential
+ESD-2017-05-01-1,2017,NY,Private residence — basement with sump pump,NA,other,fresh,Residential
+ESD-2017-05-06-1,2017,QC,"De la Gappe Boulevard, Touraines neighbourhood — flooded street",NA,other,fresh,Other/Unknown
+ESD-2017-05-19-1,2017,AL,"Private residence, Augusta Street",Private swimming pool,pool_pump,pool,Residential
+ESD-2017-05-21-1,2017,TX,NA,Flooded field/puddle,overhead_line,fresh,Other/Unknown
+ESD-2017-06-16-1,2017,OH,"Miller Marina, Bayview Avenue",Lake Erie,shore_power,fresh,Commercial
+ESD-2017-06-17-1,2017,NJ,"Private residence, Tobago Avenue",Toms River lagoon (Shelter Cove),boat_lift,fresh,Residential
+ESD-2017-06-21-1,2017,MA,"Crab Corner, Menemsha Beach / transient dock",Atlantic Ocean (Menemsha Harbor),dock_wiring,salt,Commercial
+ESD-2017-06-23-1,2017,NA,"Water park, Akyazi",Water park pool,pool_pump,pool,Commercial
+ESD-2017-07-03-1,2017,SC,Private dock with boat lift,Lake Keowee,boat_lift,fresh,Residential
+ESD-2017-07-07-1,2017,CA,NA,Canyon Lake,unknown,fresh,Other/Unknown
+ESD-2017-07-09-1,2017,NM,Private residence (father's home),Bathtub,extension_cord,pool,Residential
+ESD-2017-07-23-1,2017,BC,"Private property, Spallumcheen (near Vernon/Enderby)",Creek on private property,other,fresh,Other/Unknown
+ESD-2017-08-05-1,2017,TX,Alley Creek alcove,Lake O' The Pines,overhead_line,fresh,Other/Unknown
+ESD-2017-08-10-1,2017,WA,"Old pump station, irrigation facility",Columbia River,other,fresh,Other/Unknown
+ESD-2017-08-28-1,2017,TX,"Greens Bayou near Interstate 10, east Houston",Greens Bayou,overhead_line,fresh,Other/Unknown
+ESD-2017-08-29-1,2017,TX,Bear Creek subdivision,Hurricane Harvey floodwater,overhead_line,fresh,Residential
+ESD-2018-05-14-1,2018,MO,Private dock,Lake Taneycomo,dock_wiring,fresh,Residential
+ESD-2018-06-02-1,2018,VA,"Private dock, Gills Creek area",Smith Mountain Lake,boat_lift,fresh,Residential
+ESD-2018-06-11-1,2018,MO,Dock at Camelot Cove,Lake of the Ozarks,dock_wiring,fresh,Other/Unknown
+ESD-2018-06-26-1,2018,MD,"MGM National Harbor casino/resort, 101 MGM National Ave",MGM National Harbor decorative fountain (Potomac Plaza),fountain,fountain,Commercial
+ESD-2018-07-03-1,2018,MO,"Private dock near J Road, 5 Mile Marker",Lake of the Ozarks,dock_wiring,fresh,Residential
+ESD-2018-07-04-1,2018,OH,Colucci family private pool,NA,pool_pump,pool,Residential
+ESD-2018-09-30-1,2018,OK,"Bricktown Canal, bollard light area",Bricktown Canal,other,fresh,Other/Unknown
+ESD-2018-11-04-1,2018,NH,Dock area at end of Appleton Street,Lake Winnipesaukee (Paugus Bay),dock_wiring,fresh,Other/Unknown
+ESD-2019-04-01-1,2019,CA,"Metal pedestrian bridge over Weyland Canal, Dixon Avenue West",Weyland Canal (Solano Irrigation District),other,fresh,Other/Unknown
+ESD-2019-06-02-1,2019,FL,Universal Studios Volcano Bay water park,NA,other,pool,Commercial
+ESD-2019-06-27-1,2019,TX,"Hallmark Apartments, 1620 Mescalero Drive",Apartment complex swimming pool,pool_pump,pool,Commercial
+ESD-2019-07-14-1,2019,CA,"Private residence (father's home), late 1950s construction",Private swimming pool,pool_pump,pool,Residential
+ESD-2019-09-19-1,2019,TX,NA,Tropical Storm Imelda floodwater,unknown,fresh,Other/Unknown
+ESD-2020-05-11-1,2020,AL,Private dock (non-electrified; stray voltage from neighbor's dock),Lewis Smith Lake,dock_wiring,fresh,Residential
+ESD-2020-07-12-1,2020,AZ,Scorpion Bay Marina,Lake Pleasant,shore_power,fresh,Commercial
+ESD-2020-08-29-1,2020,TX,"North Villa Inn, 16510 North Freeway",Hotel swimming pool,pool_pump,pool,Commercial
+ESD-2020-11-11-1,2020,FL,"211 Bay Drive N., Bradenton Beach",Flooded laundry room,other,fresh,Other/Unknown
+ESD-2021-06-02-1,2021,TX,Clyde Lake,Clyde Lake (Lake Clyde),overhead_line,fresh,Other/Unknown
+ESD-2021-06-04-1,2021,TX,"3700 block of North Palm Leaf Circle, La Homa",Flooded street/puddle,extension_cord,fresh,Other/Unknown
+ESD-2021-07-04-1,2021,PA,Beach Club Marina,Monongahela River,unknown,fresh,Commercial
+ESD-2022-00-00-1,2022,FL,Downtown Palm Beach Gardens splash pad,Downtown Palm Beach Gardens splash pad,unknown,fresh,Commercial
+ESD-2022-04-22-1,2022,KY,"Prospect Yacht Club / Drift Bar, 1900 Victory Lane",Ohio River,dock_wiring,fresh,Commercial
+ESD-2022-08-03-1,2022,NA,Marina (location not published in OSHA summary),NA,overhead_line,NA,Commercial
+ESD-2022-08-16-1,2023,MI,"Russell Woods Apartments, 11500 block of LaSalle Street",Flooded apartment basement,other,fresh,Other/Unknown
+ESD-2023-02-07-1,2023,MI,"Russell Woods Apartments, 11500 block of LaSalle Street at Webb",Flooded apartment basement,other,fresh,Other/Unknown
+ESD-2023-07-09-1,2023,NY,"Wright Island Marina (Drake Ave. Marina, Inc.)",Long Island Sound,dock_wiring,salt,Commercial
+ESD-2023-07-17-1,2023,SC,"Private dock, Mid Lake Heights Drive",Lake Hartwell,dock_wiring,fresh,Residential
+ESD-2023-07-27-1,2023,GA,"Private dock near Dove Trail, Lanier Beach South Road area",Lake Lanier,dock_wiring,fresh,Residential
+ESD-2023-10-22-1,2023,FL,"Harbourside Place outdoor shopping center fountain, 149 Soundings Ave",Harbourside Place fountain,fountain,fountain,Commercial
+ESD-2024-05-00-1,2024,MN,Edgewater Resort & Waterpark,Outside whirlpool/spa area,other,pool,Commercial
+ESD-2024-07-04-1,2024,VA,"Private dock, Lee Drive, Craddock Creek area",Smith Mountain Lake,boat_lift,fresh,Residential
+ESD-2024-08-25-1,2024,IN,"Private residence, 2600 block of High Street",Backyard swimming pool,pool_equipment,fresh,Residential
+ESD-2025-05-26-1,2025,GA,"Splash in the Boro Waterpark, Mill Creek Regional Park","Wave pool (19,500 sq ft, opened 2017)",pool_equipment,fresh,Commercial
+ESD-2025-06-21-1,2025,GA,Private dock,Blue Ridge Lake,dock_wiring,fresh,Residential
+ESD-2025-07-10-1,2025,IN,"Marina Shores at Dune Harbor, D dock",Burns Waterway,shore_power,fresh,Commercial

@@ -1,0 +1,155 @@
+============================================================
+ NEC-era segmented trend analysis
+ Settings: Private freshwater dock (not covered by NEC 555)
+           Freshwater marina (covered by NEC 555)
+============================================================
+Sample sizes by year range and flag_setting:
+
+
+========== TWO-SEGMENT MODEL (break at 2011) ==========
+
+N per era x setting:
+# A tibble: 4 × 5
+  era2        flag_setting            years total_incidents per_yr
+  <fct>       <chr>                   <int>           <int>  <dbl>
+1 A: pre-2011 Freshwater marina          30              24  0.8  
+2 A: pre-2011 Private freshwater dock    30              14  0.467
+3 B: 2011+    Freshwater marina          15              12  0.8  
+4 B: 2011+    Private freshwater dock    15              29  1.93 
+
+Model comparison (AIC):
+  base flag+yr           AIC=224.5
+  + era step             AIC=224.9
+  + flag*(era+yr)        AIC=221.8
+  + flag*era*yr (full)   AIC=200.2
+
+LR tests:
+Likelihood ratio tests of Negative Binomial Models
+
+Response: incidents
+              Model    theta Resid. df    2 x log-lik.   Test    df LR stat.
+1        flag + yrc 1.625108        87       -216.5235                      
+2 flag + era2 + yrc 1.681503        86       -214.9269 1 vs 2     1 1.596614
+    Pr(Chi)
+1          
+2 0.2063837
+Likelihood ratio tests of Negative Binomial Models
+
+Response: incidents
+                Model    theta Resid. df    2 x log-lik.   Test    df LR stat.
+1   flag + era2 + yrc 1.681503        86       -214.9269                      
+2 flag * (era2 + yrc) 2.055330        84       -207.7871 1 vs 2     2 7.139844
+     Pr(Chi)
+1           
+2 0.02815804
+Likelihood ratio tests of Negative Binomial Models
+
+Response: incidents
+                Model    theta Resid. df    2 x log-lik.   Test    df LR stat.
+1 flag * (era2 + yrc)  2.05533        84       -207.7871                      
+2   flag * era2 * yrc 41.30476        82       -182.2394 1 vs 2     2 25.54767
+       Pr(Chi)
+1             
+2 2.833963e-06
+
+Per-group slopes (IRR/yr) by era from the full interaction model:
+# A tibble: 4 × 4
+  flag                    era2        slope_log   irr
+  <fct>                   <fct>           <dbl> <dbl>
+1 Private freshwater dock A: pre-2011    0.218  1.24 
+2 Private freshwater dock B: 2011+      -0.110  0.895
+3 Freshwater marina       A: pre-2011    0.0934 1.10 
+4 Freshwater marina       B: 2011+      -0.0869 0.917
+
+
+========== THREE-SEGMENT MODEL (breaks at 2011 and 2017) ==========
+
+N per era x setting:
+# A tibble: 6 × 5
+  era3         flag_setting            years total_incidents per_yr
+  <fct>        <chr>                   <int>           <int>  <dbl>
+1 A: pre-2011  Freshwater marina          30              24   0.8 
+2 A: pre-2011  Private freshwater dock    30              14   0.47
+3 B: 2011-2016 Freshwater marina           6               6   1   
+4 B: 2011-2016 Private freshwater dock     6              16   2.67
+5 C: 2017+     Freshwater marina           9               6   0.67
+6 C: 2017+     Private freshwater dock     9              13   1.44
+
+Model comparison (AIC):
+  base flag+yr           AIC=224.5
+  + era step (3 levels)  AIC=218.3
+  + flag*(era+yr)        AIC=215.6
+  + flag*era*yr (full)   AIC=205.7
+
+LR tests:
+Likelihood ratio tests of Negative Binomial Models
+
+Response: incidents
+               Model    theta Resid. df    2 x log-lik.   Test    df LR stat.
+1        flag + yrc2 1.625108        87       -216.5235                      
+2 flag + era3 + yrc2 2.703168        85       -206.2585 1 vs 2     2 10.26497
+      Pr(Chi)
+1            
+2 0.005901874
+Likelihood ratio tests of Negative Binomial Models
+
+Response: incidents
+                 Model    theta Resid. df    2 x log-lik.   Test    df LR stat.
+1   flag + era3 + yrc2 2.703168        85       -206.2585                      
+2 flag * (era3 + yrc2) 3.683787        82       -197.6130 1 vs 2     3  8.64552
+     Pr(Chi)
+1           
+2 0.03439473
+Likelihood ratio tests of Negative Binomial Models
+
+Response: incidents
+                 Model       theta Resid. df    2 x log-lik.   Test    df
+1 flag * (era3 + yrc2)    3.683787        82       -197.6130             
+2   flag * era3 * yrc2 5283.132274        78       -179.6622 1 vs 2     4
+  LR stat.     Pr(Chi)
+1                     
+2 17.95083 0.001261703
+
+Per-group per-era IRR (from full interaction model):
+# A tibble: 6 × 4
+  flag                    era3         slope_log   irr
+  <fct>                   <fct>            <dbl> <dbl>
+1 Private freshwater dock A: pre-2011     0.218  1.24 
+2 Private freshwater dock B: 2011-2016   -0.130  0.878
+3 Private freshwater dock C: 2017+       -0.221  0.802
+4 Freshwater marina       A: pre-2011     0.0931 1.10 
+5 Freshwater marina       B: 2011-2016   -0.371  0.690
+6 Freshwater marina       C: 2017+       -0.101  0.904
+
+Mean incidents/yr per era x setting (raw):
+# A tibble: 6 × 6
+  era3         flag_setting            years total mean_per_yr    sd
+  <fct>        <chr>                   <int> <int>       <dbl> <dbl>
+1 A: pre-2011  Freshwater marina          30    24       0.8   1.13 
+2 A: pre-2011  Private freshwater dock    30    14       0.467 1.07 
+3 B: 2011-2016 Freshwater marina           6     6       1     0.894
+4 B: 2011-2016 Private freshwater dock     6    16       2.67  1.51 
+5 C: 2017+     Freshwater marina           9     6       0.667 0.707
+6 C: 2017+     Private freshwater dock     9    13       1.44  1.59 
+
+Marina / Private-dock incident-rate ratio per era:
+# A tibble: 3 × 4
+  era3         `Freshwater marina` Private freshwater d…¹ ratio_marina_over_priv
+  <fct>                      <dbl>                  <dbl>                  <dbl>
+1 A: pre-2011                0.8                    0.467                  1.71 
+2 B: 2011-2016               1                      2.67                   0.375
+3 C: 2017+                   0.667                  1.44                   0.462
+# ℹ abbreviated name: ¹​`Private freshwater dock`
+
+Per-era per-setting IRR/yr (simple NB within each era):
+# A tibble: 6 × 8
+  flag_setting            era3           irr ci_lo ci_hi       p total years
+  <chr>                   <fct>        <dbl> <dbl> <dbl>   <dbl> <int> <int>
+1 Freshwater marina       A: pre-2011  1.10  1.04   1.16 0.00140    24    30
+2 Freshwater marina       B: 2011-2016 0.690 0.407  1.17 0.168       6     6
+3 Freshwater marina       C: 2017+     0.904 0.658  1.24 0.530       6     9
+4 Private freshwater dock A: pre-2011  1.27  1.10   1.47 0.00157    14    30
+5 Private freshwater dock B: 2011-2016 0.878 0.656  1.18 0.382      16     6
+6 Private freshwater dock C: 2017+     0.802 0.636  1.01 0.0611     13     9
+
+All NEC-era outputs written to: /opt/repos/esd-research/analysis/outputs
