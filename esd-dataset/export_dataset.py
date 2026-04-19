@@ -145,6 +145,9 @@ def build_incident_row_medium(data):
         'Independent Source Count': safe_get(data, 'independent_source_count', default=0),
         'Electrical Source': safe_get(data, 'electrical_source'),
         'Water Type': safe_get(data, 'water_type'),
+        'Is Freshwater Private Dock': safe_get(data, 'is_freshwater_private_dock', default=False),
+        'Is Freshwater Marina': safe_get(data, 'is_freshwater_marina', default=False),
+        'Setting Classifier Confidence': safe_get(data, 'setting_classifier_confidence'),
         'Legal Outcome': safe_get(data, 'legal_outcome'),
         'Project Refs': list_to_str(data.get('project_refs', [])),
     })
@@ -163,6 +166,7 @@ def build_incident_row_large(data):
         'ESDPA Entry Numbers': list_to_str(data.get('esdpa_entry_numbers', [])),
         'ESDPA Date Listed': safe_get(data, 'esdpa_date_listed'),
         'ESDPA Data Issues': list_to_str(data.get('esdpa_data_issues', [])),
+        'Setting Classifier Reasoning': safe_get(data, 'setting_classifier_reasoning'),
         'Research Notes': safe_get(data, 'research_notes'),
         'All Source URLs': get_all_source_urls(data),
         'All Sources Detail': get_all_sources_detail(data),

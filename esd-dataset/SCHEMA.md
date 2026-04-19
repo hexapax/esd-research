@@ -100,7 +100,32 @@ electrical_source: dock_wiring        # dock_wiring | boat_lift | shore_power |
 water_type: fresh                     # fresh | salt | brackish | pool | fountain
 voltage:                              # If measured/reported (e.g., "120V AC")
 fault_description: "Faulty junction box between house panel and dock disconnect"
+is_freshwater_private_dock: true      # Reasoning-model judgement (see below)
+is_freshwater_marina: false           # Reasoning-model judgement (see below)
+setting_classifier_confidence: high   # high | medium | low
+setting_classifier_reasoning: "facility_name contains 'Private dock'"
 ```
+
+### Freshwater dock/marina flags
+
+Two mutually-exclusive booleans classify whether reasonable evidence indicates
+the incident occurred at a private/residential freshwater dock or a commercial
+freshwater marina. Added 2026-04-18 by a reasoning-model pass over every
+incident.
+
+| Field | Meaning |
+|-------|---------|
+| `is_freshwater_private_dock` | `true` iff evidence suggests a private/residential dock on fresh water (private dock, lakehouse dock, family dock, backyard dock, named private residence). |
+| `is_freshwater_marina`       | `true` iff evidence suggests a commercial/shared-use marina on fresh water (facility contains "Marina", "Yacht Club", "Harbor", "Boat Works", "Boat Club", resort/campground marina slip, rented slip). |
+| `setting_classifier_confidence` | `high` = explicit keyword; `medium` = strong narrative cue; `low` = only weak hints (in which case both flags are usually `false`). |
+| `setting_classifier_reasoning`  | Free-text justification citing specific evidence. |
+
+**Rules:**
+
+1. Both flags are `false` whenever `water_type != fresh` (pool, salt, brackish, fountain, or missing).
+2. Both flags are `false` for non-dock mechanisms (pool electrocution, fountain, overhead line, extension-cord household use, irrigation, construction site, flooded basement, etc.).
+3. Both flags are `false` when the record is about a dock but provides no signal distinguishing private from marina.
+4. The flags are mutually exclusive — both can be `false`, but both cannot be `true`.
 
 ### Verification and Provenance
 

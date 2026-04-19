@@ -1,0 +1,1276 @@
+{
+  "usa::St. Croix River, WI": {
+    "lat": 45.5395961,
+    "lon": -92.7253459,
+    "display_name": "Saint Croix River, Minnesota, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.4167181092808382
+  },
+  "usa::Community swimming pool, OK": null,
+  "usa::City recreational center pool, OK": null,
+  "usa::Lake Travis, TX": {
+    "lat": 30.4645913,
+    "lon": -98.0783472,
+    "display_name": "Lake Travis, Briarcliff, Travis County, Texas, 78663, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.40880653590732546
+  },
+  "usa::Connecticut River, CT": {
+    "lat": 41.4125419,
+    "lon": -72.4586032,
+    "display_name": "Lower Connecticut River Valley Planning Region, Connecticut, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.37815731550788406
+  },
+  "usa::Green Bay, WI": {
+    "lat": 44.5126379,
+    "lon": -88.0125794,
+    "display_name": "Green Bay, Brown County, Wisconsin, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.5914746753072917
+  },
+  "usa::Lake O' The Pines, TX": {
+    "lat": 32.820786,
+    "lon": -94.6605031,
+    "display_name": "Lake O' the Pines, Marion County, Texas, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.1333433333333333
+  },
+  "usa::Lake St. Clair, MI": {
+    "lat": 42.4934836,
+    "lon": -82.7392729,
+    "display_name": "Lake Saint Clair, Macomb County, Michigan, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.45928615003117845
+  },
+  "usa::Little Traverse Bay, MI": {
+    "lat": 45.400009,
+    "lon": -85.0264449,
+    "display_name": "Little Traverse Bay, Michigan, United States",
+    "class": "natural",
+    "type": "bay",
+    "importance": 0.29890295276232437
+  },
+  "usa::Harrods Creek, KY": {
+    "lat": 38.3275686,
+    "lon": -85.6277393,
+    "display_name": "Harrods Creek, Louisville, Jefferson County, Kentucky, 40059, United States",
+    "class": "place",
+    "type": "hamlet",
+    "importance": 0.35499373245428756
+  },
+  "usa::Lake Macatawa, MI": {
+    "lat": 42.7820312,
+    "lon": -86.1807147,
+    "display_name": "Lake Macatawa, Park Township, Ottawa County, Michigan, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.22697289548003588
+  },
+  "usa::Indian Lake, NY": {
+    "lat": 43.782497,
+    "lon": -74.272041,
+    "display_name": "Town of Indian Lake, Hamilton County, New York, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.4221227056219194
+  },
+  "usa::Lake B, OK": {
+    "lat": 36.1400892,
+    "lon": -96.0819455,
+    "display_name": "Lake, Tulsa, Oklahoma, United States",
+    "class": "place",
+    "type": "neighbourhood",
+    "importance": 0.13337083466849772
+  },
+  "usa::Lake A, OK": {
+    "lat": 36.1400892,
+    "lon": -96.0819455,
+    "display_name": "Lake, Tulsa, Oklahoma, United States",
+    "class": "place",
+    "type": "neighbourhood",
+    "importance": 0.13337083466849772
+  },
+  "usa::Lake Hamilton, AR": {
+    "lat": 34.425335,
+    "lon": -93.088864,
+    "display_name": "Lake Hamilton, Hot Springs, Garland County, Arkansas, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.33454489753788985
+  },
+  "usa::St. Lawrence River, NY": {
+    "lat": 44.9968419,
+    "lon": -74.7216551,
+    "display_name": "Saint Lawrence River, St. Regis, Town of Bombay, Franklin County, New York, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.1467232997634851
+  },
+  "usa::Potomac River, DC": {
+    "lat": 39.0739106,
+    "lon": -77.427643,
+    "display_name": "Potomac River, Maryland, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.5766981705848041
+  },
+  "usa::Lake Mead, NV": {
+    "lat": 36.2130617,
+    "lon": -114.4132805,
+    "display_name": "Lake Mead, Clark County, Nevada, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.45869400735209326
+  },
+  "usa::Lake Cumberland, KY": {
+    "lat": 36.9385265,
+    "lon": -85.0196128,
+    "display_name": "Lake Cumberland, Burnside, Russell County, Kentucky, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.33711216279521466
+  },
+  "usa::Anacostia River / Potomac River, DC": null,
+  "usa::Air Force Base, DC": {
+    "lat": 38.8377469,
+    "lon": -77.0170934,
+    "display_name": "Bolling Air Force Base, Ward 8, Washington, District of Columbia, 20332, United States",
+    "class": "landuse",
+    "type": "military",
+    "importance": 0.3457604669057869
+  },
+  "usa::Lake Chelan, WA": {
+    "lat": 48.0785862,
+    "lon": -120.4757138,
+    "display_name": "Lake Chelan, Chelan, Chelan County, Washington, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.37694663196902717
+  },
+  "usa::Lake Sonoma, CA": {
+    "lat": 38.7379866,
+    "lon": -123.0627632,
+    "display_name": "Lake Sonoma, Sonoma County, California, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.29436395425274753
+  },
+  "usa::Sacramento River / Sacramento-San Joaquin River Delta, CA": null,
+  "usa::Sacramento River / Sacramento-San Joaquin River Delta, Solano County, CA": null,
+  "usa::Rio Vista, CA": {
+    "lat": 38.1557502,
+    "lon": -121.6913439,
+    "display_name": "Rio Vista, Solano County, California, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.46809747450361133
+  },
+  "usa::Lake Mohave, AZ": {
+    "lat": 35.6055696,
+    "lon": -114.6561661,
+    "display_name": "Lake Mohave, Bullhead City, Searchlight Township, Clark County, Nevada, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.35642684290255977
+  },
+  "usa::Center Hill Lake, TN": {
+    "lat": 35.9921594,
+    "lon": -85.7164195,
+    "display_name": "Center Hill Lake, DeKalb County, Middle Tennessee, Tennessee, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.26074447183303784
+  },
+  "usa::Multnomah Channel, OR": {
+    "lat": 45.7467075,
+    "lon": -122.8360411,
+    "display_name": "Multnomah Channel, Saint Helens, Columbia County, Oregon, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.2432038182346074
+  },
+  "usa::Norris Lake, TN": {
+    "lat": 36.3571627,
+    "lon": -83.6848061,
+    "display_name": "Norris Lake, La Follette, Union County, East Tennessee, Tennessee, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.2562004762132184
+  },
+  "usa::Niagara River, NY": {
+    "lat": 43.0569709,
+    "lon": -79.00034,
+    "display_name": "Niagara River, Erie County, New York, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.5069402463191446
+  },
+  "usa::Tims Ford Lake, TN": {
+    "lat": 35.221094,
+    "lon": -86.2721255,
+    "display_name": "Tims Ford Lake, Winchester, Franklin County, Middle Tennessee, Tennessee, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.30093685344584264
+  },
+  "usa::Lake Erie, OH": {
+    "lat": 42.1432251,
+    "lon": -81.2394356,
+    "display_name": "Lake Erie, Ohio, 43452, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.5899534137609331
+  },
+  "usa::New Orleans, LA": {
+    "lat": 29.9561422,
+    "lon": -90.0733934,
+    "display_name": "New Orleans, Orleans Parish, Louisiana, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.7240046227015887
+  },
+  "usa::Lake Montclair, VA": {
+    "lat": 38.6132128,
+    "lon": -77.3510548,
+    "display_name": "Lake Montclair, Montclair, Prince William County, Virginia, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.133377264820325
+  },
+  "usa::Biloxi Bay, MS": {
+    "lat": 30.3838101,
+    "lon": -88.8289167,
+    "display_name": "Biloxi Bay, Harrison County, Mississippi, United States",
+    "class": "natural",
+    "type": "bay",
+    "importance": 0.10669536659800104
+  },
+  "usa::Multiple Florida marinas (aggregate report), FL": null,
+  "usa::Apartment complex swimming pool, TX": null,
+  "usa::Apartment complex swimming pool, Tarrant County, TX": null,
+  "usa::Apartment complex pool, TX": null,
+  "usa::Arlington, TX": {
+    "lat": 32.7355816,
+    "lon": -97.1071186,
+    "display_name": "Arlington, Tarrant County, Texas, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.6390376433984507
+  },
+  "usa::Allatoona Lake, GA": {
+    "lat": 34.1327957,
+    "lon": -84.6295701,
+    "display_name": "Allatoona Lake, Acworth, Cherokee County, Georgia, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.13336833524071104
+  },
+  "usa::Lake Murray, SC": {
+    "lat": 34.0850435,
+    "lon": -81.2743362,
+    "display_name": "Lake Murray, Lexington County, South Carolina, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.31776205367205024
+  },
+  "usa::Canal, FL": {
+    "lat": 28.8849077,
+    "lon": -81.271505,
+    "display_name": "Canal, Deltona, Volusia County, Florida, 32728, United States",
+    "class": "highway",
+    "type": "residential",
+    "importance": 0.053389485770962045
+  },
+  "usa::Green River Lake, KY": {
+    "lat": 37.2508354,
+    "lon": -85.3005975,
+    "display_name": "Green River Lake, Taylor County, Kentucky, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.2711690462561393
+  },
+  "usa::Lake Barkley, KY": {
+    "lat": 36.8006785,
+    "lon": -87.979596,
+    "display_name": "Lake Barkley, Grand Rivers, Trigg County, Middle Tennessee, Kentucky, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.3140788844789178
+  },
+  "usa::Lake Wylie, NC": {
+    "lat": 35.110422,
+    "lon": -81.0538064,
+    "display_name": "Lake Wylie, York County, South Carolina, United States",
+    "class": "boundary",
+    "type": "statistical",
+    "importance": 0.3380507607701352
+  },
+  "usa::Lake Waccamaw, NC": {
+    "lat": 34.3221707,
+    "lon": -78.5220264,
+    "display_name": "Lake Waccamaw, Columbus County, North Carolina, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.36366628930239936
+  },
+  "usa::Saguaro Lake, AZ": {
+    "lat": 33.5671984,
+    "lon": -111.5235893,
+    "display_name": "Saguaro Lake, Maricopa County, Arizona, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.1746475799110849
+  },
+  "usa::Sacramento River, CA": {
+    "lat": 40.6214141,
+    "lon": -122.4461499,
+    "display_name": "Sacramento River, Shasta County, California, 96087, United States",
+    "class": "waterway",
+    "type": "stream",
+    "importance": 0.513959838160434
+  },
+  "usa::Ross Barnett Reservoir, MS": {
+    "lat": 31.8332161,
+    "lon": -89.5895143,
+    "display_name": "Lake Ross Barnett, Smith Co Rd 50-A, Smith County, Mississippi, 39116, United States",
+    "class": "landuse",
+    "type": "reservoir",
+    "importance": 3.500190737769158e-05
+  },
+  "usa::Lake of the Ozarks, MO": {
+    "lat": 38.1443725,
+    "lon": -92.6594744,
+    "display_name": "Lake of the Ozarks, Osage Beach, Camden County, Missouri, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.3538242275522032
+  },
+  "usa::Lake Ontario, NY": {
+    "lat": 43.3639683,
+    "lon": -78.2326163,
+    "display_name": "Lake Ontario State Parkway, Town of Carlton, Orleans County, New York, 14571, United States",
+    "class": "highway",
+    "type": "service",
+    "importance": 0.2701992234339303
+  },
+  "usa::Cave Run Lake, KY": {
+    "lat": 38.0364236,
+    "lon": -83.4742679,
+    "display_name": "Cave Run Lake, Rowan County, Kentucky, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.31823410445081374
+  },
+  "usa::Private marina, NY": null,
+  "usa::Brooklyn, NY": {
+    "lat": 40.6526006,
+    "lon": -73.9497211,
+    "display_name": "Brooklyn, Kings County, New York, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.7384986389272082
+  },
+  "usa::Spring Lake, MO": {
+    "lat": 38.0970704,
+    "lon": -90.5760172,
+    "display_name": "Fishermans Lake, Summer Set, Valle Township, Jefferson County, Missouri, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.13337195773250932
+  },
+  "usa::Weiss Lake, AL": {
+    "lat": 34.2020407,
+    "lon": -85.6620895,
+    "display_name": "Weiss Lake, Centre, Cherokee County, Alabama, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.1333433333333333
+  },
+  "usa::Lake Michigan, WI": {
+    "lat": 44.099995,
+    "lon": -87.6334166,
+    "display_name": "Lake Michigan, Manitowoc, Manitowoc County, Wisconsin, United States",
+    "class": "natural",
+    "type": "bay",
+    "importance": 0.10669266727702752
+  },
+  "usa::Lake Ouachita, AR": {
+    "lat": 34.6157417,
+    "lon": -93.412892,
+    "display_name": "Lake Ouachita, Montgomery County, Arkansas, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.32228022566186254
+  },
+  "usa::Lake L'Homme Dieu, MN": {
+    "lat": 45.9282176,
+    "lon": -95.3529204,
+    "display_name": "Lake Le Homme Dieu, Alexandria, Douglas County, Minnesota, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.10672469596398869
+  },
+  "usa::Black River, MI": {
+    "lat": 46.5119078,
+    "lon": -90.0538641,
+    "display_name": "Black River, Gogebic County, Michigan, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.3436054023541801
+  },
+  "usa::Lake Lanier, GA": {
+    "lat": 34.2930593,
+    "lon": -83.938223,
+    "display_name": "Lake Lanier, Cumming, Forsyth County, Georgia, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.4062073640742894
+  },
+  "usa::Lake Arcadia, OK": {
+    "lat": 35.6271991,
+    "lon": -97.3941706,
+    "display_name": "Lake Arcadia, Edmond, Oklahoma County, Oklahoma, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.1898927655395688
+  },
+  "usa::Private farm pond, NY": null,
+  "usa::Private farm pond, Erie County, NY": null,
+  "usa::Eden, NY": {
+    "lat": 42.6523734,
+    "lon": -78.8954064,
+    "display_name": "Town of Eden, Erie County, New York, 14057, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.44471638469118313
+  },
+  "usa::Caloosahatchee River, FL": {
+    "lat": 26.7214836,
+    "lon": -81.692193,
+    "display_name": "Caloosahatchee River, Lee County, Florida, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.41069714293487614
+  },
+  "usa::Atlantic Ocean / Intracoastal Waterway, NC": null,
+  "usa::Atlantic Ocean / Intracoastal Waterway, Brunswick County, NC": null,
+  "usa::Ocean Isle Beach Marina, NC": null,
+  "usa::Ocean Isle Beach, NC": {
+    "lat": 33.8943393,
+    "lon": -78.426672,
+    "display_name": "Ocean Isle Beach, Brunswick County, North Carolina, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.38292359884245514
+  },
+  "usa::Clear Lake, IA": {
+    "lat": 43.1370751,
+    "lon": -93.3813637,
+    "display_name": "Clear Lake, Clear Lake Township, Cerro Gordo County, Iowa, 50428, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.47604546185312197
+  },
+  "usa::Stonewall Jackson Lake, WV": {
+    "lat": 38.9555775,
+    "lon": -80.4989078,
+    "display_name": "Stonewall Jackson Lake, Lewis County, West Virginia, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.3370188667185515
+  },
+  "usa::Lewis Smith Lake, AL": {
+    "lat": 34.0700321,
+    "lon": -86.9791442,
+    "display_name": "Lewis Smith Lake, Double Springs, Cullman County, Alabama, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.22489365626900393
+  },
+  "usa::Residential swimming pool, SC": null,
+  "usa::York, SC": {
+    "lat": 34.9603293,
+    "lon": -81.1655408,
+    "display_name": "York County, South Carolina, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.5067197159347124
+  },
+  "usa::Fort Loudoun Lake, TN": {
+    "lat": 35.7919204,
+    "lon": -84.2431703,
+    "display_name": "Fort Loudoun Lake, Loudon County, East Tennessee, Tennessee, 37772, United States",
+    "class": "waterway",
+    "type": "dam",
+    "importance": 0.21490054107343942
+  },
+  "usa::Lake Freeman, IN": {
+    "lat": 39.8491355,
+    "lon": -86.267953,
+    "display_name": "Lake Freeman Drive, Indianapolis, Marion County, Indiana, 46254, United States",
+    "class": "highway",
+    "type": "residential",
+    "importance": 0.053407337300678995
+  },
+  "usa::Lake Champlain, VT": {
+    "lat": 44.3214254,
+    "lon": -73.319416,
+    "display_name": "Lake Champlain, Chittenden County, Vermont, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.5189043066165434
+  },
+  "usa::Small lake at Perrine Wayside Dog Park, FL": null,
+  "usa::Small lake at Perrine Wayside Dog Park, Miami-Dade County, FL": null,
+  "usa::Perrine Wayside Dog Park (Village Dog Park), FL": null,
+  "usa::Palmetto Bay, FL": {
+    "lat": 25.6217715,
+    "lon": -80.3247748,
+    "display_name": "Palmetto Bay, Miami-Dade County, Florida, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.46679646759257826
+  },
+  "usa::Hartwell Lake, SC": {
+    "lat": 34.5491573,
+    "lon": -83.1134681,
+    "display_name": "Lake Hartwell, Anderson, Stephens County, Georgia, 30643, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.37526729549138227
+  },
+  "usa::Retention pond, TX": {
+    "lat": 30.1068613,
+    "lon": -95.4405823,
+    "display_name": "Retention Pond, Springwood, ExxonMobil Campus, Harris County, Texas, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.10672346456092162
+  },
+  "usa::Lake Pepin, MN": {
+    "lat": 44.4942391,
+    "lon": -92.2974883,
+    "display_name": "Lake Pepin, Town of Nelson, Pepin County, Wisconsin, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.33518014852624106
+  },
+  "usa::Kanawha River, WV": {
+    "lat": 38.3729384,
+    "lon": -81.7004094,
+    "display_name": "Kanawha River, Kanawha County, West Virginia, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.44167203841737057
+  },
+  "usa::Cornfield with center pivot irrigation system, IL": null,
+  "usa::Tampico, IL": {
+    "lat": 41.6324811,
+    "lon": -89.7850393,
+    "display_name": "Tampico, Whiteside County, Illinois, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.46051249100619307
+  },
+  "usa::Lake Sinclair, GA": {
+    "lat": 33.2449723,
+    "lon": -83.2556639,
+    "display_name": "Lake Sinclair, Crooked Creek, Putnam County, Georgia, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.33906640384460324
+  },
+  "usa::West Grand Traverse Bay, MI": {
+    "lat": 44.743288,
+    "lon": -85.5600483,
+    "display_name": "West Branch Mitchell Creek, East Bay Township, Grand Traverse County, Michigan, 49686, United States",
+    "class": "waterway",
+    "type": "stream",
+    "importance": 0.10672080643930722
+  },
+  "usa::Long Island Sound, CT": {
+    "lat": 41.0508886,
+    "lon": -72.9479898,
+    "display_name": "Long Island Sound, New York, 06390, United States",
+    "class": "natural",
+    "type": "bay",
+    "importance": 0.5276404532929507
+  },
+  "usa::Mini-golf pond, FL": null,
+  "usa::Mini-golf pond, Orange County, FL": null,
+  "usa::Orange Lake Resort, FL": {
+    "lat": 28.3617986,
+    "lon": -81.6218062,
+    "display_name": "Orange Lake Resort, Harp Alley, Orange County, Florida, 34747, United States",
+    "class": "tourism",
+    "type": "hotel",
+    "importance": 5.066834515902979e-05
+  },
+  "usa::Cherokee Lake, TN": {
+    "lat": 36.2655438,
+    "lon": -83.377914,
+    "display_name": "Cherokee Lake, Bean Station, Grainger County, East Tennessee, Tennessee, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.26704010519783294
+  },
+  "usa::Pokegama Lake, MN": {
+    "lat": 45.8438829,
+    "lon": -93.0397912,
+    "display_name": "Pokegama Lake, Pokegama Township, Pine County, Minnesota, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.1067036751354238
+  },
+  "usa::Residential backyard swimming pool, CA": null,
+  "usa::Residential backyard swimming pool, Orange County, CA": null,
+  "usa::Garden Grove, CA": {
+    "lat": 33.7746292,
+    "lon": -117.9463717,
+    "display_name": "Garden Grove, Orange County, California, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.5195651176125793
+  },
+  "usa::Magnolia Boulevard at Ben Avenue, CA": null,
+  "usa::Los Angeles, CA": {
+    "lat": 34.0536909,
+    "lon": -118.242766,
+    "display_name": "Los Angeles, Los Angeles County, California, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.8410828881088647
+  },
+  "usa::Irrigation canal, ID": {
+    "lat": 42.9836755,
+    "lon": -116.0947638,
+    "display_name": "Grand View Irrigation District Canal, Grand View, Owyhee County, Idaho, United States",
+    "class": "waterway",
+    "type": "canal",
+    "importance": 0.13337850843060958
+  },
+  "usa::South Georgia Technical College, GA": {
+    "lat": 31.9735437,
+    "lon": -83.7448913,
+    "display_name": "South Georgia Technical College, North Midway Road, Cordele, Crisp County, Georgia, 31010, United States",
+    "class": "building",
+    "type": "college",
+    "importance": 5.198062104214568e-05
+  },
+  "usa::Rough River Lake, KY": {
+    "lat": 37.5901776,
+    "lon": -86.4696906,
+    "display_name": "Rough River Lake, Grayson County, Kentucky, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.27844345352870076
+  },
+  "usa::Private residence \u2014 flooded basement, MO": null,
+  "usa::Scott City, MO": {
+    "lat": 37.2163497,
+    "lon": -89.5261244,
+    "display_name": "Scott City, Scott County, Missouri, 63780, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.39189118331215606
+  },
+  "usa::Lake Norman, NC": {
+    "lat": 35.5923267,
+    "lon": -80.932986,
+    "display_name": "Lake Norman, Mooresville, Iredell County, North Carolina, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.3002719692158251
+  },
+  "usa::Eagle Lake, MN": {
+    "lat": 44.1649669,
+    "lon": -93.8813419,
+    "display_name": "Eagle Lake, Blue Earth County, Minnesota, 56024, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.3704139248106284
+  },
+  "usa::Brookside Swim Club pool, NC": null,
+  "usa::Brookside Swim Club pool, Davidson County, NC": null,
+  "usa::Brookside Swim Club, NC": null,
+  "usa::Lexington, NC": {
+    "lat": 35.8240265,
+    "lon": -80.2533838,
+    "display_name": "Lexington, Davidson County, North Carolina, 27792, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.5233476314555972
+  },
+  "usa::Inflatable pool, NY": null,
+  "usa::Inflatable pool, Onondaga County, NY": null,
+  "usa::Private residence, NY": {
+    "lat": 41.0551391,
+    "lon": -73.8613044,
+    "display_name": "Private Residence, Lyndhurst Museum Lane, Village of Tarrytown, Town of Greenburgh, Westchester County, New York, 10533, United States",
+    "class": "building",
+    "type": "religious",
+    "importance": 5.590676737616567e-05
+  },
+  "usa::Private residence (babysitting location), GA": null,
+  "usa::Ellijay, GA": {
+    "lat": 34.6950278,
+    "lon": -84.4827394,
+    "display_name": "Ellijay, Gilmer County, Georgia, 30540, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.4545084971433622
+  },
+  "usa::Hotel swimming pool, TX": null,
+  "usa::Hotel swimming pool, Harris County, TX": {
+    "lat": 29.7612326,
+    "lon": -95.4598077,
+    "display_name": "Hotel Omni Hotel, Riverway, Uptown, Houston, Harris County, Texas, 77056, United States",
+    "class": "leisure",
+    "type": "swimming_pool",
+    "importance": 7.782024872201141e-05
+  },
+  "usa::Public swimming pool, PA": {
+    "lat": 40.5223608,
+    "lon": -79.9661007,
+    "display_name": "Kiwanis Park Public Swimming Pool, Meyer Road, Shaler Township, Allegheny County, Pennsylvania, 15116, United States",
+    "class": "leisure",
+    "type": "swimming_pool",
+    "importance": 5.539406424043667e-05
+  },
+  "usa::Private swimming pool, FL": {
+    "lat": 28.346051,
+    "lon": -81.606418,
+    "display_name": "Private Domain, West Irlo Bronson Memorial Highway, Four Corners, Osceola County, Florida, 34747, United States",
+    "class": "leisure",
+    "type": "swimming_pool",
+    "importance": 5.319066147855371e-05
+  },
+  "usa::Palms West Condominiums pool, FL": null,
+  "usa::Hialeah, FL": {
+    "lat": 25.8267775,
+    "lon": -80.2814009,
+    "display_name": "Hialeah, Miami-Dade County, Florida, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.5619563510987614
+  },
+  "usa::Apartment complex swimming pool, FL": null,
+  "usa::Apartment complex pool, FL": null,
+  "usa::Lake Powell, UT": {
+    "lat": 37.3768572,
+    "lon": -110.726121,
+    "display_name": "Lake Powell, San Juan County, Utah, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.4354455497033165
+  },
+  "usa::Lake Conroe, TX": {
+    "lat": 30.4625423,
+    "lon": -95.588042,
+    "display_name": "Lake Conroe, Conroe, Montgomery County, Texas, 77356, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.36760675791195535
+  },
+  "usa::Puyallup River, WA": {
+    "lat": 47.0616409,
+    "lon": -122.1924502,
+    "display_name": "Puyallup River, Pierce County, Washington, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.37906694980277367
+  },
+  "usa::Lake Bruin, LA": {
+    "lat": 31.9879351,
+    "lon": -91.256224,
+    "display_name": "Lake Bruin, Tensas Parish, Louisiana, United States",
+    "class": "place",
+    "type": "village",
+    "importance": 0.14670416800183103
+  },
+  "usa::Smith Lake, AL": {
+    "lat": 31.3144722,
+    "lon": -87.748819,
+    "display_name": "Smith Lake, Monroe County, Alabama, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.10667666666666664
+  },
+  "usa::Lake Tuscaloosa, AL": {
+    "lat": 33.3395451,
+    "lon": -87.5618241,
+    "display_name": "Lake Tuscaloosa, Tuscaloosa, Tuscaloosa County, Alabama, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.19320077280132728
+  },
+  "usa::Piscataqua River, ME": {
+    "lat": 43.0946426,
+    "lon": -70.7714136,
+    "display_name": "Piscataqua River, Portsmouth, Rockingham County, New Hampshire, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.43891496418847026
+  },
+  "usa::Private swimming pool, CA": {
+    "lat": 32.7820843,
+    "lon": -117.052462,
+    "display_name": "private, Yokohama Court, Del Cerro, San Diego, San Diego County, California, 92182, United States",
+    "class": "leisure",
+    "type": "swimming_pool",
+    "importance": 7.728007934686836e-05
+  },
+  "usa::Motel swimming pool, NJ": null,
+  "usa::Motel swimming pool, Cape May County, NJ": null,
+  "usa::Aztec Motel, NJ": {
+    "lat": 39.9434289,
+    "lon": -74.0706129,
+    "display_name": "Aztec Ocean Resort Motel, Seaside Heights Boardwalk, Seaside Heights, Ocean County, New Jersey, 08751, United States",
+    "class": "tourism",
+    "type": "hotel",
+    "importance": 4.833981841759392e-05
+  },
+  "usa::Private backyard swimming pool, AZ": null,
+  "usa::Private backyard swimming pool, Maricopa County, AZ": null,
+  "usa::Private residence, AZ": {
+    "lat": 33.4927952,
+    "lon": -111.9162386,
+    "display_name": "OLPH Private Residence, East Main Street, Scottsdale, Maricopa County, Arizona, 85251, United States",
+    "class": "building",
+    "type": "house",
+    "importance": 6.446707866021237e-05
+  },
+  "usa::Backyard pool, PA": {
+    "lat": 39.999907,
+    "lon": -75.3953287,
+    "display_name": "Backyard swimming pool, Earles Lane, Newtown Township, Delaware County, Pennsylvania, 19008, United States",
+    "class": "leisure",
+    "type": "swimming_pool",
+    "importance": 5.1351949340001796e-05
+  },
+  "usa::Chickamauga Lake, TN": {
+    "lat": 35.1115208,
+    "lon": -85.2140152,
+    "display_name": "The Shoals at Chickamauga Lake, 5873, Lake Resort Terrace, Northshore Estates, Chattanooga, Hamilton County, East Tennessee, Tennessee, 37415, United States",
+    "class": "landuse",
+    "type": "residential",
+    "importance": 6.517051956965008e-05
+  },
+  "usa::Private swimming pool, AZ": {
+    "lat": 33.3482214,
+    "lon": -111.7291148,
+    "display_name": "Private Pool, East Sierra Madre Avenue, Morrison Ranch, Gilbert, Maricopa County, Arizona, 85234, United States",
+    "class": "leisure",
+    "type": "swimming_pool",
+    "importance": 5.887464713507313e-05
+  },
+  "usa::Heritage Point community pool, NC": null,
+  "usa::Heritage Point community pool, Wake County, NC": null,
+  "usa::Raleigh, NC": {
+    "lat": 35.7803977,
+    "lon": -78.6390989,
+    "display_name": "Raleigh, Wake County, North Carolina, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.6471211161861082
+  },
+  "usa::Flooded basement, IN": null,
+  "usa::Flooded basement, St. Joseph County, IN": null,
+  "usa::Private residence, IN": {
+    "lat": 40.4794241,
+    "lon": -86.5102765,
+    "display_name": "Private Residence, Adams Mill, Carroll County, Indiana, United States",
+    "class": "landuse",
+    "type": "residential",
+    "importance": 0.10670220263981077
+  },
+  "usa::Construction site, IL": {
+    "lat": 41.9488844,
+    "lon": -88.1140039,
+    "display_name": "Former Stratford Square Mall Site, Bloomingdale, Bloomingdale Township, DuPage County, Illinois, United States",
+    "class": "landuse",
+    "type": "construction",
+    "importance": 0.3015950553092256
+  },
+  "usa::River, MI": {
+    "lat": 17.7402503,
+    "lon": -64.8146967,
+    "display_name": "River, Saint Croix District, United States Virgin Islands, 00805, United States",
+    "class": "place",
+    "type": "hamlet",
+    "importance": 0.13337083466849772
+  },
+  "usa::Shrewsbury River, NJ": {
+    "lat": 40.3607987,
+    "lon": -73.9770235,
+    "display_name": "Shrewsbury River, Sea Bright, Monmouth County, New Jersey, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.14671096284428164
+  },
+  "usa::Oakland Lake Park, TX": {
+    "lat": 32.7540678,
+    "lon": -97.2583703,
+    "display_name": "Oakland Lake Park, Fort Worth, Tarrant County, Texas, United States",
+    "class": "leisure",
+    "type": "park",
+    "importance": 0.08007138246738381
+  },
+  "usa::Private residence \u2014 basement with sump pump, NY": null,
+  "usa::Rochester, NY": {
+    "lat": 43.157285,
+    "lon": -77.615214,
+    "display_name": "City of Rochester, Monroe County, New York, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.650125105341446
+  },
+  "canada::De la Gappe Boulevard, QC": {
+    "lat": 45.482718,
+    "lon": -75.685641,
+    "display_name": "De La Gappe/De Rouville, Boulevard de la Gappe, Gatineau, Outaouais, Qu\u00e9bec, J8T 7T7, Canada",
+    "class": "highway",
+    "type": "bus_stop",
+    "importance": 6.203936827644797e-05
+  },
+  "usa::Private swimming pool, AL": {
+    "lat": 34.7914385,
+    "lon": -86.7759127,
+    "display_name": "Magnolia Springs Pool (Private), Bob G Hughes Boulevard, French Hill, Madison County, Alabama, 35749, United States",
+    "class": "leisure",
+    "type": "swimming_pool",
+    "importance": 3.7936217288426304e-05
+  },
+  "usa::Flooded field/puddle, TX": null,
+  "usa::Flooded field/puddle, Webb County, TX": null,
+  "usa::Laredo, TX": {
+    "lat": 27.5079211,
+    "lon": -99.5069834,
+    "display_name": "Laredo, Webb County, Texas, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.6040101359700912
+  },
+  "usa::Lake Pontchartrain, LA": {
+    "lat": 30.2050633,
+    "lon": -90.0967594,
+    "display_name": "Lake Pontchartrain, St. Tammany Parish, Louisiana, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.4579161298251718
+  },
+  "usa::Toms River lagoon, NJ": null,
+  "usa::Toms River lagoon, Ocean County, NJ": null,
+  "usa::Private residence, NJ": null,
+  "usa::Toms River, NJ": {
+    "lat": 39.9528389,
+    "lon": -74.196741,
+    "display_name": "Toms River, Ocean County, New Jersey, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.5000084842872387
+  },
+  "usa::Atlantic Ocean, MA": {
+    "lat": 26.074872,
+    "lon": -97.1610327,
+    "display_name": "Atlantic Ocean, Cameron County, Texas, 78597, United States",
+    "class": "highway",
+    "type": "service",
+    "importance": 0.040026000610360865
+  },
+  "usa::Lake Keowee, SC": {
+    "lat": 34.8306466,
+    "lon": -82.9013777,
+    "display_name": "Lake Keowee, Seneca, Oconee County, South Carolina, 29672, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.262968554380978
+  },
+  "usa::Canyon Lake, CA": {
+    "lat": 33.6836539,
+    "lon": -117.262615,
+    "display_name": "Canyon Lake, Riverside County, California, 92587, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.4884028158285721
+  },
+  "usa::Bathtub, NM": {
+    "lat": 35.8838571,
+    "lon": -106.3018261,
+    "display_name": "Bathtub Row, Los Alamos, Los Alamos County, New Mexico, United States",
+    "class": "landuse",
+    "type": "residential",
+    "importance": 0.08005771648737313
+  },
+  "canada::Creek on private property, BC": null,
+  "canada::Private property, BC": {
+    "lat": 49.2660162,
+    "lon": -124.335801,
+    "display_name": "Private property, 1864, Steelhead Place, Area F (Alberni Highway), Regional District of Nanaimo, British Columbia, V0R 1V0, Canada",
+    "class": "tourism",
+    "type": "guest_house",
+    "importance": 4.5001144426596745e-05
+  },
+  "usa::Columbia River, WA": {
+    "lat": 45.5901679,
+    "lon": -122.503438,
+    "display_name": "Columbia River, Vancouver, Clark County, Washington, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.1467293148699168
+  },
+  "usa::Greens Bayou, TX": {
+    "lat": 29.9193075,
+    "lon": -95.3264464,
+    "display_name": "Greens Bayou, Harris County, Texas, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.16005459601739527
+  },
+  "usa::Hurricane Harvey floodwater, TX": null,
+  "usa::Hurricane Harvey floodwater, Harris County, TX": null,
+  "usa::Bear Creek subdivision, TX": null,
+  "usa::Houston, TX": {
+    "lat": 29.7589382,
+    "lon": -95.3676974,
+    "display_name": "Houston, Harris County, Texas, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.7370168476604813
+  },
+  "usa::Lake Taneycomo, MO": {
+    "lat": 36.6376567,
+    "lon": -93.2345944,
+    "display_name": "Lake Taneycomo, Branson, Taney County, Missouri, 65616, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.14670517204547184
+  },
+  "usa::Smith Mountain Lake, VA": {
+    "lat": 37.1163882,
+    "lon": -79.6508316,
+    "display_name": "Smith Mountain Lake, North Shore, Franklin County, Virginia, 24101, United States",
+    "class": "natural",
+    "type": "water",
+    "importance": 0.2681408123538118
+  },
+  "usa::MGM National Harbor decorative fountain, MD": null,
+  "usa::MGM National Harbor decorative fountain, Prince George's County, MD": null,
+  "usa::MGM National Harbor casino/resort, MD": null,
+  "usa::Oxon Hill, MD": {
+    "lat": 38.803384,
+    "lon": -76.9896507,
+    "display_name": "Oxon Hill, Prince George's County, Maryland, 20745, United States",
+    "class": "place",
+    "type": "town",
+    "importance": 0.45789496865680734
+  },
+  "usa::Colucci family private pool, OH": null,
+  "usa::Canfield, OH": {
+    "lat": 41.025059,
+    "lon": -80.760912,
+    "display_name": "Canfield, Mahoning County, Ohio, 44406, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.41559492809772774
+  },
+  "usa::Bricktown Canal, OK": {
+    "lat": 35.4635279,
+    "lon": -97.5080282,
+    "display_name": "Bricktown Canal, Oklahoma City, Oklahoma County, Oklahoma, 73104, United States",
+    "class": "waterway",
+    "type": "canal",
+    "importance": 0.13340630121309222
+  },
+  "usa::Lake Winnipesaukee, NH": {
+    "lat": 43.6030663,
+    "lon": -71.3239694,
+    "display_name": "Lake Winnipesaukee, Alton, Belknap County, New Hampshire, United States",
+    "class": "water",
+    "type": "lake",
+    "importance": 0.4175037806385018
+  },
+  "usa::Weyland Canal, CA": null,
+  "usa::Weyland Canal, Solano County, CA": null,
+  "usa::Metal pedestrian bridge over Weyland Canal, CA": null,
+  "usa::Dixon, CA": {
+    "lat": 38.4454641,
+    "lon": -121.8232958,
+    "display_name": "Dixon, Solano County, California, 95620, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.47753445994091576
+  },
+  "usa::Universal Studios Volcano Bay water park, FL": null,
+  "usa::Orlando, FL": {
+    "lat": 28.5421218,
+    "lon": -81.379045,
+    "display_name": "Orlando, Orange County, Florida, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.6902779112906777
+  },
+  "usa::Apartment complex swimming pool, El Paso County, TX": null,
+  "usa::Hallmark Apartments, TX": null,
+  "usa::El Paso, TX": {
+    "lat": 31.7601001,
+    "lon": -106.4870476,
+    "display_name": "El Paso, El Paso County, Texas, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.6548295810741123
+  },
+  "usa::Tropical Storm Imelda floodwater, TX": null,
+  "usa::Tropical Storm Imelda floodwater, Jefferson County, TX": null,
+  "usa::Fannett, TX": {
+    "lat": 29.9260395,
+    "lon": -94.2504458,
+    "display_name": "Fannett, Jefferson County, Texas, United States",
+    "class": "place",
+    "type": "village",
+    "importance": 0.14670416800183103
+  },
+  "usa::Lake Pleasant, AZ": {
+    "lat": 33.9041538,
+    "lon": -112.2898708,
+    "display_name": "Lake Pleasant, Peoria, Yavapai County, Arizona, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.2647815871063118
+  },
+  "usa::Flooded laundry room, FL": null,
+  "usa::Flooded laundry room, Manatee County, FL": null,
+  "usa::211 Bay Drive N., FL": {
+    "lat": 27.466762,
+    "lon": -82.6966072,
+    "display_name": "211, Bay Drive North, Pines Trailer Park, Bradenton Beach, Manatee County, Florida, 34217, United States",
+    "class": "place",
+    "type": "house",
+    "importance": 9.99999999995449e-06
+  },
+  "usa::Clyde Lake, TX": {
+    "lat": 32.3173623,
+    "lon": -99.4760329,
+    "display_name": "Clyde Lake Park, Callahan County, Texas, United States",
+    "class": "leisure",
+    "type": "park",
+    "importance": 0.08000999999999997
+  },
+  "usa::Flooded street/puddle, TX": null,
+  "usa::Flooded street/puddle, Hidalgo County, TX": null,
+  "usa::3700 block of North Palm Leaf Circle, TX": null,
+  "usa::Mission, TX": {
+    "lat": 26.2159066,
+    "lon": -98.3252932,
+    "display_name": "Mission, Hidalgo County, Texas, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.5606406078401986
+  },
+  "usa::Monongahela River, PA": {
+    "lat": 39.952475,
+    "lon": -79.9556098,
+    "display_name": "Monongahela River, Pennsylvania, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.4843095432844774
+  },
+  "usa::Downtown Palm Beach Gardens splash pad, FL": null,
+  "usa::Downtown Palm Beach Gardens splash pad, Palm Beach County, FL": null,
+  "usa::Palm Beach Gardens, FL": {
+    "lat": 26.8233946,
+    "lon": -80.1386547,
+    "display_name": "Palm Beach Gardens, Palm Beach County, Florida, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.5089589500023656
+  },
+  "usa::Ohio River, KY": {
+    "lat": 38.6877861,
+    "lon": -83.5852708,
+    "display_name": "Ohio River Islands National Wildlife Refuge, Shippingport, Wellsburg District, Lewis County, Kentucky, United States",
+    "class": "leisure",
+    "type": "nature_reserve",
+    "importance": 0.41980577698315585
+  },
+  "usa::Flooded apartment basement, MI": null,
+  "usa::Flooded apartment basement, Wayne County, MI": null,
+  "usa::Russell Woods Apartments, MI": {
+    "lat": 42.3843112,
+    "lon": -83.1090359,
+    "display_name": "Russell Woods Apartments, 2255, Detroit, Wayne County, Michigan, 48206, United States",
+    "class": "landuse",
+    "type": "residential",
+    "importance": 0.10674434958419163
+  },
+  "usa::Long Island Sound, NY": {
+    "lat": 41.0508886,
+    "lon": -72.9479898,
+    "display_name": "Long Island Sound, New York, 06390, United States",
+    "class": "natural",
+    "type": "bay",
+    "importance": 0.5276404532929507
+  },
+  "usa::Lake Hartwell, SC": {
+    "lat": 34.5491573,
+    "lon": -83.1134681,
+    "display_name": "Lake Hartwell, Anderson, Stephens County, Georgia, 30643, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.37526729549138227
+  },
+  "usa::Harbourside Place fountain, FL": null,
+  "usa::Harbourside Place fountain, Palm Beach County, FL": null,
+  "usa::Harbourside Place outdoor shopping center fountain, FL": null,
+  "usa::Jupiter, FL": {
+    "lat": 26.9342246,
+    "lon": -80.0942087,
+    "display_name": "Jupiter, Palm Beach County, Florida, 33458, United States",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.517149454335151
+  },
+  "usa::Outside whirlpool/spa area, MN": null,
+  "usa::Outside whirlpool/spa area, St. Louis County, MN": null,
+  "usa::Edgewater Resort & Waterpark, MN": {
+    "lat": 46.8064825,
+    "lon": -92.0636877,
+    "display_name": "Edgewater Resort & Waterpark, I 35, Endion, East Duluth, Duluth, Saint Louis County, Minnesota, 55812, United States",
+    "class": "tourism",
+    "type": "motel",
+    "importance": 6.516746776527073e-05
+  },
+  "usa::Backyard swimming pool, IN": null,
+  "usa::Backyard swimming pool, Cass County, IN": null,
+  "usa::Wave pool, GA": {
+    "lat": 33.9583989,
+    "lon": -84.5197364,
+    "display_name": "Atlanta Ocean Wave Pool, Northwest Corridor Express Lanes, Marietta, Cobb County, Georgia, 30061, United States",
+    "class": "leisure",
+    "type": "swimming_pool",
+    "importance": 6.309224078732001e-05
+  },
+  "usa::Blue Ridge Lake, GA": {
+    "lat": 34.8413609,
+    "lon": -84.2681038,
+    "display_name": "Lake Blue Ridge, Morganton, Fannin County, Georgia, United States",
+    "class": "water",
+    "type": "reservoir",
+    "importance": 0.19934751714046123
+  },
+  "usa::Burns Waterway, IN": {
+    "lat": 41.6194572,
+    "lon": -87.1762804,
+    "display_name": "Burns Waterway, Portage, Porter County, Indiana, United States",
+    "class": "waterway",
+    "type": "river",
+    "importance": 0.1467170954451819
+  }
+}

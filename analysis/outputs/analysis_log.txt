@@ -1,0 +1,336 @@
+
+
+===== DATASET OVERVIEW =====
+Incident records: 201
+Victim records:   364
+Year range (non-missing): 1981 to 2025
+Incidents with no year:   2
+
+
+===== VERIFICATION LEVEL BREAKDOWN =====
+# A tibble: 5 × 2
+  verification_level     n
+  <chr>              <int>
+1 VERIFIED              80
+2 UNVERIFIED            63
+3 CONFIRMED             46
+4 SUSPECTED             10
+5 PROBABLE               2
+
+
+===== INCIDENT TYPE BREAKDOWN =====
+# A tibble: 3 × 2
+  incident_type     n
+  <chr>         <int>
+1 fatal           136
+2 near-miss        59
+3 non-fatal         6
+
+
+===== ELECTRICAL SOURCE BREAKDOWN =====
+# A tibble: 11 × 2
+   electrical_source     n
+   <chr>             <int>
+ 1 dock_wiring          65
+ 2 other                32
+ 3 shore_power          31
+ 4 pool_pump            18
+ 5 boat_lift            13
+ 6 overhead_line        11
+ 7 unknown              11
+ 8 extension_cord        7
+ 9 charger               6
+10 fountain              4
+11 pool_equipment        3
+
+
+===== WATER TYPE BREAKDOWN =====
+# A tibble: 6 × 2
+  water_type     n
+  <chr>      <int>
+1 fresh        156
+2 pool          26
+3 salt          12
+4 fountain       4
+5 brackish       2
+6 <NA>           1
+
+
+===== TOP 15 STATES BY INCIDENT COUNT =====
+# A tibble: 15 × 2
+   state     n
+   <chr> <int>
+ 1 TX       21
+ 2 MO       16
+ 3 FL       12
+ 4 GA       10
+ 5 KY       10
+ 6 CA        9
+ 7 NY        9
+ 8 OK        9
+ 9 AL        8
+10 MI        8
+11 NC        7
+12 TN        7
+13 AZ        6
+14 SC        6
+15 MN        5
+
+
+===== FATALITY AND INJURY TOTALS =====
+Total fatalities: 164
+Total injuries:   161
+Total near misses:131
+
+
+===== YEARLY COUNTS =====
+   year incidents fatalities injuries near_misses
+1  1981         1          0        0           1
+2  1982         2          1        0           4
+3  1983         0          0        0           0
+4  1984         0          0        0           0
+5  1985         0          0        0           0
+6  1986         4          5        0           0
+7  1987         1          1        0           2
+8  1988         2          2        2           0
+9  1989         2          2        0           0
+10 1990         0          0        0           0
+11 1991         2          2        1           0
+12 1992         0          0        0           0
+13 1993         4          5        2           0
+14 1994         2          2        0           0
+15 1995         2          1        0           7
+16 1996         0          0        0           0
+17 1997         2          2        0           0
+18 1998         3          3        1           2
+19 1999         5          5        3           0
+20 2000         4          4        1           2
+21 2001         4          5        2           0
+22 2002         5          3        2           4
+23 2003         3          2        0           1
+24 2004         9          6        2           7
+25 2005         3          1        2           1
+26 2006         9          7       11           5
+27 2007         5          1        2           3
+28 2008         2          2        2           0
+29 2009         0          0        0           0
+30 2010        12          5        8          10
+31 2011         7          5       12           4
+32 2012        13         14       15           9
+33 2013        11          7        4          16
+34 2014         9          5       12           7
+35 2015         4          2        3           0
+36 2016        11         11       24           3
+37 2017        21         26        9          12
+38 2018         8          1        7           9
+39 2019         5          5        8          14
+40 2020         4          4        2           1
+41 2021         3          3        1           2
+42 2022         3          2        1           0
+43 2023         6          6        9           0
+44 2024         3          1        9           0
+45 2025         3          2        4           5
+
+
+===== POISSON GLM: incidents ~ year =====
+
+Call:
+glm(formula = incidents ~ year, family = poisson(), data = yearly)
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -78.748902  11.850243  -6.645 3.03e-11 ***
+year          0.039992   0.005897   6.781 1.19e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for poisson family taken to be 1)
+
+    Null deviance: 167.93  on 44  degrees of freedom
+Residual deviance: 118.25  on 43  degrees of freedom
+AIC: 247.33
+
+Number of Fisher Scoring iterations: 5
+
+
+IRR (incidence-rate ratio) per additional year: 1.0408
+IRR 95% CI: [1.0288, 1.0529]
+Residual deviance / df: 2.75 (>>1 indicates overdispersion)
+
+
+===== NEGATIVE BINOMIAL GLM: incidents ~ year =====
+
+Call:
+MASS::glm.nb(formula = incidents ~ year, data = yearly, init.theta = 2.859498477, 
+    link = log)
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -96.569172  18.915156  -5.105 3.30e-07 ***
+year          0.048873   0.009427   5.184 2.17e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(2.8595) family taken to be 1)
+
+    Null deviance: 73.494  on 44  degrees of freedom
+Residual deviance: 49.486  on 43  degrees of freedom
+AIC: 217.6
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  2.86 
+          Std. Err.:  1.03 
+
+ 2 x log-likelihood:  -211.602 
+
+IRR per year (NB): 1.0501
+IRR 95% CI (NB): [1.0309, 1.0697]
+Theta (dispersion): 2.859
+
+
+===== PRE vs POST 2011 TREND =====
+# A tibble: 2 × 5
+  era      years incidents mean_per_yr    sd
+  <chr>    <int>     <int>       <dbl> <dbl>
+1 2011+       15       111         111    NA
+2 pre-2011    30        88          88    NA
+
+Poisson model with era + centered year:
+
+Call:
+glm(formula = incidents ~ era + I(year - 2011), family = poisson(), 
+    data = yearly)
+
+Coefficients:
+               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     1.77143    0.12608  14.050  < 2e-16 ***
+erapre-2011    -0.24341    0.26821  -0.908  0.36414    
+I(year - 2011)  0.03154    0.01094   2.883  0.00394 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for poisson family taken to be 1)
+
+    Null deviance: 167.93  on 44  degrees of freedom
+Residual deviance: 117.42  on 42  degrees of freedom
+AIC: 248.5
+
+Number of Fisher Scoring iterations: 5
+
+
+Interaction model (slope change at 2011):
+
+Call:
+glm(formula = incidents ~ era * I(year - 2011), family = poisson(), 
+    data = yearly)
+
+Coefficients:
+                           Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                 2.52565    0.15690  16.097  < 2e-16 ***
+erapre-2011                -0.52341    0.23825  -2.197 0.028024 *  
+I(year - 2011)             -0.08421    0.02285  -3.686 0.000228 ***
+erapre-2011:I(year - 2011)  0.15595    0.02665   5.851 4.89e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for poisson family taken to be 1)
+
+    Null deviance: 167.927  on 44  degrees of freedom
+Residual deviance:  81.329  on 41  degrees of freedom
+AIC: 214.41
+
+Number of Fisher Scoring iterations: 5
+
+
+Likelihood-ratio test vs no-interaction:
+Analysis of Deviance Table
+
+Model 1: incidents ~ era + I(year - 2011)
+Model 2: incidents ~ era * I(year - 2011)
+  Resid. Df Resid. Dev Df Deviance  Pr(>Chi)    
+1        42    117.417                          
+2        41     81.329  1   36.089 1.885e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+===== ADJUSTED ANNUAL INCIDENCE ESTIMATE =====
+Raw annual mean: 5.24
+Weighted annual mean (point estimate of true ESD events among listed): 4.23
+
+
+===== RECENT DECADE (2015–2024) SUMMARY =====
+Mean raw listed incidents/yr:        6.8
+Mean weighted-listed incidents/yr:   6.26
+  Undercoverage x1.1 -> ~6.9 events/yr
+  Undercoverage x1.5 -> ~9.4 events/yr
+  Undercoverage x2.5 -> ~15.6 events/yr
+
+
+===== VICTIM DEMOGRAPHICS =====
+Victims with age recorded: 179
+Mean age:   24.2
+Median age: 18
+IQR: [13, 31.5]
+
+
+===== AGE BANDS =====
+# A tibble: 9 × 2
+  age_band     n
+  <fct>    <int>
+1 0-9         19
+2 10-14       36
+3 15-17       29
+4 18-24       35
+5 25-34       20
+6 35-49       20
+7 50-64       17
+8 65+          3
+9 <NA>       185
+
+
+===== GENDER × OUTCOME =====
+# A tibble: 10 × 3
+   gender outcome       n
+   <chr>  <chr>     <int>
+ 1 F      fatal        39
+ 2 F      injured      46
+ 3 F      near-miss    21
+ 4 M      fatal       114
+ 5 M      injured      47
+ 6 M      near-miss    33
+ 7 <NA>   fatal        11
+ 8 <NA>   injured      23
+ 9 <NA>   near-miss    29
+10 <NA>   non-fatal     1
+
+
+===== LOGISTIC: P(fatal outcome) ~ age + gender =====
+
+Call:
+glm(formula = fatal ~ age + gender, family = binomial(), data = v_mod)
+
+Coefficients:
+            Estimate Std. Error z value Pr(>|z|)   
+(Intercept) -0.27564    0.41902  -0.658  0.51065   
+age          0.03705    0.01579   2.346  0.01898 * 
+genderM      1.00837    0.38906   2.592  0.00955 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 180.46  on 164  degrees of freedom
+Residual deviance: 165.06  on 162  degrees of freedom
+AIC: 171.06
+
+Number of Fisher Scoring iterations: 4
+
+
+OR for age (per year): 1.038
+OR male vs female:       2.741
+
+
+All outputs written to: /opt/repos/esd-research/analysis/outputs

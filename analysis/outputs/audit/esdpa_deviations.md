@@ -1,0 +1,2017 @@
+# ESDPA → Our Dataset: Deviation Report
+
+_Every ESDPA-listed incident where our independently-verified data differs from what ESDPA published. Total: **126** entries._
+
+This report is the primary evidence that we did not simply copy the ESDPA list. For each entry below:
+
+- **ESDPA#** — the entry number(s) in the ESDPA compilation
+- **ESDPA date** — the date ESDPA published
+- **Our date** — the date we assigned after independent verification
+- **Deviations logged** — every specific issue we documented
+- **Primary sources** — non-ESDPA sources we used
+
+---
+
+## AL  (6 entries)
+
+### `ESD-2006-05-21-1.md` — Jeremy Whiteside (24M) + Mitch Bowles (M) + Thomas Ayer (M)
+
+- **Our date:** 2006-05-21
+- **ESDPA date listed:** 2006-03-18
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2006-006 (project file)
+- **Location:** Weiss Lake | Private dock/pier
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date listed as March 18, 2006; correct date is May 21, 2006 per newspaper and obituary
+  - ESDPA mentions 'electric windmill on dock'; not confirmed by independent sources
+- **Primary sources (up to 3):**
+  - https://www.northwestgeorgianews.com/man-dies-after-electrocution-in-ala-lak-local-new/article_ec316668-a908-5326-9f47-e4febddf9799.html
+  - https://www.northwestgeorgianews.com/rome-man-dies-of-electrocution-after-boating-at-weiss-lak-breaking-new/article_b679d10b-e900-5c62-98e1-791d3399814e.html
+  - https://www.parnickjenningsfuneral.com/memorials/Whiteside-Jeremy/1279065/obituary.php
+- **Summary:** Jeremy David Whiteside, 24, of Rome, Georgia, was killed on Weiss Lake in Cherokee County, Alabama. He and friends had been wake boarding/skiing on the lake and were returning to shore around 8 p.m. on Sunday, May 21, 2006. Friend Mitch Bowles (of Rome) was swimming to the pier and felt a shock while reaching for the ladder. Thomas Ayer (of Rome) and Whiteside plunged in to rescue Bowles but were 
+
+### `ESD-2010-06-00-1.md` — Lewis Smith Lake
+
+- **Our date:** 2010-06
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** FI-2010-003 (project file)
+- **Location:** Lewis Smith Lake | Private dock
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Only month-level date precision (June 2010)
+  - Location listed as Birmingham AL but Smith Lake spans Cullman, Walker, Winston, and Blount counties, none of which are in Birmingham
+- **Summary:** A 16-year-old boy fell back into the water while climbing a dock ladder at Lewis Smith Lake, Alabama, in June 2010. Electrocution was suspected as the cause of death. No further details are available.
+
+### `ESD-2015-08-08-1.md` — Eric Hughes (37M)
+
+- **Our date:** 2015-08-08
+- **ESDPA date listed:** 2015-06-21
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2015-002 (project file)
+- **Location:** Lake Tuscaloosa | Private dock, Laurel Drive
+- **Verification:** CONFIRMED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as June 21, 2015; correct date is August 8, 2015
+- **Primary sources (up to 3):**
+  - https://www.cbs42.com/news/local/community-mourns-death-of-37-year-old-tuscaloosa-orthodontist/
+  - https://www.dignitymemorial.com/obituaries/homewood-al/eric-hughes-6550611
+- **Summary:** Dr. Eric Jonathan Hughes, 37, a Tuscaloosa orthodontist, was found in approximately 4 feet of water near his pontoon boat in Lake Tuscaloosa after going swimming to cool off from cutting grass. Investigators determined electric shock contributed to drowning. Lake Tuscaloosa had multiple ESD incidents, including two more deaths in 2017.
+
+### `ESD-2016-04-16-1.md` — Carmen Johnson (15F) + Reagan Gargis (F) + Jimmy Johnson (M) + Zach Johnson (M)
+
+- **Our date:** 2016-04-16
+- **ESDPA date listed:** 2016-03-27
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2016-007 (project file)
+- **Location:** Smith Lake | Johnson family lakehouse dock
+- **Verification:** VERIFIED (independent sources: 6)
+- **Deviations logged:**
+  - ESDPA ESD section date listed as March 27; correct is April 16, 2016
+  - Location spelled 'Princeville' in ESDPA; correct is 'Priceville'
+- **Primary sources (up to 3):**
+  - https://cullmantimes.com/2016/04/17/electrocution-investigated-in-teens-drowning-at-smith-lake/
+  - https://www.cbsnews.com/news/parents-warn-about-electric-shock-drowning-after-15-year-old-girls-tragic-death/
+- **Summary:** Carmen Elizabeth Johnson, 15, a Priceville High School cheerleader, was electrocuted at her family's lakehouse dock on Smith Lake. She and friend Reagan Gargis jumped off the top deck into electrically charged water. Her father Jimmy and brother Zach also jumped in and felt 'piercing electric shocks.' Jimmy yelled to his wife to cut power. Carmen died April 17. The Johnson family became ESD awaren
+
+### `ESD-2017-04-14-1.md` — Shelly Darling (34F) + Elizabeth Whipple (41F)
+
+- **Our date:** 2017-04-14
+- **ESDPA date listed:** 2017-03-29
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-012 (project file)
+- **Location:** Lake Tuscaloosa | Darling family lakehouse dock
+- **Verification:** VERIFIED (independent sources: 10)
+- **Deviations logged:**
+  - ESDPA date listed as March 29; correct is April 14, 2017
+- **Primary sources (up to 3):**
+  - https://whnt.com/2017/04/16/two-women-found-dead-in-lake-tuscaloosa/
+  - https://www.legacy.com/us/obituaries/tuscaloosa/name/shelly-darling-obituary?pid=185116583
+- **Summary:** Two University of Alabama School of Law attorneys, Shelly Darling (34, Elder Law Clinic) and Elizabeth Whipple (41, Domestic Violence Clinic), died after going to sunbathe at a lakehouse dock on Lake Tuscaloosa. They went missing Friday evening; bodies recovered Saturday ~4:30 AM. A deputy was jolted by electricity on the dock during recovery. Autopsies confirmed electrocution. Lake Tuscaloosa had
+
+### `ESD-2017-05-19-1.md` — Carl McGrady (65M) + Lucas McGrady (35M) + Pamela McGrady (F)
+
+- **Our date:** 2017-05-19
+- **ESDPA date listed:** 2017-04-14
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-011 (project file)
+- **Location:** Private swimming pool | Private residence, Augusta Street
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA ESD section date April 14; correct is May 19, 2017
+- **Primary sources (up to 3):**
+  - https://whnt.com/news/shoals/emergency-crews-respond-to-florence-home-2-shocked-in-residential-pool/
+  - https://www.timesdaily.com/obituaries/lucas-mcgrady/article_d9de7250-8fc2-5254-b937-d1f77a1e6870.html
+- **Summary:** Carl McGrady, 65, was electrocuted entering his pool to clean it on May 19. His son Lucas, 35, jumped in to rescue him and was also electrocuted. Pam McGrady was shocked helping pull Carl out but survived. Carl died that evening; Lucas died June 2 after 14 days on life support at UAB Medical Center. Lucas was a father of three, engaged, and owned M&M Lawncare.
+
+## AR  (4 entries)
+
+### `ESD-1991-07-00-1.md` — Lake Hamilton
+
+- **Our date:** 1991-07
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #108 (Rev. 8/15/2025)
+- **Location:** Lake Hamilton | None
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - Date listed as approximate (month only)
+  - Some ESDPA versions list date as May 11, 1991 — may be confused with FI-1991-001 (Oklahoma)
+- **Primary sources (up to 3):**
+  - https://katv.com/news/local/attorney-calls-for-stricter-boat-dock-and-marina-regulations-in-arkansas
+- **Summary:** One of four boys in a canoe continued into an electric field near a dock and drowned at Lake Hamilton, Hot Springs, Arkansas. The cause was broken dock wire insulation. Lake Hamilton has been the site of at least three ESD fatalities (1991, 2001, 2008). The pattern of deaths contributed to the passage of Jesse's Law in Arkansas (2011).
+
+### `ESD-2001-06-06-1.md` — Lake Hamilton
+
+- **Our date:** 2001-06-06
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #89 (Rev. 8/15/2025)
+- **Location:** Lake Hamilton | Farr Shores
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date uncertain: Rev. 8/15/2025 lists June 6, 2001; earlier (2007) ESDPA version lists September 15, 2001
+  - September 15 date may have been swapped with FI-2001-001 (Biloxi) in a later revision
+  - Second of three ESD fatalities at Lake Hamilton (see also 1991 and 2008)
+- **Summary:** At Farr Shores on Lake Hamilton, Hot Springs, Arkansas, a girl was shocked after water-sliding into the water at the stern of a boat. A man who attempted to rescue her drowned. The boat had reverse polarity, a neutral-ground fault in a light fixture, and poor bonding to the service. The boat was unplugged in time to save the girl. This was the second of three ESD fatalities at Lake Hamilton (1991,
+
+### `ESD-2006-06-25-1.md` — Jesse Fortner (14M)
+
+- **Our date:** 2006-06-25
+- **ESDPA date listed:** 2006-06-10
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2006-004 (project file)
+- **Location:** Lake Ouachita | Brady Mountain Resort
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date listed as June 10, 2006; KAIT8 news reports Saturday June 25, 2006
+  - ESDPA says Hot Springs AR; more precisely Royal, AR (Garland County)
+  - ESDPA says 'faulty shore cord connection'; KAIT8 says 'ungrounded electrical cord'
+- **Primary sources (up to 3):**
+  - https://www.kait8.com/story/5075774/teen-dies-after-being-exposed-to-electricity-current/
+  - https://katv.com/news/local/attorney-calls-for-stricter-boat-dock-and-marina-regulations-in-arkansas
+  - https://law.justia.com/codes/arkansas/2020/title-27/subtitle-7/chapter-101/subchapter-8/section-27-101-803/
+- **Summary:** Jesse Ryan Fortner, 14, of Saline County, Arkansas, died at approximately 12:30 p.m. on Saturday, June 25, 2006, at Brady Mountain Resort on Lake Ouachita in Royal, Arkansas. Fortner and a friend were swimming near a houseboat dock when both came in contact with electric current from an ungrounded electrical cord. The electricity reached a ladder leading into the water. Fortner's friend was hospit
+
+### `ESD-2008-08-23-1.md` — Sara Crotts (14F) + Tamara Keele (40F) + Devin Keele (6M)
+
+- **Our date:** 2008-08-23
+- **ESDPA date listed:** 2007-07-28
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2007-001 (project file)
+- **Location:** Lake Hamilton | Lake Hamilton Resort
+- **Verification:** CONFIRMED (independent sources: 2)
+- **Deviations logged:**
+  - ESDPA date listed as July 28, 2007; independent sources confirm August 23, 2008
+  - ESDPA lists 7-year-old boy; independent sources say 6-year-old boy (Devin Keele)
+  - Date error of over 1 year; no independent sources found for any July 2007 Lake Hamilton ESD incident
+- **Primary sources (up to 3):**
+  - https://www.kait8.com/story/8913999/teen-dies-2-injured-at-lake-hamilton/
+  - https://katv.com/news/local/attorney-calls-for-stricter-boat-dock-and-marina-regulations-in-arkansas
+- **Summary:** Sara Crotts, 14, of Sherwood, Arkansas, died from electrocution with drowning at Lake Hamilton Resort on Saturday, August 23, 2008. She was swimming with Tamara Keele, 40, and her son Devin Keele, 6, both of Sherwood, at approximately 8 p.m. The 7-year-old boy (per ESDPA, 6 per news) was being shocked and Crotts attempted to help him. 103 VAC was measured on the ladder. An unbonded metal pole weld
+
+## AZ  (2 entries)
+
+### `ESD-2016-06-27-1.md` — Private swimming pool
+
+- **Our date:** 2016-06-27
+- **ESDPA date listed:** 2016-05-28
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2016-005 (project file)
+- **Location:** Private swimming pool | Private residence, near 43rd Avenue and Thomas Road
+- **Verification:** CONFIRMED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as May 28; correct date is June 27, 2016
+- **Primary sources (up to 3):**
+  - https://www.abc15.com/news/region-phoenix-metro/central-phoenix/phoenix-fire-man-taken-to-hospital-after-being-shocked-in-pool
+- **Summary:** A 27-year-old father was electrocuted while attempting to change a pool light. His wife and three children witnessed the incident and were also shocked when trying to rescue him. His 8-year-old daughter reported he sank in the deep end. Official cause classified as drowning with electrocution as contributing factor. Victim name not released.
+
+### `ESD-2020-07-12-1.md` — Timothy Miller (53M) + Michael Miller (50M)
+
+- **Our date:** 2020-07-12
+- **ESDPA date listed:** 2019-09-19
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2019-001 (project file)
+- **Location:** Lake Pleasant | Scorpion Bay Marina
+- **Verification:** VERIFIED (independent sources: 6)
+- **Deviations logged:**
+  - ESDPA date wrong: listed Sep 19, 2019; correct is July 12, 2020 (wrong month AND wrong year)
+- **Primary sources (up to 3):**
+  - https://www.12news.com/article/news/local/valley/authorities-responding-to-incident-at-lake-pleasant/75-10bbafb9-1dda-4a76-a359-3666b10e011d
+  - https://www.abc15.com/news/region-west-valley/peoria/mcso-modification-on-victims-boat-was-cause-of-electrical-current-in-lake-pleasant-drownings
+- **Summary:** Brothers Timothy Miller (53) and Michael Miller (50) died at Scorpion Bay Marina on Lake Pleasant. Timothy jumped in around 6:30 PM and was immediately overcome. Michael jumped in to rescue him. Timothy's girlfriend also entered and suffered burn marks. Investigation found the victims' own boat had an improper electrical modification that bypassed safety features, discharging electricity around th
+
+## BC  (1 entries)
+
+### `ESD-2017-07-23-1.md` — Cameron Brooks (28M)
+
+- **Our date:** 2017-07-23
+- **ESDPA date listed:** 2017-07-24
+- **ESDPA date correct:** False
+- **ESDPA entry #:** (not recorded)
+- **Location:** Creek on private property | Private property, Spallumcheen (near Vernon/Enderby)
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date is July 24, 2017 — correct date is July 23, 2017
+  - ESDPA location is 'Kelowna, BC' — Kelowna was where victim was airlifted for treatment; incident occurred in Spallumcheen
+  - ESDPA says 'pond pump' — correct source was an irrigation pump
+- **Primary sources (up to 3):**
+  - https://www.cbc.ca/news/canada/british-columbia/b-c-man-jumps-into-creek-to-save-dogs-suffers-electric-shock-1.4221434
+  - https://www.castanet.net/news/Vernon/202575/Shocking-tale-of-survival
+  - https://www.castanet.net/news/Vernon/202695/Fundraiser-for-family
+- **Summary:** On July 23, 2017, Cameron Brooks (28) of Spallumcheen, BC attempted to rescue his two dogs from an electrified creek on his property. The dogs died immediately upon entering the water. Brooks waded in up to his thighs before the current overwhelmed him; he fell backwards and pulled himself out. He suffered leg burns and was airlifted to Kelowna General Hospital. Fire Chief Dave Cummings stated he 
+
+## CA  (7 entries)
+
+### `ESD-1998-09-00-1.md` — Deirdre McCormick (10F)
+
+- **Our date:** 1998-09
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #100 (Rev. 8/15/2025)
+- **Location:** Lake Sonoma | Lake Sonoma Marina (operated by concessionaire for US Army Corps of Engineers)
+- **Verification:** VERIFIED (independent sources: 6)
+- **Deviations logged:**
+  - Date listed as 'approximately 1998'; confirmed as September 1998 by multiple sources
+- **Primary sources (up to 3):**
+  - https://www.tahoedailytribune.com/news/death-of-10-year-old-convinces-d-a-legislator-to-push-for-new-law/
+  - http://leginfo.ca.gov/pub/99-00/bill/sen/sb_2001-2050/sb_2040_cfa_20000526_182330_sen_floor.html
+  - https://www.pressdemocrat.com/article/news/well-of-course-it-was-the-judges-pick/
+- **Summary:** Deirdre Mary McCormick, 10, of Windsor, California, was electrocuted while swimming alongside a floating dock at Lake Sonoma Marina on a Saturday in September 1998. She touched a faulty metal conduit; a frayed wire had allowed current to flow through it. She was swimming with her sister and cousin. A rescuer felt electrical current when approaching the dock. The marina was operated by a concession
+
+### `ESD-1998-09-00-2.md` — Sacramento River / Sacramento-San Joaquin River Delta
+
+- **Our date:** 1998-09
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #99 (Rev. 8/15/2025)
+- **Location:** Sacramento River / Sacramento-San Joaquin River Delta | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date listed as approximate (month only); year could be 1998 or 1999
+  - Victim ages listed as '8-10' without specifics
+  - Other boys reported feeling a tingle before the fatal incident
+- **Summary:** Two boys (ages 8-10) drowned at a marina in Rio Vista, California, on the Sacramento River Delta. Before the fatal drownings, other boys had reported feeling a tingle while in the water and got out. Forty-year-old faulty wiring running under moored boats was identified as the cause, with insulation failure leading to ground faults. The wiring age is consistent with Delta Marina Yacht Harbor (built
+
+### `ESD-2012-08-22-1.md` — Irma Zamora (40F) + Stacey Schreiber (39F)
+
+- **Our date:** 2012-08-22
+- **ESDPA date listed:** 2012-07-25
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-005 (project file)
+- **Location:** None | Magnolia Boulevard at Ben Avenue, Valley Village
+- **Verification:** VERIFIED (independent sources: 8)
+- **Deviations logged:**
+  - ESDPA date listed as July 25, 2012; correct date is August 22, 2012 per LAPD press release, ABC News, and all coverage
+- **Primary sources (up to 3):**
+  - https://abcnews.go.com/blogs/headlines/2012/08/two-good-samaritans-electrocuted-trying-to-help-in-los-angeles-accident
+  - https://www.lapdonline.org/newsroom/two-killed-and-several-injured-by-electrocution-traffic-collision-damages-fire-hydrant-and-power-lines-nr12398td/
+  - https://www.cbsnews.com/news/suv-hits-hydrant-light-pole-two-electrocuted/
+- **Summary:** Two Good Samaritan women were electrocuted at approximately 8:25 p.m. on Wednesday, August 22, 2012, in Valley Village (Los Angeles). Driver Arman Samsonian lost control of his SUV at high speed, crashed into a fire hydrant and light pole at the intersection of Magnolia Boulevard and Ben Avenue. Water from the fire hydrant contacted exposed electrical lines, creating an electrified puddle estimate
+
+### `ESD-2016-03-27-1.md` — Jim Tramel (43M) + Unknown Tramel (9F)
+
+- **Our date:** 2016-03-27
+- **ESDPA date listed:** 2015-08-08
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2015-001 (project file)
+- **Location:** Private swimming pool | Private residence, 2300 block of Yosemite Drive
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date wrong: Aug 8, 2015; correct is March 27, 2016
+  - ESDPA state wrong: listed as Florida; correct is California
+  - Daughter survived (critical condition), not confirmed dead as ESDPA suggested
+- **Primary sources (up to 3):**
+  - https://www.nbcbayarea.com/news/local/burlingame-man-electrocuted-in-swimming-pool-while-saving-daughter/74555/
+  - https://www.cbsnews.com/news/california-man-electrocuted-on-easter-saving-daughter-in-pool/
+- **Summary:** Jim Tramel, 43, VP of Sales at RevJet from Burlingame CA, died on Easter Sunday after jumping into an electrified pool in Palm Springs to save his daughter. Seven people total were shocked at the family gathering. The home was built in 1963 with outdated pool electrical systems. His daughter survived but was in critical condition.
+
+### `ESD-2017-07-07-1.md` — Canyon Lake
+
+- **Our date:** 2017-07-07
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** Canyon Lake | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Possible location ambiguity — could be Canyon Lake, California or Canyon Lake, Texas
+- **Summary:** On July 7, 2017, two kayakers felt an electrical tingle at Canyon Lake, California. Authorities were investigating. The cause was unknown at the time of reporting.
+
+### `ESD-2019-04-01-1.md` — Jacob Hourmouzus (17M) + Jacob Schneider (17M) + Kelby Holland (M)
+
+- **Our date:** 2019-04-01
+- **ESDPA date listed:** 2018-09-30
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2018-001 (project file)
+- **Location:** Weyland Canal (Solano Irrigation District) | Metal pedestrian bridge over Weyland Canal, Dixon Avenue West
+- **Verification:** VERIFIED (independent sources: 8)
+- **Deviations logged:**
+  - ESDPA date wrong by 6 months AND wrong year: listed Sep 30, 2018; correct is April 1, 2019
+- **Primary sources (up to 3):**
+  - https://www.cbsnews.com/news/jacob-hourmouzus-jacob-schneider-fatally-electrocuted-dixon-california-rescuing-dog-irrigation-canal/
+  - https://www.cbsnews.com/sacramento/news/teens-electrocuted-dixon-canal-14-million-water-agency/
+- **Summary:** Jacob Hourmouzus (17) and Jacob Schneider (17), both Dixon High School students, were electrocuted after jumping into an irrigation canal to rescue a dog. When they grabbed the metal bridge to get out, they were paralyzed by the current. Schneider's cousin Kelby Holland jumped in and knocked them free. The dog survived. The lawsuit alleged district workers improperly bypassed a circuit breaker.
+
+### `ESD-2019-07-14-1.md` — McKenzie Kinley (9F)
+
+- **Our date:** 2019-07-14
+- **ESDPA date listed:** 2019-04-02
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2019-003 (project file)
+- **Location:** Private swimming pool | Private residence (father's home), late 1950s construction
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA date listed as April 2; correct is July 14, 2019
+- **Primary sources (up to 3):**
+  - https://www.abc10.com/article/news/9-year-old-electrocuted-while-swimming-in-pool-in-citrus-heights/103-d6201043-f8e0-4124-b676-8d7a84821308
+  - https://www.today.com/health/9-year-old-girl-dies-after-being-electrocuted-her-family-t159037
+- **Summary:** McKenzie Kinley, 9, was electrocuted while swimming at her father's home in Citrus Heights. She touched a live wire on an unsealed recessed pool light that was under repair. Four other children in the pool were unharmed. The home was built in the late 1950s. Parents believed the light was disconnected from power. Father Cliff Kinley spoke out about pool electrical safety.
+
+## DC  (2 entries)
+
+### `ESD-1994-00-00-1.md` — Potomac River
+
+- **Our date:** 1994
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #103 (Rev. 8/15/2025)
+- **Location:** Potomac River | Bolling Air Force Base (now Joint Base Anacostia-Bolling)
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date listed as 'approximately 1994'; an earlier ESDPA version gives 'February 1995'
+  - Victim described only as 'young boy' — no name, age, or other details
+- **Summary:** A young boy reached from the water and grabbed the support structure of an electrical junction box at Bolling Air Force Base, Washington, DC, and was electrocuted. Bare energized wires were found touching the metal case inside the junction box, and the ground wire had been intentionally or negligently cut. The base is on the Potomac River with Capital Cove Marina. A second electrocution fatality i
+
+### `ESD-1997-07-00-1.md` — Anacostia River / Potomac River
+
+- **Our date:** 1997-07
+- **ESDPA date listed:** 1997-07
+- **ESDPA date correct:** False
+- **ESDPA entry #:** #101 (Rev. 8/15/2025)
+- **Location:** Anacostia River / Potomac River | Air Force Base, Washington DC (likely Bolling AFB / Joint Base Anacostia-Bolling)
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - ESDPA lists date as July 1997, but incident involved boy 'walking on ice' — impossible in Washington DC in July; actual date likely a winter month (possibly January 1997)
+  - Internal contradiction between date and description is unresolvable without independent sources
+  - Second fatal electrocution of a boy at same Air Force base; see also FI-1994-001
+- **Summary:** A boy walking on ice slipped and grabbed exposed wires on a dock at an Air Force Base in Washington, DC, and was electrocuted. The ESDPA lists the date as July 1997, but this is almost certainly wrong since ice conditions are impossible in Washington, DC in July. The actual month is likely January or another winter month. This is the second fatal electrocution of a boy at the same Air Force base (
+
+## FL  (8 entries)
+
+### `ESD-2002-00-00-1.md` — None
+
+- **Our date:** 2002
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** None | Multiple Florida marinas (aggregate report)
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Aggregate report spanning 2002-2003, not a single incident
+  - No specific dates, locations, or victim names
+- **Primary sources (up to 3):**
+  - https://www.2coolfishing.com/threads/interesting-article-on-dock-shock.33461/
+- **Summary:** Interviews with divers in Florida during 2002-2003 revealed many reports of high-level tingle while cleaning boat bottoms. All incidents occurred in salt water with no fatalities. This is an aggregate report, not a single incident.
+
+### `ESD-2003-05-08-1.md` — Alex Kopinetz (16M) + Douglas Brandenburg (15M)
+
+- **Our date:** 2003-05-08
+- **ESDPA date listed:** 2002-05-31
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2002-001 (project file)
+- **Location:** Canal (Caloosahatchee River estuary area) | Private dock with boat lift
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date wrong by nearly a year: listed as May 31, 2002; correct date is May 8, 2003
+  - ESDPA location listed as Cape Coral FL; correct location is North Fort Myers FL
+- **Primary sources (up to 3):**
+  - https://www.orlandosentinel.com/2003/05/10/2-teens-electrocuted-in-canal-2/
+  - https://www.legacy.com/us/obituaries/news-press/name/d-j-brandenburg-obituary?id=39191059
+  - https://www.newspapers.com/newspage/213554574/
+- **Summary:** Two teenage boys were playing on a trampoline in a neighbor's yard when Brandenburg spotted a football in the canal. He jumped in to retrieve it and was electrocuted upon grabbing an electrified boat lift. Kopinetz called for adults and jumped in to rescue his friend but was also electrocuted when he touched the boat lift. Both were pronounced dead at Cape Coral Hospital. Lee County Sheriff's Offi
+
+### `ESD-2010-09-01-1.md` — Small lake at Perrine Wayside Dog Park
+
+- **Our date:** 2010-09-01
+- **ESDPA date listed:** 2010-09-05
+- **ESDPA date correct:** False
+- **ESDPA entry #:** (not recorded)
+- **Location:** Small lake at Perrine Wayside Dog Park | Perrine Wayside Dog Park (Village Dog Park), 16425 S. Dixie Highway
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA date was September 5, 2010; correct date is September 1, 2010
+- **Primary sources (up to 3):**
+  - https://communitynewspapers.com/palmetto-bay-news/village-dog-park-reopens-nearly-a-month-after-incident/
+- **Summary:** A dog (Ruger, 6-month-old Labrador retriever belonging to Victor Garcia) died in the lake at Perrine Wayside Dog Park, Palmetto Bay FL. A man was stopped by shocks when attempting to enter the water. The fountain was still electrifying the water after being turned off. The fountain, pump, and wiring were completely removed and not replaced. Park was closed for most of September 2010.
+
+### `ESD-2012-06-27-1.md` — Ashton Jojo (11F) + Christopher Burges (M)
+
+- **Our date:** 2012-06-27
+- **ESDPA date listed:** 2012-05-05
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-011 (project file)
+- **Location:** Mini-golf pond | Orange Lake Resort, miniature golf course
+- **Verification:** VERIFIED (independent sources: 6)
+- **Deviations logged:**
+  - ESDPA date listed as May 5, 2012; correct date is June 27, 2012
+  - Location listed as Celebration FL; actually Orange Lake Resort near Kissimmee
+- **Primary sources (up to 3):**
+  - https://abcnews.go.com/blogs/headlines/2012/06/girl-11-electrocuted-playing-mini-golf
+  - https://www.huffpost.com/entry/ashton-jojo-lawsuit-mini-golf_n_1822210
+- **Summary:** 11-year-old Ashton Jojo from Latham, NY, was electrocuted while playing miniature golf at Orange Lake Resort. She stepped into a 2-foot-deep pond to retrieve her golf ball. A bystander, Christopher Burges, attempted rescue but was also shocked. Cause was a faulty pump connected to the wrong circuit breaker with missing GFCI.
+
+### `ESD-2014-04-13-1.md` — Calder Sloan (7M)
+
+- **Our date:** 2014-04-13
+- **ESDPA date listed:** 2013-09
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2013-001 (project file)
+- **Location:** Private swimming pool | Private residence, 13005 Arch Creek Terrace
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA date listed as Sep 2013; correct date is April 13, 2014
+  - ESDPA location listed as North Miami Beach; correct is North Miami
+- **Primary sources (up to 3):**
+  - https://www.nbcmiami.com/news/local/7-year-old-boy-electrocuted-in-swimming-pool/114252/
+  - https://www.sun-sentinel.com/2014/04/18/north-miami-boy-7-electrocuted-in-family-pool/
+- **Summary:** 7-year-old Calder Sloan was electrocuted in his family's pool at their North Miami home. He had celebrated his 7th birthday one week earlier. The pool light switch was not grounded and the grounding cable was loose. No permits had been pulled in the prior 12 months. A man performing CPR was also shocked when he put his hand in the pool. The Caleb & Calder's Awesome Foundation was established in hi
+
+### `ESD-2014-04-27-1.md` — Diego Cabrera (10M) + Daniella Gamez (6F)
+
+- **Our date:** 2014-04-27
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** None | Palms West Condominiums pool, 1950 W. 56th St.
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA states 'two adults were shocked' — sources confirm at least one adult rescuer was shocked, but exact count of adults uncertain
+- **Primary sources (up to 3):**
+  - https://www.local10.com/news/2014/04/30/pool-pump-incorrectly-wired-in-hialeah-pool-where-3-children-shocked/
+  - https://www.local10.com/news/2014/05/22/surveillance-video-released-shows-children-get-shocked-in-hialeah-pool/
+  - https://abcnews.go.com/blogs/headlines/2014/05/surveillance-video-shows-children-shocked-in-swimming-pool
+- **Summary:** On April 27, 2014, three children were shocked at the Palms West Condominiums pool in Hialeah, FL. Diego Cabrera (10), Daniella Gamez (6), and a 5-year-old girl were shocked by an improperly grounded pool pump. The 5-year-old touched the metal hand rail and was paralyzed by electricity. An adult man (believed to be her grandfather) attempted rescue and was also shocked but managed to pull her out.
+
+### `ESD-2019-06-02-1.md` — April Carlino (30F) + Wendy Lee (43F)
+
+- **Our date:** 2019-06-02
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** None | Universal Studios Volcano Bay water park
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA states cause was 'water coaster short circuit' — OSHA investigation found it was a construction defect (grounding rod through conduit), not a short circuit in a water coaster
+  - ESDPA states 'No injuries were found after examination' — multiple workers were hospitalized and at least one guest filed a lawsuit claiming injury
+- **Primary sources (up to 3):**
+  - https://www.orlandosentinel.com/2019/11/05/universals-volcano-bay-electrical-shock-happened-because-of-construction-errors-osha-finds/
+  - https://www.orlandosentinel.com/2020/01/27/volcano-bay-visitor-sues-universal-in-first-lawsuit-over-electric-shock-incident-universal-blames-her-in-response/
+  - https://www.clickorlando.com/theme-parks/2019/06/06/universal-admits-electrical-issues-at-volcano-bay-sent-workers-to-hospitals/
+- **Summary:** On June 2, 2019, numerous staff and guests were shocked at Universal Studios Volcano Bay water park in Orlando, FL. Guests reported sensations described as 'zapping,' 'bee stings all over their legs,' and numbness radiating through their bodies. Shocks began shortly after park opening and continued for hours before the park closed early. Five lifeguards were hospitalized and released same day. OSH
+
+### `ESD-2020-11-11-1.md` — Mark Mixon (65M)
+
+- **Our date:** 2020-11-11
+- **ESDPA date listed:** 2020-08-30
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2020-002 (project file)
+- **Location:** Flooded laundry room | 211 Bay Drive N., Bradenton Beach
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA date Aug 30 is meteorologically impossible — TS Eta hit Florida in November 2020
+- **Primary sources (up to 3):**
+  - https://www.tampabay.com/hurricane/2020/11/12/beach-resident-electrocuted-putting-out-sandbags-for-tropical-storm-eta-officials-say/
+  - https://www.fox13news.com/news/manatee-county-prepares-for-eta
+- **Summary:** Mark Mixon, 65, was electrocuted while sandbagging his Bradenton Beach home during Tropical Storm Eta. He stepped into the flooded laundry room containing approximately 4 inches of water and a plugged-in dryer. A firefighter was also injured attempting to reach the scene. EMS had to wait for FPL to cut power. Not classic dock/marina ESD — storm flooding/indoor electrocution.
+
+## GA  (5 entries)
+
+### `ESD-2003-05-00-1.md` — Allatoona Lake
+
+- **Our date:** 2003-05
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** FI-2003-003 (project file); #85 (Rev. 8/15/2025)
+- **Location:** Allatoona Lake | Private houseboat dock
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date may be June 2003 rather than May 2003; some ESDPA-derived summaries reference June
+  - Wildlife-only incident: six ducks killed, no human casualties
+- **Summary:** Wildlife-only incident. Six ducks were killed when a shore power cord fell into the water as a houseboat pulled away from a dock at Allatoona Lake, Georgia. The 125V plug at the boat end of the shore cord had been rewired by the owner for 220V service, with L2 connected to the ground pin and the ground lead cut and taped off, causing the hull to rise to line potential. No human casualties. Ducks f
+
+### `ESD-2006-07-24-2.md` — Tyler Howarth (15M) + Unknown Howarth (M)
+
+- **Our date:** 2006-07-24
+- **ESDPA date listed:** 2006-07-14
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2006-002 (project file)
+- **Location:** Lake Lanier | Family lake home, private dock
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as July 14, 2006; correct date is July 24, 2006 per AP wire story and obituary
+  - ESDPA lists victim age as 17; correct age is 15 per obituary (born Nov 21, 1990)
+  - ESDPA lists 1 shocked/survived; actually at least 3 (two friends + father)
+- **Primary sources (up to 3):**
+  - https://www.wistv.com/story/5197330/teenager-electrocuted-at-lake-lanier/
+  - https://www.dailycitizen.news/news/teenager-electrocuted-at-lake-lanier/article_65e083e1-be6e-50d9-82b8-38813d8b5fb7.html
+  - https://accesswdun.com/obituary/22839
+- **Summary:** Tyler James Howarth, 15, of Gainesville, GA, was electrocuted at his family's lake home on Lake Lanier near Cumming, Forsyth County, Georgia. He was standing in the water working on a personal watercraft beside a metal dock when he apparently grabbed an exposed wire. He fell back and under the dock. Two 15-year-old friends on the dock tried to pull him out but were also shocked. His father arrived
+
+### `ESD-2012-09-27-2.md` — Adriana Rhine (18F)
+
+- **Our date:** 2012-09-27
+- **ESDPA date listed:** 2012-08-30
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-003 (project file)
+- **Location:** None | South Georgia Technical College, decorative fountain
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as August 30, 2012; WALB news report published September 27, 2012 describes incident as just occurring
+  - ESDPA lists victim age as 19; confirmed age is 18 per multiple independent sources
+- **Primary sources (up to 3):**
+  - https://www.walb.com/story/19661853/female-student-dies-on-south-georgia-techs-campus/
+  - http://www.walb.com/story/20333375/fountain-found-hazardous-that-electrocuted-south-ga-tech-student/
+  - https://www.walb.com/story/25008811/record-settlement-in-south-georgia-tech-fountain-death/
+- **Summary:** Adriana Rhine, 18, a student at South Georgia Technical College, was electrocuted on September 27, 2012, after entering a decorative fountain on campus to retrieve her young son's ball. When bystanders attempted to help her, they also received electrical shocks, preventing immediate rescue. She was transported to Phoebe Sumter Medical Center where she was pronounced dead. Post-incident inspection 
+
+### `ESD-2013-05-27-1.md` — Gary Muter (M) + Ava Muter (6F)
+
+- **Our date:** 2013-05-27
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** Lake Lanier | Private dock (Evelyn Morrison residence)
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA describes victim as 'a man and his 6-year-old daughter' — actually grandfather and granddaughter (Gary and Ava Muter)
+  - 'Shocked three or more times' detail cannot be verified from independent source
+- **Primary sources (up to 3):**
+  - https://www.gainesvilletimes.com/news/family-dodges-tragedy-in-learning-about-electric-shock-drowning/
+- **Summary:** On Memorial Day (May 27, 2013), Gary Muter and his 6-year-old granddaughter Ava Muter were swimming approximately 10 feet from Evelyn Morrison's dock at Lake Lanier, Gainesville, GA. Gary felt a jolt in his elbow, recognized it as electric shock, grabbed Ava and got both out of the water. Morrison's electrician ruled out her dock as the source (it had GFCI protection). The actual source of the ele
+
+### `ESD-2013-07-24-1.md` — Stephanie Diaz-Ruiz (19F)
+
+- **Our date:** 2013-07-24
+- **ESDPA date listed:** 2013-07-19
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2013-003 (project file)
+- **Location:** None | Private residence (babysitting location)
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as July 19; correct date is July 24, 2013
+- **Primary sources (up to 3):**
+  - https://www.wsbtv.com/news/local/gilmer-co-teen-electrocuted-downed-power-line/242157291/
+  - https://www.bernhardtfh.com/obituary/2177628
+- **Summary:** Stephanie Diaz-Ruiz, 19, was babysitting when a severe storm knocked down power lines. She stepped outside to investigate a power outage and was electrocuted by current traveling through wet ground 25 feet from the downed line. First responders could not reach her until Georgia Power cut the power. Not a classic ESD case — downed power line on land, not dock/marina.
+
+## ID  (1 entries)
+
+### `ESD-2012-08-30-1.md` — Jacquelyn Paulson (31F) + Michael Hicks (41M) + Preston Tarpley (49M)
+
+- **Our date:** 2012-08-30
+- **ESDPA date listed:** 2012-08-22
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-004 (project file)
+- **Location:** Irrigation canal | Irrigation canal approximately 3 miles NW of Blackfoot
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA date listed as August 22, 2012; correct date is August 30, 2012 per ESPN, Idaho State Journal, AP
+- **Primary sources (up to 3):**
+  - https://www.espn.com/college-sports/story/_/id/8322304/idaho-state-bengals-coach-2-others-die-electrocution
+  - https://www.idahostatejournal.com/news/local/three-people-fatally-electrocuted-in-bingham-county-canal/article_ad95f3de-f386-11e1-bf41-001a4bcf887a.html
+  - https://www.idahopress.com/news/state/3-electrocuted-in-idaho-ditch-1-tried-to-save-dog/article_ea5f440e-fa85-595a-89f0-060bc74f22c8.html
+- **Summary:** Three people were electrocuted in an irrigation canal approximately 3 miles northwest of Blackfoot, Idaho, on Thursday, August 30, 2012, at approximately 9:30 p.m. Jacquelyn R. Paulson, 31, an Idaho State University assistant track and field coach and two-time NCAA All-American in the heptathlon, went missing while searching for the family dog. The dog had entered the electrified water and was sho
+
+## IL  (2 entries)
+
+### `ESD-2011-07-25-1.md` — Hannah Kendall (14F) + Jade Garza (14F)
+
+- **Our date:** 2011-07-25
+- **ESDPA date listed:** 2012-07-25
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-006 (project file)
+- **Location:** None | Cornfield with center pivot irrigation system
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA year listed as 2012; correct year is 2011 per all independent sources
+  - ESDPA says '14yo boy and girl'; both victims were girls (Hannah Kendall and Jade Garza)
+- **Primary sources (up to 3):**
+  - https://www.shawlocal.com/2011/07/25/two-sterling-teens-electrocuted-8-others-hurt-in-detasseling-accident/apsrqhi/
+  - https://qconline.com/news/local/sterling-girls-electrocuted-while-detasseling-near-tampico/article_4c1be4d1-6870-5766-b251-9dc5cdbdc74c.html
+  - https://www.chicagotribune.com/2011/07/30/2-illinois-girls-who-died-while-detasseling-corn-mourned/
+- **Summary:** Hannah Kendall and Jade Garza, both 14, of Sterling, Illinois, were electrocuted on Monday, July 25, 2011, while detasseling corn in a field near Tampico. The girls were best friends working with a crew of approximately 70 others. They stepped into a pool of standing water in the field that had been electrified by a defective meter on the center pivot irrigation system. Lightning had reportedly st
+
+### `ESD-2016-10-07-1.md` — None
+
+- **Our date:** 2016-10-07
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** None | Construction site
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA lists location as 'Shiloh MO' — correct location is Shiloh, Illinois (St. Clair County)
+  - ESDPA states 'second worker was shocked' — actually a rescuer attempting to move the victim
+- **Primary sources (up to 3):**
+  - https://e-hazard.com/electrical-shock-rescue-what-quick-thinking-good-training-can-do/
+- **Summary:** On October 7, 2016, a construction worker operating an industrial concrete saw contacted an energized electrical line in Shiloh, Illinois. He was rendered unconscious in approximately 6 inches of standing water. A rescuer was also shocked attempting to move the victim. Two Shiloh IL police officers used a canvas tie-down strap to extract the victim from the electrified water and performed CPR unti
+
+## IN  (3 entries)
+
+### `ESD-2010-07-25-1.md` — Zachary Crays (13M)
+
+- **Our date:** 2010-07-25
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-XXXX-001 (project file, no date in ESDPA)
+- **Location:** Lake Freeman | Angel Shores Resort (private dock)
+- **Verification:** VERIFIED (independent sources: 8)
+- **Deviations logged:**
+  - No date provided in ESDPA document; confirmed date is July 25, 2010
+- **Primary sources (up to 3):**
+  - https://www.newsbug.info/monticello_herald_journal/news/coroner-releases-cause-of-death-for-teen/article_ef5abe70-af77-5295-bef3-eb7319217cea.html
+  - https://www.legacy.com/obituaries/name/zachary-crays-obituary?pid=144325982
+  - https://case-law.vlex.com/vid/angel-shores-mobile-home-895074954
+- **Summary:** Zachary Joshua 'Zach' Crays, 13, of Lafayette IN, was electrocuted while swimming with friends near a dock at Angel Shores Resort on Lake Freeman. A water-soaked junction box energized the dock metal. He felt a tingle, tried to exit, and fell back into the water. He died at 10:55 AM at White County Memorial Hospital. Classic electric shock drowning case.
+
+### `ESD-2016-09-10-1.md` — Sandra Sharp (54F)
+
+- **Our date:** 2016-09-10
+- **ESDPA date listed:** 2016-09-03
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2016-002 (project file)
+- **Location:** Flooded basement | Private residence, 17200 block of Madison Road
+- **Verification:** CONFIRMED (independent sources: 6)
+- **Deviations logged:**
+  - ESDPA date listed as Sep 3; correct incident date is Sep 10, 2016 (death Sep 12)
+  - ESDPA state listed as Iowa (IA); correct is Indiana (IN)
+- **Primary sources (up to 3):**
+  - https://www.wndu.com/content/news/St-Joseph-County-woman-in-critical-condition-after-electrical-shock--393009271.html
+  - https://www.southbendtribune.com/story/news/local/2016/09/13/woman-dies-after-being-electrocuted-in-flooded-st-joseph-county-home/46620075/
+- **Summary:** Sandra Sharp, 54, was found unconscious in her flooded basement at 4:28 AM on Sept 10. CPR restored a pulse; she was hospitalized but taken off life support Sept 12. A box fan was found nearby but police called this 'speculative.' Not a dock/marina ESD — indoor flooded basement.
+
+### `ESD-2025-07-10-1.md` — Gabriel Gonzalez (21M) + Francis Gonzalez III (23M)
+
+- **Our date:** 2025-07-10
+- **ESDPA date listed:** 2025-07-11
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2025-001 (project file)
+- **Location:** Burns Waterway | Marina Shores at Dune Harbor, D dock
+- **Verification:** VERIFIED (independent sources: 16)
+- **Deviations logged:**
+  - ESDPA date listed as July 11; correct is July 10, 2025 (Thursday). July 11 was the publication date.
+- **Primary sources (up to 3):**
+  - https://www.nwitimes.com/news/local/crime-courts/article_744f267b-4a14-41e2-a618-64412a8f7a0a.html
+  - https://www.chicagotribune.com/2025/07/11/hebron-man-drowns-after-electric-shock-at-marina/
+  - https://schaferandschaferlaw.com/blog/tragic-electrical-shock-incident-at-marina-shores-schafer-schafer-llp-files-wrongful-death-complaint/
+- **Summary:** Gabriel Gonzalez, 21, of Hebron IN, was electrocuted at Marina Shores on Burns Waterway. He dove in to retrieve a cooler that fell from a boat (slip holder told him to let it go). He felt a 'tingling sensation' before going under. His brother Francis (23) jumped in and was also overcome; a bystander threw a flotation device. Gabriel's body was recovered ~39 minutes later. Autopsy: drowning seconda
+
+## KY  (7 entries)
+
+### `ESD-1986-07-29-3.md` — Jack Deuser (41M) + Unknown Deuser (F)
+
+- **Our date:** 1986-07-29
+- **ESDPA date listed:** 1986-06-08
+- **ESDPA date correct:** False
+- **ESDPA entry #:** #114 (Rev. 8/15/2025)
+- **Location:** Harrods Creek (Ohio River) | Harrods Creek Boat Harbor
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date listed as June 8, 1986; correct date is July 29, 1986 per ODMP and Louisville Metro PD
+  - ESDPA location listed as 'Lexington KY'; correct location is Louisville/Jefferson County KY (Harrods Creek)
+  - Two dogs survived the incident (noted in ESDPA but not significant for dataset)
+- **Primary sources (up to 3):**
+  - https://www.odmp.org/officer/4045-detective-jack-s-deuser
+  - https://louisville-police.org/718/Jack-S-Deuser
+  - http://www.psdiver.com/images/07-29-1986_Louisville_KY_Jack_S_Deuser_Off_Duty_LEO_Rescue_Attempt_Electrocuted.pdf
+- **Summary:** Detective Jack S. Deuser (41), a 20-year veteran of the Jefferson County Police Department, was electrocuted when he dove into the water at Harrods Creek Boat Harbor to rescue his wife, who was in distress. His wife also died. A faulty light switch and missing ground on a nearby houseboat energized the water. Classified as a line-of-duty death despite being off-duty, because he died attempting a r
+
+### `ESD-2002-05-00-1.md` — Lake Cumberland
+
+- **Our date:** 2002-05
+- **ESDPA date listed:** 2002-03
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2002-002 (project file)
+- **Location:** Lake Cumberland | Marina houseboat dock
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA date listed as March 2002; EC&M article says Memorial Day (May 27, 2002); ESDPA detailed list says May 31, 2002
+  - Correct month is May 2002, not March
+- **Primary sources (up to 3):**
+  - https://www.ecmweb.com/content/article/20891105/the-case-of-the-hot-marina
+- **Summary:** A mother and her adult daughter drowned while swimming from the sundeck of a moored houseboat on Lake Cumberland during Memorial Day weekend 2002. A third daughter survived. The houseboat owner had modified the shore power connection, changing incoming power from 125V to 125/250V and miswiring the ground and hot wire, energizing the aluminum hull, railing, and ladder. Current levels in the water w
+
+### `ESD-2005-06-28-1.md` — Samantha Chipley (19F) + Margaret Unknown (F)
+
+- **Our date:** 2005-06-28
+- **ESDPA date listed:** 2004-09
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2004-001 (project file)
+- **Location:** Cave Run Lake | Scotts Creek Marina
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as September 2004; correct date is June 27-28, 2005 per obituary, news, and BoatTEST
+  - Location spelled variously as Moorhead/Morehead and Scott's Creek/Scotts Creek/Scott Creek
+- **Primary sources (up to 3):**
+  - https://www.kentucky.com/news/politics-government/article44497146.html
+  - https://boattest.com/article/add-isolation-transformer-your-boat
+  - https://www.legacy.com/us/obituaries/kentucky/name/samantha-chipley-obituary?id=33006302
+- **Summary:** Samantha 'Sam' Chipley, 19, of Wilmore, Kentucky, was electrocuted while swimming near a houseboat at Scotts Creek Marina on Cave Run Lake. On June 27, 2005, Chipley and three friends (Margaret, Susie, Courtney) arrived at the marina to spend the night on a houseboat owned by Susie's father. The four jumped into the water despite 'No Swimming' signs. Chipley began jerking in the water. Margaret ju
+
+### `ESD-2010-07-10-1.md` — Beth Waite (F) + Bobby Gullett (M) + John Childress (M)
+
+- **Our date:** 2010-07-10
+- **ESDPA date listed:** 2010-08-08
+- **ESDPA date correct:** False
+- **ESDPA entry #:** (not recorded)
+- **Location:** Green River Lake | None
+- **Verification:** CONFIRMED (independent sources: 2)
+- **Deviations logged:**
+  - ESDPA date was August 8, 2010; correct date is July 10, 2010
+- **Primary sources (up to 3):**
+  - https://www.poynter.org/reporting-editing/2010/electric-shock-danger-lurks-in-fresh-water/
+  - https://www.huffpost.com/entry/esd-hidden-danger-in-fres_b_693454
+- **Summary:** Beth Waite was swimming behind a houseboat at Green River Lake when she was shocked, arched back, and began sinking. Her boyfriend John Childress felt shocks from the boat ramp but avoided entering the water. Houseboat owner Bobby Gullett turned off the power and jumped in to rescue Beth, but was also severely shocked by voltage still present in the water. Both Beth and Bobby received emergency me
+
+### `ESD-2013-05-20-1.md` — Kyle McGonigle (36M)
+
+- **Our date:** 2013-05-20
+- **ESDPA date listed:** 2012-09-27
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-001 (project file)
+- **Location:** Rough River Lake | Dock near Peter Cave marina
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA date listed as September 27, 2012; correct date is May 20, 2013 per obituary, news, and coroner
+  - Date off by approximately 8 months and in the wrong year
+- **Primary sources (up to 3):**
+  - https://www.whas11.com/article/news/local/vine-grove-man-dies-in-rough-river-lake-trying-to-save-dog/417-322618231
+  - https://www.thenewsenterprise.com/news/local/vine-grove-man-drowns-in-rough-river-lake/article_972646bf-5429-5fed-a3d1-c6c4e5123d7c.html
+  - https://www.wave3.com/story/22870597/faulty-wiring-at-fault-after-man-dog-electrocuted-in-lake/
+- **Summary:** Kyle Richard McGonigle, 36, of Vine Grove, Kentucky, was electrocuted on Monday night, May 20, 2013, at Rough River Lake near Peter Cave in Grayson County. McGonigle was swimming and fishing with three co-workers when he heard his friend's dog yelping in the water about five feet from a boat. He dove in to rescue the dog and both he and the dog drowned. Autopsy confirmed death from low-voltage ele
+
+### `ESD-2013-06-30-1.md` — Kevin Short (34M)
+
+- **Our date:** 2013-06-30
+- **ESDPA date listed:** 2013-05-20
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2013-007 (project file)
+- **Location:** Lake Cumberland | Private dock, Garland Bend Road
+- **Verification:** VERIFIED (independent sources: 8)
+- **Deviations logged:**
+  - ESDPA date listed as May 20, 2013; correct date is June 30, 2013
+- **Primary sources (up to 3):**
+  - https://www.kentucky.com/news/state/kentucky/article44432142.html
+  - https://www.bowlingfuneralhome.com/obituary/3046326
+- **Summary:** Kevin Curtis Short, 34, of Lily, KY, was electrocuted at a private dock on Lake Cumberland. A frayed extension cord energized the aluminum dock ladder. In his final moments, Short pushed his young son past the ladder to safety. He was a National Guard veteran and Walmart Distribution Center manager. His death was cited in the Kentucky legislature as motivation for House Bill 107 (Samantha Chipley 
+
+### `ESD-2022-04-22-1.md` — William Keith Elkins (58M)
+
+- **Our date:** 2022-04-22
+- **ESDPA date listed:** 2021-07-04
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2021-001 (project file)
+- **Location:** Ohio River | Prospect Yacht Club / Drift Bar, 1900 Victory Lane
+- **Verification:** VERIFIED (independent sources: 10)
+- **Deviations logged:**
+  - ESDPA date wrong by ~10 months: listed July 4, 2021; correct is April 22, 2022
+- **Primary sources (up to 3):**
+  - https://www.wave3.com/2022/04/26/body-louisville-diver-recovered-ohio-river/
+  - https://www.wave3.com/2022/08/16/troubleshooters-ky-issued-stop-work-order-yacht-club-2-days-before-diver-was-electrocuted/
+  - https://www.owenfuneralhome.com/obituaries/William-Elkins-7/
+- **Summary:** William Keith Elkins, 58, a self-employed commercial diver, was electrocuted while working underwater at Prospect Yacht Club preparing barges for Thunder Over Louisville. Kentucky issued a stop work order 2 days before his death due to lack of building permits. State inspectors later found 33 electrical violations with electricity leaking at 4+ amps. The fire marshal shut down the yacht club indef
+
+## LA  (3 entries)
+
+### `ESD-2001-04-10-1.md` — None
+
+- **Our date:** 2001-04-10
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #91 (Rev. 8/15/2025)
+- **Location:** None | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Commercial/fishing context rather than recreational marina setting
+  - Description says 'electrocuted' not 'drowned' — may not be ESD in the traditional sense
+  - Victim described as 'a boy' suggesting a minor working in commercial fishing
+- **Summary:** A boy was electrocuted while using a conveyor to transfer shrimp in New Orleans, Louisiana. No ground was present on the equipment. This occurred in a salt water / commercial fishing context rather than a recreational marina setting. The ESDPA list classifies it under Electric Shock Drownings, but the description says 'electrocuted' without mentioning drowning. If the victim was a minor working in
+
+### `ESD-2014-08-24-1.md` — Sarah Grace Tellifero (13F)
+
+- **Our date:** 2014-08-24
+- **ESDPA date listed:** 2014-08-02
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2014-002 (project file)
+- **Location:** Lake Bruin | Private boathouse
+- **Verification:** VERIFIED (independent sources: 8)
+- **Deviations logged:**
+  - ESDPA date listed as Aug 2; correct date is Aug 24, 2014
+- **Primary sources (up to 3):**
+  - https://www.lakeexpo.com/news/lake_news/dock-safety-stressed-after-13-year-old-reportedly-electrocuted-on-louisiana-lake/article_6ad213d2-3602-11e4-a94f-001a4bcf887a.html
+  - https://www.mulhearnfuneralhome.com/obituaries/sarah-grace-tellifero
+- **Summary:** Sarah Grace Tellifero, 13, daughter of Pastor Jon Tellifero, was electrocuted at Lake Bruin when a boat lift malfunction energized a pontoon boat's ladder. A 17-year-old was also shocked but survived. Other swimmers had previously reported tingling in the water — an unrecognized warning sign.
+
+### `ESD-2017-05-24-1.md` — Lake Pontchartrain
+
+- **Our date:** 2017-05
+- **ESDPA date listed:** 2017-05-24
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-009 (project file)
+- **Location:** Lake Pontchartrain | Private dock
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date uncertain (May 22 vs May 24, 2017)
+  - No independent sources found to verify any details
+- **Summary:** 23-year-old man reportedly electrocuted when he extended an aluminum pole into the water around his sailboat at a private dock in Mandeville, LA. No independent sources could be located to verify this incident.
+
+## MA  (1 entries)
+
+### `ESD-2017-06-21-1.md` — Atlantic Ocean (Menemsha Harbor)
+
+- **Our date:** 2017-06-21
+- **ESDPA date listed:** 2017-06-27
+- **ESDPA date correct:** False
+- **ESDPA entry #:** (not recorded)
+- **Location:** Atlantic Ocean (Menemsha Harbor) | Crab Corner, Menemsha Beach / transient dock
+- **Verification:** CONFIRMED (independent sources: 2)
+- **Deviations logged:**
+  - ESDPA date is June 27, 2017 (the article publication date); actual incident date was June 21, 2017
+  - ESDPA states cause was unknown — follow-up reporting identified suspected cause as faulty grounding on transient dock
+- **Primary sources (up to 3):**
+  - https://www.mvtimes.com/2017/06/27/menemsha-beach-closed-precaution-tickle/
+  - https://www.mvtimes.com/2017/07/10/potential-fix-pending-voltage-leaching-dock-menemsha/
+- **Summary:** On June 21, 2017, several West Tisbury third graders on a school beach outing felt a 'charge' while swimming or wading at Crab Corner, Menemsha Beach, Chilmark, Martha's Vineyard, MA. Children experienced a 'small shock feeling' but were all fine. Harbormaster Dennis Jason confirmed the tingle when he reached his hand in the water. Power was cut at an electrical box on the bulkhead above the dock.
+
+## ME  (1 entries)
+
+### `ESD-2015-08-25-1.md` — Joel St. Jean (M)
+
+- **Our date:** 2015-08-25
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** Piscataqua River | Portsmouth Naval Shipyard marina
+- **Verification:** CONFIRMED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA lists location as 'Portsmouth NH' — shipyard is physically in Kittery, Maine (though named Portsmouth Naval Shipyard)
+- **Primary sources (up to 3):**
+  - https://www.unionleader.com/news/courts/diver-sues-over-electric-shock-from-faulty-wiring-at-portsmouth-naval-shipyard/article_f10c9261-4c47-5458-bea9-e8cacd44dddd.html
+  - https://www.ecmweb.com/safety/shock-electrocution/article/20901550/diver-sues-government-over-shock-in-shipyard
+  - https://www.tradeonlytoday.com/industry-news/new-hampshire-lawsuit-alleges-faulty-wiring-at-marina
+- **Summary:** On August 25, 2015, Joel St. Jean, a commercial diver in his mid-20s from Portsmouth, NH, was shocked while cleaning the bottom of a 36-foot Catalina sailboat at Portsmouth Naval Shipyard marina (physically located in Kittery, Maine). The sailboat was connected to shore power. St. Jean was found floating unconscious with his scuba regulator still in his mouth. He suffered prolonged headaches, memo
+
+## MI  (7 entries)
+
+### `ESD-1986-07-29-1.md` — Lake St. Clair
+
+- **Our date:** 1986-07-29
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #113A (Rev. 8/15/2025)
+- **Location:** Lake St. Clair | Grosse Pointe Yacht Club
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Information relayed third-hand, reducing confidence in details
+  - Sub-incident (A) of ESDPA item #113; sub-incident (B) is FI-1986-002 at Petoskey, MI
+- **Summary:** Diver drowned at Grosse Pointe Yacht Club on Lake St. Clair, Michigan. No victim name, age, or gender identified. Information relayed third-hand per ESDPA list. Paired with a same-date diver drowning at Petoskey, MI (FI-1986-002); the two may represent a single confused report.
+
+### `ESD-1986-07-29-2.md` — Little Traverse Bay (Lake Michigan)
+
+- **Our date:** 1986-07-29
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #113B (Rev. 8/15/2025)
+- **Location:** Little Traverse Bay (Lake Michigan) | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - City misspelled as 'Petosky' in ESDPA list; correct spelling is 'Petoskey'
+  - Information relayed third-hand, reducing confidence in details
+  - Sub-incident (B) of ESDPA item #113; sub-incident (A) is FI-1986-001 at Grosse Pointe Yacht Club
+- **Summary:** Diver drowned at Petoskey, Michigan, on Little Traverse Bay (Lake Michigan). No victim name, age, or gender identified. Information relayed third-hand per ESDPA list. Paired with a same-date diver drowning at Grosse Pointe Yacht Club, MI (FI-1986-001); the two may represent a single confused report.
+
+### `ESD-1987-00-00-1.md` — Lake Macatawa
+
+- **Our date:** 1987
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #112 (Rev. 8/15/2025)
+- **Location:** Lake Macatawa | Bay Haven Marina
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Year uncertain: listed as '1987 or 1988' in ESDPA; filed under 1987 as default
+- **Summary:** An 18-year-old boy fell off a dock at Bay Haven Marina on Lake Macatawa and drowned. Two would-be rescuers experienced severe electric shock upon entering the water and were unable to complete rescue attempts. The year is uncertain (1987 or 1988).
+
+### `ESD-2006-07-14-1.md` — Michael McNash (20M)
+
+- **Our date:** 2006-07-14
+- **ESDPA date listed:** 2006-06-24
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2006-003 (project file)
+- **Location:** Black River | River Street Marina, near 10th Street Bridge
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as June 24, 2006; correct date is July 14, 2006 per obituary and newspaper
+- **Primary sources (up to 3):**
+  - https://www.newspapers.com/article/the-times-herald-7-14-2006-electric-shoc/48562388/
+  - https://www.findagrave.com/memorial/100291904/michael-john-mcnash
+  - https://www.gracemem.com/obituaries/Michael-J-McNash?obId=12250444
+- **Summary:** Michael John McNash, 20, of Port Huron Township, MI, died attempting to board a docked boat at River Street Marina near the 10th Street Bridge on the Black River. A faulty shore power cord energized the boat and surrounding water. Despite the main power switch being turned off, electricity continued flowing through the defective cord, and the circuit breaker failed to trip. A Michigan Department o
+
+### `ESD-2011-08-15-2.md` — Michael Knudsen (18M) + Zachary Kott-Millard (M)
+
+- **Our date:** 2011-08-15
+- **ESDPA date listed:** 2011-05-28
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2011-002 (project file)
+- **Location:** West Grand Traverse Bay | Duncan L. Clinch Marina, F-Dock
+- **Verification:** VERIFIED (independent sources: 11)
+- **Deviations logged:**
+  - ESDPA date listed as May 28, 2011; correct date is August 15, 2011 per obituary, AP, and all news sources
+- **Primary sources (up to 3):**
+  - https://www.northernexpress.com/news/feature/article-5962-the-50-million-electrocution-case/
+  - https://www.interlochenpublicradio.org/northern-michigan/2011-08-16/teen-drowned-at-t-c-marina-possibly-shocked-underwater
+  - https://www.cbsnews.com/detroit/news/man-dies-while-swimming-at-marina-in-traverse-city/
+- **Summary:** Michael Scott Knudsen, 18, of Mancelona, MI, was electrocuted at the Duncan L. Clinch Marina on August 15, 2011. Knudsen and friend Zachary Kott-Millard jumped from F-Dock into West Grand Traverse Bay at approximately 7:30 p.m. Knudsen immediately struggled, bleeding from his eyes, ears, and nose due to electrical shock. Friends who tried to grab his arms were also shocked. Marina employees cut po
+
+### `ESD-2022-08-16-1.md` — James Stanley (62M)
+
+- **Our date:** 2023-02-07
+- **ESDPA date listed:** 2022-08-16
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2022-001 (project file)
+- **Location:** Flooded apartment basement | Russell Woods Apartments, 11500 block of LaSalle Street
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - PROBABLE PHANTOM DUPLICATE of FI-2023-001
+  - ESDPA date Aug 16, 2022 has no supporting evidence — identical description to Feb 7, 2023 incident
+  - No news coverage exists for a basement electrocution in Detroit in Aug 2022
+- **Primary sources (up to 3):**
+  - https://www.clickondetroit.com/news/local/2023/02/08/plumber-electrocuted-while-snaking-drain-in-flooded-basement-on-detroits-west-side/
+  - https://www.wxyz.com/news/region/oakland-county/oakland-county-man-electrocuted-in-plumbing-accident
+  - https://www.cobbsfuneralhome.com/obituary/james-stanley
+- **Summary:** PROBABLE PHANTOM DUPLICATE. This entry (FI-2022-001, dated Aug 16, 2022) has word-for-word identical description to FI-2023-001 (dated Feb 7, 2023). All evidence points to a single incident: the death of James Stanley, 62, on February 7, 2023, at Russell Woods Apartments in Detroit. No news coverage exists for any similar Detroit basement electrocution in August 2022. See ESD-2023-02-07-1 for the 
+
+### `ESD-2023-02-07-1.md` — James Stanley (62M)
+
+- **Our date:** 2023-02-07
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** FI-2023-001 (project file)
+- **Location:** Flooded apartment basement | Russell Woods Apartments, 11500 block of LaSalle Street at Webb
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA says 'flooded home basement'; actually an apartment complex (Russell Woods Apartments)
+  - FI-2022-001 appears to be a phantom duplicate of this entry
+- **Primary sources (up to 3):**
+  - https://www.clickondetroit.com/news/local/2023/02/08/plumber-electrocuted-while-snaking-drain-in-flooded-basement-on-detroits-west-side/
+  - https://www.wxyz.com/news/region/oakland-county/oakland-county-man-electrocuted-in-plumbing-accident
+  - https://www.cobbsfuneralhome.com/obituary/james-stanley
+- **Summary:** James Stanley, 62, of Oakland County (Pontiac area), was electrocuted at 6:17 PM while snaking a drain in the flooded basement of Russell Woods Apartments on Detroit's west side. He stepped in standing water containing a live wire. The entire building was electrically charged through 3-4 feet of flood water. Fire crews had to wait for DTE Energy to shut off power. His wife Sherri: 'the 29 years we
+
+## MN  (3 entries)
+
+### `ESD-2011-05-28-1.md` — Brian Harwick (50M)
+
+- **Our date:** 2011-05-28
+- **ESDPA date listed:** 2010-07-26
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2010-001 (project file)
+- **Location:** Lake Pepin | Family home, 1400 Central Point
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date listed as July 26, 2010; correct date is May 28, 2011 per Find a Grave, forum, and family obituaries
+  - Date error of nearly 1 year
+- **Primary sources (up to 3):**
+  - https://www.in-depthoutdoors.com/community/forums/topic/ftlgeneral_1016799/
+  - https://www.findagrave.com/memorial/217661827/brian-eugene-harwick
+  - https://www.ranfranzandvinefh.com/obituaries/thomas-burger-leslie-harwick
+- **Summary:** Brian Eugene Harwick, 50, of Lake City, Minnesota, was electrocuted on Saturday, May 28, 2011, at a family home at 1400 Central Point on the north side of Lake City. His dog ran into the water and swam over a boat lift that had an electrical track running underwater to the shore. The dog received a shock and began to sink. Another person jumped in first to rescue the dog but was also shocked and m
+
+### `ESD-2012-07-07-1.md` — Robert Stoen (22M) + Eric Hancock (35M) + Cheryl Hancock (57F)
+
+- **Our date:** 2012-07-25
+- **ESDPA date listed:** 2012-07-07
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-007 (project file)
+- **Location:** Pokegama Lake | Private dock, Hill Top Trail
+- **Verification:** VERIFIED (independent sources: 2)
+- **Deviations logged:**
+  - ESDPA date listed as July 7, 2012; correct date is July 25, 2012 per CBS Minnesota and AuGres Maritime Museum
+  - ESDPA did not include victim names; CBS Minnesota identifies Robert Stoen (22, Owatonna MN)
+- **Primary sources (up to 3):**
+  - https://www.cbsnews.com/minnesota/news/cord-electrocutes-owatonna-man-at-minn-boatlift/
+- **Summary:** Robert Stoen, 22, of Owatonna, MN, was electrocuted when an extension cord fell into the water from a boat lift at a private dock on Pokegama Lake (Hill Top Trail, Cohasset, MN). Eric Hancock (35) and Cheryl Hancock (57), also of Owatonna, were shocked and hospitalized in serious but stable condition. The Itasca County Sheriff's Office responded. This occurred less than a month after the July 4, 2
+
+### `ESD-2013-07-04-1.md` — Daniel Petersen (46M) + Unknown Petersen (49F)
+
+- **Our date:** 2013-07-04
+- **ESDPA date listed:** 2013-06-30
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2013-006 (project file)
+- **Location:** Eagle Lake | Private dock, 2300 block of 188th Street
+- **Verification:** CONFIRMED (independent sources: 2)
+- **Deviations logged:**
+  - ESDPA date listed as June 30; correct date is July 4, 2013
+- **Primary sources (up to 3):**
+  - https://www.cbsnews.com/minnesota/news/man-dies-while-charging-boat-battery-on-eagle-lake/
+- **Summary:** Daniel Petersen, 46, of Big Lake, MN, died July 7 after being electrocuted July 4, 2013, while attempting to charge his houseboat battery at Eagle Lake. He slipped while standing in 20 inches of water and immersed a plugged-in battery charger. His 49-year-old sister was also shocked attempting rescue but survived.
+
+## MO  (7 entries)
+
+### `ESD-2004-09-13-1.md` — Tyler Deeds (22M)
+
+- **Our date:** 2004-09-13
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** FI-2004-002 (project file)
+- **Location:** Lake of the Ozarks | Private dock
+- **Verification:** CONFIRMED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA describes victim as 'stepped on electrical cable while exiting water'; newspapers say he 'was shocked by a dock cable and fell into the water while helping to remodel a lake house'
+- **Primary sources (up to 3):**
+  - https://www.columbiamissourian.com/news/local/family-files-suit-in-electrocution-at-lake-of-the-ozarks/article_91dbb502-aa2a-5122-9db2-ea3547b557e2.html
+  - https://www.kansascity.com/news/local/article325036.html
+  - https://www.kansascity.com/news/local/article26201008.html
+- **Summary:** Tyler Deeds, 22, of Olathe, Kansas, was shocked by a dock cable and fell into the water while helping to remodel a lake house at Lake of the Ozarks, Missouri. He could not be revived. His death directly prompted 2006 code changes at Lake of the Ozarks, though subsequent inspections found approximately 75% of the roughly 25,000 docks did not comply with safety guidelines.
+
+### `ESD-2006-03-18-1.md` — Nicholas Harbison (16M) + Morgan Milfeld (15) + Timothy Fitzpatrick (15)
+
+- **Our date:** 2006-03-18
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** FI-2006-001 (project file)
+- **Location:** Spring Lake (Summerset Lake subdivision) | Private dock with electric boat lift and lighting
+- **Verification:** VERIFIED (independent sources: 8)
+- **Deviations logged:**
+  - Victim unnamed in ESDPA list; identified via LOA8 research
+  - Location listed generically; now confirmed as Spring Lake, Summerset Lake subdivision
+- **Primary sources (up to 3):**
+  - https://www.stlpr.org/other/2006-03-19/de-soto-teen-electrocuted-in-lake-two-others-hurt
+  - https://groups.google.com/g/alt.support.childfree/c/pxVSLwfqN6s
+  - https://www.findagrave.com/memorial/277929766
+- **Summary:** 16-year-old DeSoto HS sophomore died swimming at a private dock in Spring Lake, Jefferson County MO. Three friends were with him; two were rendered unconscious by electrical current and airlifted to St. John's Mercy Medical Center. A fourth teen was present but not seriously injured. Investigation found 10 amps of current in the dock's supply cable, 4-6 VAC measured 2 feet from the swim ladder, an
+
+### `ESD-2006-07-24-1.md` — Heather Huff (24F)
+
+- **Our date:** 2006-07-24
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** FI-2006-001 (project file)
+- **Location:** Lake of the Ozarks | Private dock, 81 Mile Marker
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA date of July 24, 2006 is a Monday; LakeExpo article says incident occurred on a Saturday (which would be July 22, 2006)
+  - Date requires further verification via Missouri State Highway Patrol records
+- **Primary sources (up to 3):**
+  - https://www.lakeexpo.com/news/top_stories/young-woman-dies-at-lake-of-the-ozarks/article_57661764-1fb0-5839-abbb-7d20dc7c2d16.html
+- **Summary:** Heather Huff, 24, of Raymore, Missouri, was electrocuted at the 81 Mile Marker of Lake of the Ozarks. She was paralyzed by electric shock when she touched a metal swim ladder on a private dock that was energized. Her father was present and family members pulled her from the water and began CPR immediately, but she was pronounced dead at 5:02 p.m.
+
+### `ESD-2012-07-07-2.md` — Jennifer Lankford (26F)
+
+- **Our date:** 2012-07-07
+- **ESDPA date listed:** 2012-07-04
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-008 (project file)
+- **Location:** Lake of the Ozarks | Private dock, Dry Branch Cove, 5-mile marker
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as July 4, 2012; correct date is July 7, 2012 per Columbia Missourian, Lake Expo, and other sources
+  - ESDPA confusion likely arose because a separate incident (Anderson children) occurred on July 4 at the same lake
+- **Primary sources (up to 3):**
+  - https://www.columbiamissourian.com/news/update-woman-electrocuted-at-lake-of-the-ozarks/article_08836cf9-93e2-5152-9550-7a83dfeb79fd.html
+  - https://www.lakeexpo.com/news/lake_news/update-woman-dies-of-dock-electrocution-in-dry-branch-cove/article_d1e06d38-c978-11e1-b37c-0019bb2963f4.html
+  - https://www.stltoday.com/news/local/metro/docks-with-bad-wiring-prove-deadly-at-lake-of-the-ozarks/article_876aa21d-60c0-5b07-85d2-551fa76c6a3b.html
+- **Summary:** Jennifer Lankford, 26, of Hazelwood, Missouri, was electrocuted on Saturday, July 7, 2012, at approximately 7:45 p.m. at Dry Branch Cove, Morgan County, at the 5-mile marker of Lake of the Ozarks. Lankford was swimming with two children (her stepbrothers, ages 11 and 13) when she touched a dock with faulty wiring and was electrocuted. The children survived. Missouri Highway Patrol Sgt. Paul Reinsc
+
+### `ESD-2013-06-18-1.md` — None
+
+- **Our date:** 2013-06-18
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** None | Private residence — flooded basement
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - No documented flood event in Scott City on June 18, 2013 — date or location may be inaccurate
+  - Similar incident (woman shocked in flooded basement, 2013) found in St. Joseph County (different state)
+- **Summary:** On June 18, 2013, a woman in a flooded basement in Scott City, Missouri was shocked while unplugging cords. She rescued her cat and survived by floating on furniture. Non-marina context (flooded basement). No flooding event documented in Scott City for June 2013; date or location may be inaccurate.
+
+### `ESD-2014-07-04-1.md` — Lake of the Ozarks
+
+- **Our date:** 2014-07-04
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** Lake of the Ozarks | Cove near 7 Mile Marker
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA describes source as 'abandoned boat ramp' — more precisely, it was an improperly decommissioned dock ramp with electrical service left connected
+- **Primary sources (up to 3):**
+  - https://www.lakeexpo.com/news/lake_news/swimmers-narrowly-escape-electrocution-in-lake-of-the-ozarks-cove/article_a2ed9992-085a-11e4-997b-0019bb2963f4.html
+  - https://www.ecmweb.com/safety/shock-electrocution/article/20899146/swimmers-report-shock-in-lake-of-the-ozarks-cove
+  - https://www.lakeexpo.com/boating/the_lake/stop-dock-shock-new-coalition-at-the-lake-raises-the-bar-for-electricians/article_3760b108-914b-11e9-9c42-3710bc1712cb.html
+- **Summary:** On July 4, 2014, several swimmers in a cove near the 7 Mile Marker at Lake of the Ozarks felt electric shock in the water. Turning off dock power didn't resolve the issue. The source was a live wire shorted to a ramp approximately 100 yards away, sending 120V AC into the water. The dock at the ramp had been disconnected years prior, but the electrical line was never properly disconnected from the 
+
+### `ESD-2015-06-21-1.md` — Marcus Colburn (21M) + Taylor Curley (F)
+
+- **Our date:** 2015-06-21
+- **ESDPA date listed:** 2014-08-24
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2014-001 (project file)
+- **Location:** Lake of the Ozarks | Rental property dock, Woods Hollow Cove, 22.2 Mile Marker
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA ESD section date is Aug 24, 2014; correct date is June 21, 2015
+  - Near Miss section had correct date of June 21, 2015
+- **Primary sources (up to 3):**
+  - https://www.lakeexpo.com/news/lake_news/swimmer-electrocuted-at-lake-of-the-ozarks/article_25de24fe-1929-11e5-8ca0-0ff78a16476d.html
+  - https://www.columbiamissourian.com/news/electric-current-kills-swimmer-at-the-lake-of-the-ozarks/article_0da380f2-1927-11e5-a7cb-77400882d036.html
+- **Summary:** Marcus Colburn, 21, of East Moline, IL, died on Father's Day while swimming at a rental property dock on Lake of the Ozarks. Both Colburn and Taylor Curley felt electricity in the water. When Colburn grabbed the dock ladder, he was shocked and fell back in face-down. Someone shut off power, saving Curley. Circuit breaker had been tripping repeatedly — a warning sign that went unaddressed.
+
+## MS  (2 entries)
+
+### `ESD-2001-09-15-1.md` — Biloxi Bay
+
+- **Our date:** 2001-09-15
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #88 (Rev. 8/15/2025)
+- **Location:** Biloxi Bay | Bay Marine Boat Works (151 5th St, Biloxi, MS 39530)
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - ESDPA lists name as 'Bay Marina Boat Works'; correct business name is 'Bay Marine Boat Works'
+  - Date (September 15, 2001) is 4 days after 9/11, which may explain lack of media coverage
+  - Earlier ESDPA version (2007) listed this date for the Farr Shores/Lake Hamilton incident instead
+- **Summary:** A person was electrocuted at Bay Marine Boat Works in Biloxi, Mississippi. Reverse polarity from recent electrical work was the cause. Multiple people were reportedly shocked. The business (established 1981, owner Paul Bodin) still operates at 151 5th St, Biloxi. The date of September 15, 2001 — four days after the September 11 attacks — may explain the complete absence of media coverage.
+
+### `ESD-2004-09-12-1.md` — Kenneth Lutrick (16M)
+
+- **Our date:** 2004-09-12
+- **ESDPA date listed:** 2004-08-08
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2004-003 (project file)
+- **Location:** Ross Barnett Reservoir | Main Harbor Marina
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as August 8, 2004; mother's account in HuffPost states September 12, 2004
+  - HuffPost article says 'Jackson, Michigan' but Ross Barnett Reservoir is near Jackson, Mississippi
+- **Primary sources (up to 3):**
+  - https://www.huffpost.com/entry/esd-hidden-danger-in-fres_b_693454
+  - http://tradeonlytoday.com/boating-safety/hidden-deadly-danger-in-marina-waters/
+  - https://www.hollandsentinel.com/story/news/2010/09/06/group-warns-rare-boating-danger/45298206007/
+- **Summary:** Ken Lutrick, 16, was electrocuted at Main Harbor Marina at Ross Barnett Reservoir near Ridgeland, Mississippi. He was with a group of boys after church; they were fishing and then went swimming. When Ken reached for the ladder on a boat that was leaking voltage, the electrified ladder killed him. His mother, Elise Lutrick, co-founded the Electric Shock Drowning Prevention Association (ESDPA) with 
+
+## NC  (4 entries)
+
+### `ESD-2004-06-05-1.md` — Lake Wylie
+
+- **Our date:** 2004-06-05
+- **ESDPA date listed:** 2003-08-03
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2003-001 (project file); #39 (earlier ESDPA list revisions)
+- **Location:** Lake Wylie | Houseboat dock
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - ESDPA date listed as August 3, 2003; all verifiable ESDPA list versions date this as June 5, 2004
+  - Date may have been confused with incident #37 (Aug 3, 2004, Lake Travis TX) or #40 (Aug 3, 2003, Bull Shoals AR)
+- **Summary:** Two boys were swimming at the bow of a houseboat at Lake Wylie when they called for help. The father of one victim and a friend rushed forward. One boy on the ladder said he was being shocked. The other boy in the water was not moving. The friend rushed aft to pull the shore cord (disconnecting shore power). The father went into the water but his son could not be resuscitated. Wiring errors were a
+
+### `ESD-2004-06-19-2.md` — Lake Waccamaw
+
+- **Our date:** 2004-06-19
+- **ESDPA date listed:** 2004-06-05
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2004-005 (project file)
+- **Location:** Lake Waccamaw | Private dock with motorized boat lift
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA date listed as June 5, 2004; EC&M technical article references June 19, 2004
+  - Date discrepancy between ESDPA (June 5) and EC&M article (June 19)
+- **Primary sources (up to 3):**
+  - https://www.ecmweb.com/design/case-floating-dock
+- **Summary:** A 10-year-old boy was electrocuted while swimming near a dock with a motorized boat lift at Lake Waccamaw, North Carolina. His grandfather had raised the boat lift rails about 2 feet above the water to create more swimming space. Children playing in the water reported feeling 'tingles' in their legs before the fatal incident. The grandfather looked into the water and saw the boy floating face down
+
+### `ESD-2013-07-16-1.md` — Lauren Cecil (11F)
+
+- **Our date:** 2013-07-16
+- **ESDPA date listed:** 2013-07-04
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2013-005 (project file)
+- **Location:** Brookside Swim Club pool | Brookside Swim Club
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as July 4, 2013; correct date is July 16, 2013
+- **Primary sources (up to 3):**
+  - https://myfox8.com/2013/07/16/girl-11-fatally-electrocuted-at-brookside-swim-club/
+  - https://www.davidsonfuneralhome.net/obituary/2154506
+- **Summary:** Lauren Suzanne Cecil, 11, was electrocuted at Brookside Swim Club when a city-owned power line connector failed, causing the line to fall and energize the pool's metal ladder through saturated ground. Three girls were in the pool; two escaped via the concrete side, but Lauren grabbed the metal ladder. Not a classic dock/marina ESD — overhead power line failure affecting a pool.
+
+### `ESD-2016-09-03-1.md` — Rachel Rosoff (17F)
+
+- **Our date:** 2016-09-03
+- **ESDPA date listed:** 2016-07-03
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2016-003 (project file)
+- **Location:** Heritage Point community pool | Heritage Point community pool, Valley Forge Road
+- **Verification:** VERIFIED (independent sources: 8)
+- **Deviations logged:**
+  - ESDPA date listed as July 3; correct date is September 3, 2016 (Labor Day weekend)
+- **Primary sources (up to 3):**
+  - https://www.wral.com/teen-lifeguard-electrocuted-in-labor-day-weekend-accident/15988657/
+  - https://www.edwardskirby.com/result/lifeguard-electrocution/
+- **Summary:** Rachel Rosoff, 17, an Enloe High School senior working as a lifeguard through Aquatic Management Group, was electrocuted at Heritage Point community pool on Labor Day weekend. She dipped her hand in the water to check chemicals. The grounding wire hadn't been inspected in 37 years. The Rosoff family became advocates for mandatory pool electrical inspections.
+
+## NH  (1 entries)
+
+### `ESD-2018-11-04-1.md` — Lake Winnipesaukee (Paugus Bay)
+
+- **Our date:** 2018-11-04
+- **ESDPA date listed:** 2018-11-06
+- **ESDPA date correct:** False
+- **ESDPA entry #:** (not recorded)
+- **Location:** Lake Winnipesaukee (Paugus Bay) | Dock area at end of Appleton Street
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date is November 6, 2018 (newspaper publication date); actual incident date was November 4, 2018 (Sunday)
+- **Primary sources (up to 3):**
+  - https://www.unionleader.com/news/animals/dog-electrocuted-when-it-jumps-into-paugus-bay-owner-suffers-powerful-shock-in-futile-rescue/article_7b67dba8-50fa-526e-a7b9-5208080c5ae1.html
+  - https://www.cbsnews.com/boston/news/dog-electrocuted-lake-winnipesaukee-laconia-new-hampshire/
+  - https://www.boston.com/news/local-news/2018/11/08/dog-in-new-hampshire-electrocuted-after-jumping-in-water/
+- **Summary:** On November 4, 2018, a woman was walking her 13-year-old black Labrador retriever near Paugus Bay (Lake Winnipesaukee) at the end of Appleton Street in Laconia, NH. The dog escaped and jumped into the water, where it was electrocuted. The owner suffered a powerful electric shock while attempting to rescue the dog and was transported to hospital for evaluation. Laconia Fire Department confirmed ele
+
+## NJ  (1 entries)
+
+### `ESD-2016-05-28-1.md` — Greg Subiszak (34M) + Ivan Christopher Martinez (17M)
+
+- **Our date:** 2016-05-28
+- **ESDPA date listed:** 2016-04-16
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2016-006 (project file)
+- **Location:** Motel swimming pool | Aztec Motel, 400 block of East Lavender Road
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as April 16; correct date is May 28, 2016
+  - ESDPA said 'pool drain suspected' — incorrect; cause was electrical short in light fixture
+  - ESDPA said 'last known critical' — victim actually died
+- **Primary sources (up to 3):**
+  - https://pix11.com/2016/05/31/nj-man-found-unconscious-at-bottom-of-motel-pool-in-wildwood/
+  - https://6abc.com/news/man-critical-after-electrical-shock-in-nj-motel-pool/1361696/
+- **Summary:** Greg Subiszak, 34, of Fair Lawn NJ, was found unconscious at the bottom of the Aztec Motel pool on Memorial Day weekend. Teenager Ivan Martinez jumped in to save him but went into convulsions from electrical shock. A maintenance worker eventually cut the electricity. Subiszak later died from his injuries. Police determined no criminal charges were warranted.
+
+## NM  (1 entries)
+
+### `ESD-2017-07-09-1.md` — Madison Coe (14F)
+
+- **Our date:** 2017-07-09
+- **ESDPA date listed:** 2017-06-23
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-005 (project file)
+- **Location:** Bathtub | Private residence (father's home)
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as June 23; correct date is July 9, 2017
+- **Primary sources (up to 3):**
+  - https://edition.cnn.com/2017/07/18/health/teen-bathtub-electrocuted-text-trnd
+  - https://www.foxnews.com/tech/first-photo-of-extension-cord-that-killed-teen-who-died-taking-a-bath-while-using-cellphone
+- **Summary:** Madison Coe, 14, from Lubbock TX, was electrocuted while taking a bath at her father's home in Lovington, NM. She was using her phone (Samsung S6 Edge) plugged into a charger cord connected to a frayed extension cord in a non-GFCI outlet. She tried to keep connections dry but was unaware of the cord's frayed section. CPSC was involved in the investigation. Family released her final text/photo to r
+
+## NV  (1 entries)
+
+### `ESD-1995-02-00-1.md` — Lake Mead
+
+- **Our date:** 1995-02
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #102 (Rev. 8/15/2025)
+- **Location:** Lake Mead | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date listed as 'February 1995' in Rev. 8/15/2025; earlier ESDPA versions list 'July 1997' for same description
+  - Date conflict unresolvable without additional sources — may be error in either version
+- **Summary:** Single drowning fatality at Lake Mead, Nevada, from a fault on a houseboat in a freshwater environment. No victim name or specific location within Lake Mead identified. The ESDPA date of February 1995 conflicts with earlier versions of the same list which record the identical incident as July 1997. Lake Mead is managed by the National Park Service.
+
+## NY  (4 entries)
+
+### `ESD-1988-04-21-1.md` — Bryan Higgins (20M) + Scott Payne (M) + Vincent Mancino (M)
+
+- **Our date:** 1988-04-21
+- **ESDPA date listed:** 1988-07
+- **ESDPA date correct:** False
+- **ESDPA entry #:** #111 (Rev. 8/15/2025)
+- **Location:** Indian Lake (campus pond) | State University of New York at Albany (SUNY Albany)
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as July 1988; correct date is April 21, 1988 per UPI, NYT, and The Athletic
+  - ESDPA says 'New York State University at Albany'; correct name is 'State University of New York at Albany' (SUNY Albany)
+- **Primary sources (up to 3):**
+  - https://www.upi.com/Archives/1988/04/22/Student-electrocuted-in-pond-hazing-stunt/7322577684800
+  - https://www.nytimes.com/1988/04/23/nyregion/student-20-electrocuted-in-albany-campus-pond.html
+  - https://www.nytimes.com/athletic/330284/2018/04/26/all-heroes-die-but-they-also-live-on-and-on-meet-mahopac-legend-bryan-higgins/
+- **Summary:** Bryan Higgins, 20, a sophomore from Mahopac, NY, was electrocuted while wading into Indian Lake on the SUNY Albany campus during a Tau Kappa Epsilon (TKE) fraternity initiation ritual on the evening of April 21, 1988. A faulty underground cable energized the concrete-bottom drainage pond. Two other students (Scott Payne and Vincent Mancino) entered the water to help and were shocked but survived. 
+
+### `ESD-1993-07-00-1.md` — St. Lawrence River (Thousand Islands)
+
+- **Our date:** 1993-07
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #106 (Rev. 8/15/2025)
+- **Location:** St. Lawrence River (Thousand Islands) | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date approximate (month only); some sources list August 1993 instead of July
+  - Two bystanders reportedly shocked and hospitalized (per secondary ESD sources) but not noted in primary ESDPA entry
+- **Summary:** Two teenage girls snorkeling near a dock at Alexandria Bay, New York (Thousand Islands region, St. Lawrence River) were paralyzed by electric shock and drowned. The dock wiring had been gnawed by rodents, creating the electrical fault. Secondary sources indicate two bystanders who entered the water to assist were also shocked and hospitalized.
+
+### `ESD-2007-08-28-1.md` — Ryan O'Gorman (22M)
+
+- **Our date:** 2007-08-28
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** Private farm pond | None
+- **Verification:** CONFIRMED (independent sources: 2)
+- **Deviations logged:**
+  - ESDPA date states August 28; day of week analysis suggests possible August 27 (Monday)
+- **Primary sources (up to 3):**
+  - https://www.emsworld.com/news/10408713/improbable-coincidences-help-save-new-york-shock-victim
+  - https://www.huffpost.com/entry/esd-hidden-danger-in-fres_b_693454
+- **Summary:** Ryan O'Gorman, 22, a recent Cornell University graduate, entered a private farm pond in Eden, NY to rescue a dog. He was thrown back and suffered cardiac arrest (no heartbeat for 20 minutes). His father, Dr. O'Gorman (a physician), performed CPR along with Lt. John McCarthy (Eden police officer/volunteer firefighter). The dog was killed by the electrical shock. A submersible irrigation pump with d
+
+### `ESD-2013-07-19-1.md` — Paige Scheel (12F)
+
+- **Our date:** 2013-07-19
+- **ESDPA date listed:** 2013-07-17
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2013-004 (project file)
+- **Location:** Inflatable pool (backyard) | Private residence, Second North Street
+- **Verification:** VERIFIED (independent sources: 9)
+- **Deviations logged:**
+  - ESDPA date listed as July 17; correct date is July 19, 2013
+- **Primary sources (up to 3):**
+  - https://auburnpub.com/news/local/syracuse-girl-electrocuted-in-inflatable-pool/article_9c3d4ea0-cdaa-5040-844d-283d4d6449fd.html
+  - https://www.dignitymemorial.com/obituaries/syracuse-ny/paige-scheel-5607974
+- **Summary:** Paige Scheel, 12, was electrocuted while filling an inflatable pool in her backyard in Syracuse, NY. She picked up an extension cord or electric pump plugged into an outlet and immediately began shaking, then fell face-first into the pool. A friend tried to pull her out but received a shock. She was pronounced dead at Upstate University Hospital.
+
+## None  (1 entries)
+
+### `ESD-2017-06-23-1.md` — Water park pool
+
+- **Our date:** 2017-06-23
+- **ESDPA date listed:** 2017-06-18
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-006 (project file)
+- **Location:** Water park pool | Water park, Akyazi
+- **Verification:** VERIFIED (independent sources: 6)
+- **Deviations logged:**
+  - ESDPA date listed as June 18; most sources indicate June 23, 2017
+  - ESDPA said 1 injured; actually 2 injured (from touching metal railings)
+- **Primary sources (up to 3):**
+  - https://www.cbc.ca/news/world/turkey-water-park-electrocution-1.4175233
+  - https://globalnews.ca/news/3551435/fatal-water-park-electrocuted-turkey/
+- **Summary:** Five people died at a water park in Akyazi, Turkey: three children (12, 15, 17) were caught in electrical current in the pool; the 58-year-old park manager and his 30-year-old son jumped in to save them and were also killed. Two others were injured touching energized metal railings. The park lacked a residual current breaker. Included in ESDPA list because 'this could have happened in the USA.'
+
+## OH  (3 entries)
+
+### `ESD-2000-09-30-2.md` — Lake Erie
+
+- **Our date:** 2000-09-30
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #92 (Rev. 8/15/2025)
+- **Location:** Lake Erie | Possibly Crew's Nest (per local source)
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - In 2017, WTOL reported the Evan Currie death as 'the first electric-shock drowning ever reported in the state of Ohio' — raising questions about whether this 2000 incident was ever reported/classified as ESD
+  - A local tourism site references an earlier electrocution 'in front of the Crew's Nest' but gives no date or name
+- **Summary:** A young bystander disappeared while trying to retrieve sunglasses that went overboard near a Grand Banks 42 powerboat at Put-in-Bay, Ohio (Lake Erie). Electric shock drowning was the cause. A local tourism website references an earlier electrocution 'in front of the Crew's Nest' involving a young man diving for sunglasses and being electrocuted when he grabbed the boat, but provides no date or nam
+
+### `ESD-2017-06-16-1.md` — Evan Currie (19M) + Jeffrey Currie (M)
+
+- **Our date:** 2017-06-16
+- **ESDPA date listed:** 2017-05-22
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-008 (project file)
+- **Location:** Lake Erie | Miller Marina, Bayview Avenue
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA ESD section date May 22, 2017; NM section June 17; correct is June 16, 2017
+- **Primary sources (up to 3):**
+  - https://www.13abc.com/content/news/19-year-old-electrocuted-in-Put-in-Bay-429128083.html
+  - https://www.clevescene.com/news/19-year-old-electrocuted-after-trying-to-save-dad-and-dog-in-put-in-bay-marina-8137076
+- **Summary:** Evan Currie, 19, a Xavier University sophomore from Dublin OH, was Ohio's first reported electric shock drowning victim. After docking at Miller Marina and plugging in shore power, the family dog fell in the water. Father Jeffrey entered and struggled; both sons jumped in. Evan's mother unplugged shore power, stopping the current. Evan was unresponsive, convulsing, and shouted 'electricity' betwee
+
+### `ESD-2018-07-04-1.md` — Shelly Colucci (F) + Unknown Colucci (M)
+
+- **Our date:** 2018-07-04
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** None | Colucci family private pool
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA states 'faulty pool wiring' — source identifies broader 'stray voltage' which could be from underground wires or pool equipment
+- **Primary sources (up to 3):**
+  - https://www.wfmj.com/story/38575082/canfield-family-warns-about-electric-shock-in-pools
+- **Summary:** On July 4, 2018, Shelly Colucci felt a tingling sensation in her feet while entering her family's pool in Canfield, Ohio. She exited, tested the water with her hand and felt the same tingle, recognized she was being shocked, and immediately ordered her son out of the pool. Ohio Edison technicians confirmed stray voltage in the water. The family subsequently installed a Shock Alert detection device
+
+## OK  (6 entries)
+
+### `ESD-1988-04-23-1.md` — None
+
+- **Our date:** 1988-04-23
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #110 (Rev. 8/15/2025)
+- **Location:** None | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - No specific lake or location identified
+  - CDC MMWR report on Oklahoma lake deaths (1989-1993) does not include this 1988 incident, but establishes pattern at same lake system
+- **Summary:** Single drowning fatality in Oklahoma from a fault in a submersible pump, freshwater environment. No victim name, age, or specific location identified. The CDC MMWR documented five similar deaths at northeastern Oklahoma lakes (1989-1993) with 96% of docks violating NEC; this 1988 incident likely occurred at the same lake system.
+
+### `ESD-1989-12-08-1.md` — Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees)
+
+- **Our date:** 1989-12-08
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #109 (Rev. 8/15/2025)
+- **Location:** Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees) | None
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA describes cause as 'fault in dock wiring'; CDC report clarifies victim was rewiring a submerged water pump (occupational, not recreational)
+  - Exact date (December 8, 1989) confirmed by CDC MMWR; ESDPA listed only 'December 1989'
+- **Primary sources (up to 3):**
+  - https://www.cdc.gov/mmwr/preview/mmwrhtml/00042081.htm
+- **Summary:** A 32-year-old male was rewiring a submerged water pump at 'Lake A' (two adjoining lakes in northeastern Oklahoma, likely Grand Lake O' the Cherokees) and stringing electrical wire to a relay station. Co-workers found blood on rocks along the shoreline. A lake patrol diver found the victim under 25 feet of water with a laceration above his right eye. CPR was unsuccessful. Medical examiner ruled cau
+
+### `ESD-1991-07-24-1.md` — Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees)
+
+- **Our date:** 1991-07-24
+- **ESDPA date listed:** 1991-05-11
+- **ESDPA date correct:** False
+- **ESDPA entry #:** #107 (Rev. 8/15/2025)
+- **Location:** Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees) | None
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA date listed as May 11, 1991; CDC MMWR gives date as July 24, 1991
+  - ESDPA describes 'fault in dock lights energized dock frame'; CDC describes 'electrical short in dock wiring' without mentioning lights
+  - CDC rules cause of death as electrocution (on-dock), not drowning — classification as ESD is questionable
+- **Primary sources (up to 3):**
+  - https://www.cdc.gov/mmwr/preview/mmwrhtml/00042081.htm
+- **Summary:** A 50-year-old man was found lying unconscious on a boat dock at a northeastern Oklahoma lake, wearing wet socks and shoes. His son received an electrical shock while attempting to revive him. An electrical short was detected in the dock wiring. The medical examiner ruled the cause of death as electrocution (not drowning). The victim was found on the dock, not in the water, raising questions about 
+
+### `ESD-1993-09-05-1.md` — Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees)
+
+- **Our date:** 1993-09-05
+- **ESDPA date listed:** 1993-08
+- **ESDPA date correct:** False
+- **ESDPA entry #:** #105 (Rev. 8/15/2025)
+- **Location:** Lake A (northeastern Oklahoma; likely Grand Lake O' the Cherokees) | None
+- **Verification:** CONFIRMED (independent sources: 1)
+- **Deviations logged:**
+  - ESDPA date listed as August 1993; CDC MMWR confirms September 5, 1993
+  - ESDPA classifies as 'drowning' under Electric Shock Drownings section; medical examiner ruled cause of death as electrocution, not drowning
+- **Primary sources (up to 3):**
+  - https://www.cdc.gov/mmwr/preview/mmwrhtml/00042081.htm
+- **Summary:** A 46-year-old male scuba diver was electrocuted after contacting a submersible water pump at 'Lake A' in northeastern Oklahoma. A witness reported seeing 'a blue softball-size ball of flame emitting from a pipe' containing power cables near the pump, indicating dramatic exposed and energized wiring. The medical examiner ruled the cause of death as electrocution (not drowning). This was one of five
+
+### `ESD-2018-09-30-1.md` — Wesley Seeley (23M) + Brandon Gann (M)
+
+- **Our date:** 2018-09-30
+- **ESDPA date listed:** 2017-09-01
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-001 (project file)
+- **Location:** Bricktown Canal | Bricktown Canal, bollard light area
+- **Verification:** VERIFIED (independent sources: 6)
+- **Deviations logged:**
+  - ESDPA date wrong by 394 days: listed as Sep 1, 2017; correct is Sep 30, 2018
+- **Primary sources (up to 3):**
+  - https://kfor.com/2018/10/01/one-man-dead-after-being-electrocuted-in-bricktown-canal/
+  - https://kfor.com/news/local/jury-awards-8-million-in-lawsuit-over-bricktown-canal-electrocution-case/
+- **Summary:** Wesley Seeley, 23, was leaning against a bollard light along Bricktown Canal when it gave way, sending him into the water. He grabbed the bollard to get out and was electrocuted. Brandon Gann jumped in to save him and was also severely shocked. 18 loose bollards were found. Bollards had been scheduled for removal months earlier. Libra Electric found 75% liable.
+
+### `ESD-0000-00-00-2.md` — Community swimming pool
+
+- **Our date:** None
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-XXXX-003 (project file, no date in ESDPA)
+- **Location:** Community swimming pool | City recreational center pool
+- **Verification:** UNVERIFIED (independent sources: 1)
+- **Deviations logged:**
+  - No date provided in ESDPA document
+  - Oklahoma location cannot be independently verified
+  - EC&M case study matches details but does not specify location
+- **Primary sources (up to 3):**
+  - https://www.ecmweb.com/content/article/20898270/case-of-the-lethal-candy-machine
+- **Summary:** A 10-year-old boy (referred to as 'Brian' in EC&M article) was electrocuted at a city recreational center pool while buying candy from a vending machine. A damaged power cord from an adjacent soda machine, pinched under the candy machine leg, energized the candy machine cabinet. The broken ground pin prevented the fault from tripping a breaker. The victim was wet from swimming when he touched the 
+
+## OR  (1 entries)
+
+### `ESD-1999-08-01-1.md` — Lucas Ritz (8M) + Sheryl Ritz (F)
+
+- **Our date:** 1999-08-01
+- **ESDPA date listed:** 1999-07
+- **ESDPA date correct:** False
+- **ESDPA entry #:** #95 (Rev. 8/15/2025)
+- **Location:** Multnomah Channel (Willamette River) | None
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as July 1999; correct date is August 1, 1999 per multiple sources
+  - ESDPA describes victim as 'tubing'; multiple sources say he was 'swimming' with life jacket
+- **Primary sources (up to 3):**
+  - https://icl.coop/water-recreation-electric-shock-drowning-lucas-story/
+  - https://www.nbcnews.com/news/world/grieving-father-fights-invisible-killer-electrical-shock-swimmers-flna866620
+  - https://boatingmag.com/how-to/electric-shock-drowning-prevention/
+- **Summary:** Lucas Ritz, 8, was electrocuted while swimming in the Multnomah Channel near Scappoose, Oregon, wearing a Type II life jacket. His face never entered the water. His mother Sheryl (a graduate nurse) jumped in to rescue him and was paralyzed by the current. His father Kevin performed CPR but Lucas never regained consciousness. The coroner initially ruled the death a drowning; Kevin Ritz investigated
+
+## PA  (2 entries)
+
+### `ESD-2016-05-29-1.md` — Backyard pool
+
+- **Our date:** 2016-05-29
+- **ESDPA date listed:** 2016-06-27
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2016-004 (project file)
+- **Location:** Backyard pool | Private residence, Rockledge Drive
+- **Verification:** CONFIRMED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA ESD section date listed as June 27; correct date is May 29, 2016 (Memorial Day weekend)
+  - Final outcome unknown — last reported in critical condition
+- **Primary sources (up to 3):**
+  - https://fox43.com/2016/05/30/8-year-old-cumberland-county-girl-shocked-in-swimming-pool-airlifted-to-hospital/
+  - https://abcnews.go.com/US/critical-condition-electrically-shocked-swimming-pools-weekend/story?id=39483053
+- **Summary:** An 8-year-old girl was among 8 children swimming when a child flipped the pool light switch, sending current into the water. She was the only one unable to get out. Family began CPR; police used AED; she was airlifted to Penn State Hershey Medical Center in critical condition. Seven other children were treated on scene. Final outcome not confirmed in available sources — classified as fatal per ESD
+
+### `ESD-2021-07-04-1.md` — James DeAngelo (23M)
+
+- **Our date:** 2021-07-04
+- **ESDPA date listed:** 2021-06-04
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2021-002 (project file)
+- **Location:** Monongahela River | Beach Club Marina
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA date listed as June 4; correct is July 4, 2021 (exactly 1 month off)
+- **Primary sources (up to 3):**
+  - https://www.wpxi.com/news/top-stories/possible-electrical-shock-caused-man-drown-swimming-monongahela-river-washington-county/7TGFW3IMJBE5XOTMZTUC5LBKF4/
+  - https://www.ecmweb.com/safety/shock-electrocution/article/21169866/death-of-pennsylvania-man-may-be-linked-to-electric-shock-drowning
+- **Summary:** James DeAngelo, 23, of Venetia PA, was found unresponsive while swimming near a docked boat at Beach Club Marina in New Eagle on the Monongahela River around 7:30 PM. A friend who jumped in to search 'felt horribly shocked.' Three others in the area also suffered shocks, strongly supporting ESD diagnosis. Initial 911 call reported electrical current in the water.
+
+## QC  (1 entries)
+
+### `ESD-2017-05-06-1.md` — Richard Lafontaine (M)
+
+- **Our date:** 2017-05-06
+- **ESDPA date listed:** 2017-05-08
+- **ESDPA date correct:** False
+- **ESDPA entry #:** (not recorded)
+- **Location:** None | De la Gappe Boulevard, Touraines neighbourhood — flooded street
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date is May 8, 2017 — correct date is May 6, 2017
+  - ESDPA location is 'Ottawa, Canada' — correct location is Gatineau, Quebec (a separate city in a different province)
+  - ESDPA describes cause as 'contacted a cord powering a submersible pump' — CBC reports describe him falling into electrified floodwater while building sandbag barrier
+- **Primary sources (up to 3):**
+  - https://www.cbc.ca/news/canada/ottawa/gatineau-man-flood-electric-shock-1.4105775
+  - https://www.cbc.ca/news/canada/ottawa/gatineau-electric-shock-richard-lafontaine-1.4114721
+  - https://ca.news.yahoo.com/gatineau-man-suffers-serious-electric-010712792.html
+- **Summary:** On May 6, 2017, Richard Lafontaine was hospitalized in critical condition after suffering electric shock while building a sandbag barrier to protect homes on De la Gappe Boulevard in Gatineau, Quebec, during the catastrophic 2017 Ottawa River flooding. He fell into electrified floodwater on Saturday afternoon. Bystanders administered CPR and he was revived at the scene. As of May 12, he remained i
+
+## SC  (4 entries)
+
+### `ESD-1999-07-00-1.md` — None
+
+- **Our date:** 1999-07
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #98 (Rev. 8/15/2025)
+- **Location:** None | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - ESDPA says 'single drowning' but narrative describes husband drowning during rescue; wife's fate unclear
+  - Source notes 'Dead: 2' but only husband's death is explicitly described; wife may have survived
+  - No specific location within South Carolina identified
+- **Summary:** A woman was in great distress in 3 feet of freshwater in South Carolina. Her husband attempted to rescue her and drowned. The ESDPA describes this as a 'single drowning' but the narrative suggests two people were affected. It is unclear whether the wife also died or survived. The original research file classified this as 2 dead, but only the husband's drowning is explicitly described in the source
+
+### `ESD-2002-10-00-1.md` — Lake Murray
+
+- **Our date:** 2002-10
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** Lake Murray | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date listed as 'Fall 2002' — approximate
+- **Summary:** A swimmer at Lake Murray, SC reported a strong tingle. Investigation found high-level fault currents in the dock frame. Fresh water environment.
+
+### `ESD-2010-06-21-1.md` — None
+
+- **Our date:** 2010-06-21
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** FI-2010-002 (project file)
+- **Location:** None | Residential swimming pool
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date may be July 10, 2010 rather than June 21, 2010; one secondary reference cites July 10
+  - June 21 was a Monday; July 10 was a Saturday (more typical for pool incident)
+- **Summary:** A 54-year-old man died jumping into a swimming pool in York, South Carolina, to rescue his granddaughter who was being shocked by the pool's railing. The granddaughter survived the incident.
+
+### `ESD-2010-09-05-1.md` — Hartwell Lake
+
+- **Our date:** 2010-09-05
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** Hartwell Lake | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date may be uncertain; originally listed same date as Perrine Wayside incident which was corrected
+- **Summary:** A 12-year-old girl grabbed an electrical wire at Hartwell Lake, Anderson, SC and went into cardiac arrest. She was resuscitated by her father and airlifted to the hospital. A grounding problem on the dock was found. She survived.
+
+## TN  (5 entries)
+
+### `ESD-1999-07-18-2.md` — Center Hill Lake
+
+- **Our date:** 1999-07-18
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #97 (Rev. 8/15/2025)
+- **Location:** Center Hill Lake | Sligo Marina (B pier)
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - ESDPA lists lake as 'Cedar Hill Lake'; correct name is 'Center Hill Lake' (US Army Corps of Engineers reservoir)
+  - No 'Cedar Hill Lake' exists near Smithville, TN; the actual Cedar Hill Lake is a small lake in Davidson County, ~60 miles away
+- **Summary:** Two boys wearing flotation devices were found face down in the water a few feet behind a houseboat at Center Hill Lake (listed as 'Cedar Hill Lake' in ESDPA), Smithville, Tennessee. The 7-year-old could not be revived and died; the 8-year-old recovered. Electric shock drowning was suspected. The presence of flotation devices indicates shock-induced paralysis rather than inability to swim. The inci
+
+### `ESD-2000-00-00-1.md` — Norris Lake
+
+- **Our date:** 2000
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #93 (Rev. 8/15/2025)
+- **Location:** Norris Lake | Whitman Hollow Marina
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Year uncertain: listed as '2000 or 2001' in ESDPA; filed under 2000 as default
+- **Summary:** Two teenage boys were swimming behind a houseboat at Whitman Hollow Marina, Norris Lake, Lafollette, Tennessee. One boy climbed onto the swim platform complaining of feeling a severe shock; the other boy fell back from the ladder — his head was reportedly not below water (possible ventricular fibrillation). He could not be resuscitated. The cause was a damaged power cable to the boat: the black le
+
+### `ESD-2000-09-30-1.md` — Tims Ford Lake
+
+- **Our date:** 2000-09-30
+- **ESDPA date listed:** 1999-08-01
+- **ESDPA date correct:** False
+- **ESDPA entry #:** #94 (Rev. 8/15/2025)
+- **Location:** Tims Ford Lake | None
+- **Verification:** CONFIRMED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as August 1, 1999; multiple independent sources confirm September 30, 2000
+  - August 1, 1999 date likely confused with the Lucas Ritz ESD death in Portland, Oregon
+- **Primary sources (up to 3):**
+  - https://www.mikeholt.com/newsletters.php?action=display&letterID=1442
+  - https://www.mikeholt.com/newsletters.php?action=display&letterID=36
+  - https://ontime59.com/electric-shock-drownings/
+- **Summary:** Two young men (ages 21 and 22) died from electric shock drowning after jumping from their dock at Tims Ford Lake, Winchester, Tennessee. A live wire in the water near the dock was found; the cause was improperly installed electrical work on a newly constructed dock. A rescue diver also felt electric shock during recovery. Tennessee subsequently developed new residential dock installation standards
+
+### `ESD-2012-07-04-2.md` — Noah Winstead (10M) + Nate Lynam (11M) + Unknown Lynam (8F) + Unknown Lynam (M)
+
+- **Our date:** 2012-07-04
+- **ESDPA date listed:** 2012-06-27
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2012-010 (project file)
+- **Location:** Cherokee Lake | German Creek Marina
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESD section date listed as June 27, 2012; correct date is July 4, 2012
+  - Victims unnamed in ESDPA list
+- **Primary sources (up to 3):**
+  - https://www.timesnews.net/news/local-news/electric-shock-drowning-killed-2-children-on-cherokee-lake-10-years-ago-july-4/article_08e8177e-d88a-11ec-9b4f-d3749e80e778.html
+  - https://www.nbcnews.com/news/world/2nd-boy-dies-after-shock-incident-tennessee-lake-flna866662
+  - https://www.tn.gov/news/2014/6/3/governor-haslam-signs-noah-dean-and-nate-act.html
+- **Summary:** Two boys, friends and classmates at Cornerstone Academy in Morristown TN, died after being electrocuted while swimming at German Creek Marina on Cherokee Lake. Noah died July 4; Nate died July 5 on life support. Nate's 8-year-old sister was also shocked and hospitalized overnight. Frayed wiring on a houseboat combined with lack of GFI protection at the marina. Incident led to Tennessee's Noah Dean
+
+### `ESD-2016-06-17-1.md` — Donna Berger (34F) + Randy Freeney (62M)
+
+- **Our date:** 2016-06-17
+- **ESDPA date listed:** 2016-05-29
+- **ESDPA date correct:** False
+- **ESDPA entry #:** (not recorded)
+- **Location:** Chickamauga Lake | Private dock
+- **Verification:** SUSPECTED (independent sources: 10)
+- **Deviations logged:**
+  - Listed as near-miss (NM-2016-001) but was actually a double fatality
+  - ESDPA date listed as May 29 or July 3, 2016; actual date was June 17, 2016
+  - ESDPA stated 'All survived' but both adults died
+  - Location listed as 'a Tennessee Lake (exact location unknown)' — actually Chickamauga Lake, Sale Creek
+- **Primary sources (up to 3):**
+  - https://www.williamsonandsons.com/obituaries/Donna-Elaine-Berger?obId=43129735
+  - https://www.timesfreepress.com/obits/2016/jun/21/donna-berger/78381/
+  - https://www.chattanoogan.com/2016/6/21/326499/Berger-Donna-Elaine.aspx
+- **Summary:** Two adults drowned at a private dock on Chickamauga Lake, Sale Creek, Hamilton County TN. Randy Freeney (62) entered the water and was incapacitated; Donna Berger (34), his neighbor, jumped in to rescue him and also drowned. Freeney's wife also attempted to help but was pulled back. Son made 911 call. Classic ESD pattern: two victims simultaneously incapacitated in same water near powered dock, wi
+
+## TX  (11 entries)
+
+### `ESD-1993-09-00-1.md` — None
+
+- **Our date:** 1993-09
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** #104 (Rev. 8/15/2025)
+- **Location:** None | None
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Date listed as approximate (month only); some ESDPA versions list 'approximately 1994'
+  - Salt water ESD is scientifically unusual — classification as ESD may be questionable
+  - Cause of death listed as 'not available' in ESDPA
+- **Summary:** Single drowning fatality in Texas from a fault in a boatlift, salt water environment. No victim name, age, gender, or specific location identified. ESD in salt water is scientifically unusual because salt water's high conductivity typically diverts current around rather than through a swimmer. The cause of death was listed as 'not available' in the ESDPA entry.
+
+### `ESD-2013-08-31-1.md` — Raul Hernandez Martinez (27M) + David Duran (11M) + Maria Isabel Duran (F) + Valeria Sanchez (F)
+
+- **Our date:** 2013-08-31
+- **ESDPA date listed:** 2013-07-25
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2013-002 (project file)
+- **Location:** Hotel swimming pool | Hilton Houston Westchase, 9999 Westheimer Road
+- **Verification:** VERIFIED (independent sources: 9)
+- **Deviations logged:**
+  - ESDPA date listed as July 25, 2013; correct date is August 31, 2013 (Labor Day weekend)
+  - Victim described as 'older man'; actually 27 years old
+- **Primary sources (up to 3):**
+  - https://www.courthousenews.com/family-sues-hilton-over-electrocution-in-pool/
+  - https://www.ecmweb.com/around-circuit/electricians-charged-houston-pool-electrocution
+- **Summary:** Raul Hernandez Martinez, 27, died after rescuing his 11-year-old brother David Duran from the electrified pool at Hilton Houston Westchase on Labor Day weekend. Pool lights turned on around 7:40 PM, surging current through the water. Martinez fought through the current to push David to safety but was overcome. He was removed from life support September 6. Mother Maria Isabel Duran was knocked unco
+
+### `ESD-2014-07-20-1.md` — Andrew Orvis (8M)
+
+- **Our date:** 2014-07-20
+- **ESDPA date listed:** 2014-06-10
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2014-004 (project file)
+- **Location:** Lake Conroe | Piney Shores Resort (Silverleaf Resorts)
+- **Verification:** VERIFIED (independent sources: 12)
+- **Deviations logged:**
+  - ESDPA date listed as June 10; correct date is July 20, 2014
+- **Primary sources (up to 3):**
+  - https://www.chron.com/neighborhood/woodlands/news/article/Family-of-boy-who-died-at-Lake-Conroe-files-suit-5660955.php
+  - https://www.houstonchronicle.com/neighborhood/woodlands/news/article/Report-Boy-8-who-died-at-Lake-Conroe-was-5778615.php
+- **Summary:** Andrew Orvis, 8, was electrocuted at Piney Shores Resort on Lake Conroe. He sat on the dock and dangled his feet in the water, then fell in with unnatural body motion. In the water approximately 15 seconds before his father pulled him out and performed CPR. He was airlifted to Memorial Hermann Hospital where he died. Harris County ME confirmed electrocution Sept 17, 2014; drowning was NOT a contri
+
+### `ESD-2017-03-29-1.md` — Alex Lopez (12M) + Isaiah Lopez (11M)
+
+- **Our date:** 2017-03-29
+- **ESDPA date listed:** 2016-09-10
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2016-001 (project file)
+- **Location:** None | Oakland Lake Park
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date wrong by ~18 months: listed as Sep 10, 2016; correct is March 29, 2017
+- **Primary sources (up to 3):**
+  - https://www.cbsnews.com/texas/news/2-kids-killed-by-downed-power-lines-in-fort-worth/
+  - https://www.washingtonpost.com/news/morning-mix/wp/2017/07/28/family-of-2-young-brothers-killed-by-downed-power-line-sue-tex-electric-company/
+- **Summary:** Brothers Alex Lopez (12) and Isaiah Lopez (11) were electrocuted at Oakland Lake Park in Fort Worth. Alex stepped on a downed power line hidden in overgrown brush over 12 hours after morning storms. A friend told Isaiah, who went to check on his brother and was electrocuted when he touched Alex. Not a classic dock/marina ESD — downed power line incident.
+
+### `ESD-2017-05-21-1.md` — Aldo Jordani Rojas (14M)
+
+- **Our date:** 2017-05-21
+- **ESDPA date listed:** 2017-05-19
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-010 (project file)
+- **Location:** Flooded field/puddle | None
+- **Verification:** CONFIRMED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date listed as May 19; correct is May 21, 2017
+  - ESDPA says two brothers killed; only ONE victim in Laredo (possibly conflated with Fort Worth Lopez brothers)
+- **Primary sources (up to 3):**
+  - https://cbsaustin.com/news/local/boy-dies-after-stepping-into-puddle-with-downed-power-line
+  - https://www.cbsnews.com/texas/news/boy-dies-stepping-puddle-downed-power-line/
+- **Summary:** Aldo Jordani Rojas, 14, was electrocuted after stepping into a storm-flooded puddle containing a downed power line in Laredo, TX. ESDPA incorrectly states two brothers were killed — only one victim died. The 'two brothers' detail likely comes from the separate Fort Worth/Lopez brothers incident (FI-2016-001/ESD-2017-03-29-1). Not a dock/marina ESD — downed power line incident.
+
+### `ESD-2017-08-28-1.md` — Yahir Vizueth (25M) + Jorge Perez (31M) + Jose Vizueth (30M)
+
+- **Our date:** 2017-08-28
+- **ESDPA date listed:** 2017-08-29
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-002 (project file)
+- **Location:** Greens Bayou | Greens Bayou near Interstate 10, east Houston
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA said 5 men; actually 7 (5 rescuers + 2 journalists)
+  - 2 additional men (Benjamin Vizueth, Gustavo Rodriguez-Hernandez) were missing/presumed dead
+- **Primary sources (up to 3):**
+  - https://abcnews.go.com/US/reporters-rescued-boat-crash-harrowing-night-hurricane-battered/story?id=49557866
+  - https://www.washingtonpost.com/news/post-nation/wp/2017/08/30/two-volunteer-rescuers-killed-in-harvey-floodwaters-after-bringing-families-to-safety/
+- **Summary:** During Hurricane Harvey, volunteer rescuers and two Daily Mail journalists (7 total) were on a rescue boat that was pushed into downed power lines in Greens Bayou. Two confirmed dead (Yahir Vizueth, 25; Jorge Perez, 31), two missing/presumed dead (Benjamin Vizueth, 31; Gustavo Rodriguez-Hernandez, 40). Three survivors clung to trees for 18 hours. The group had successfully rescued 7 people before 
+
+### `ESD-2017-08-29-1.md` — Andrew Pasek (25M)
+
+- **Our date:** 2017-08-29
+- **ESDPA date listed:** 2017-08-11
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-003 (project file)
+- **Location:** Hurricane Harvey floodwater | Bear Creek subdivision
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA date listed as Aug 11, 2017 (before Hurricane Harvey); correct is Aug 29, 2017
+- **Primary sources (up to 3):**
+  - https://abcnews.go.com/US/houston-man-dies-save-sisters-cat-flooding/story?id=49575562
+  - https://www.click2houston.com/news/2018/05/17/family-of-man-electrocuted-during-hurricane-harvey-files-lawsuit/
+- **Summary:** Andrew Pasek, 25, an Eagle Scout, was electrocuted while wading through Harvey floodwater to rescue his sister's cat. His ankle hit a submerged live wire (metal plates from prior surgery attracted the current), and he grabbed an energized light pole for support. His last words: 'Don't touch me, I'm dying.' He lay in the water 1.5 hours before power could be cut. The cat (Momo) was eventually rescu
+
+### `ESD-2019-09-19-1.md` — Hunter Morrison (19M)
+
+- **Our date:** 2019-09-19
+- **ESDPA date listed:** 2019-07-19
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2019-002 (project file)
+- **Location:** Tropical Storm Imelda floodwater | None
+- **Verification:** CONFIRMED (independent sources: 6)
+- **Deviations logged:**
+  - ESDPA date listed as July 19; correct is September 19, 2019
+- **Primary sources (up to 3):**
+  - https://www.khou.com/article/news/local/hunter-morrison-imelda-death-jefferson-county/502-d8d0b6ef-65aa-4c4c-8b27-231f02b9dbbe
+  - https://broussards1889.com/obituary/hunter-morrison/
+- **Summary:** Hunter Morrison, 19, of Fannett TX, was electrocuted while trying to move his horse during Tropical Storm Imelda flooding. First confirmed death from Imelda in Jefferson County. The source of the electricity was never publicly identified. A lightning storm was occurring simultaneously. Jefferson County received 40+ inches of rain in 72 hours.
+
+### `ESD-2020-08-29-1.md` — Khaleel Marcos Reynolds (15M)
+
+- **Our date:** 2020-08-29
+- **ESDPA date listed:** 2020-07-12
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2020-003 (project file)
+- **Location:** Hotel swimming pool | North Villa Inn, 16510 North Freeway
+- **Verification:** VERIFIED (independent sources: 7)
+- **Deviations logged:**
+  - ESDPA date listed as July 12; correct is August 29, 2020
+- **Primary sources (up to 3):**
+  - https://abc13.com/teen-electrocuted-in-pool-mom-sues-motel-for-sons-wrongful-death-north-villa-inn-khaleel-reynolds/6438681/
+  - https://www.click2houston.com/news/local/2020/09/02/hotel-pool-where-teen-was-electrocuted-was-not-cleared-to-be-open-harris-county-says/
+- **Summary:** Khaleel Marcos Reynolds, 15, was electrocuted in the North Villa Inn motel pool in Houston. Someone had removed an interior pool light, leaving wires exposed. The pool had failed inspections in July and December 2018 and was never permitted to operate. The family lived at the motel where his mother worked; she was reportedly fired and evicted after the death. Both parents filed wrongful death laws
+
+### `ESD-2021-06-02-1.md` — Trevor Cate (18M)
+
+- **Our date:** 2021-06-02
+- **ESDPA date listed:** 2020-11-04
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2020-001 (project file)
+- **Location:** Clyde Lake (Lake Clyde) | Clyde Lake
+- **Verification:** VERIFIED (independent sources: 6)
+- **Deviations logged:**
+  - ESDPA date wrong: Nov 4, 2020; correct is June 2-3, 2021 (wrong month, day, AND year)
+- **Primary sources (up to 3):**
+  - https://www.nbcdfw.com/news/local/texas-news/18-year-old-dies-after-being-electrocuted-in-west-texas-lake/2648670/
+  - https://www.legacy.com/us/obituaries/reporternews/name/trevor-cate-obituary?id=10112530
+- **Summary:** Trevor Cate, 18, a 2021 Clyde High School graduate, was electrocuted at Clyde Lake while swimming and towing a disabled sailboat. The sailboat struck a power line, which broke and fell into the water. Lake officials had to cut power before rescuers could reach him. He was transported to Hendrick Medical Center and died June 3.
+
+### `ESD-2021-06-04-1.md` — Gustavo Delgado (14M)
+
+- **Our date:** 2021-06-04
+- **ESDPA date listed:** 2021-06-03
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2021-003 (project file)
+- **Location:** Flooded street/puddle | 3700 block of North Palm Leaf Circle, La Homa
+- **Verification:** CONFIRMED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date off by 1 day: listed June 3; correct is June 4, 2021
+- **Primary sources (up to 3):**
+  - https://www.krgv.com/news/14-year-old-boy-dies-after-being-electrocuted-near-mission/
+  - https://www.krgv.com/news/funeral-held-for-mission-teen-who-died-of-electrocution
+- **Summary:** Gustavo Delgado, 14, was electrocuted while walking through a flooded street in the La Homa area near Mission, TX. He stepped into a puddle containing a submerged extension cord that ran from a house to a trailer home. He was reportedly attempting to unplug the cord. Severe thunderstorms had caused flooding in the area. Not classic dock/marina ESD — extension cord in floodwater.
+
+## True  (1 entries)
+
+### `ESD-2007-07-01-1.md` — Lake Ontario
+
+- **Our date:** 2007-07-01
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** True
+- **ESDPA entry #:** (not recorded)
+- **Location:** Lake Ontario | Collins Bay Marina
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - Canadian incident (Ontario, Canada); state field uses province code
+- **Summary:** A SCUBA diver felt tingling then moderate shock while approaching a moored sailboat at Collins Bay on Lake Ontario, Kingston, Ontario, Canada. The diver backed away. A battery charger had a short circuit.
+
+## UT  (1 entries)
+
+### `ESD-2014-06-10-1.md` — Alec McQueen (22M)
+
+- **Our date:** 2014-06-10
+- **ESDPA date listed:** 2014-04-23
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2014-005 (project file)
+- **Location:** Lake Powell | Bullfrog Marina, Glen Canyon National Recreation Area
+- **Verification:** VERIFIED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as April 23; correct date is June 10, 2014
+- **Primary sources (up to 3):**
+  - https://www.deseret.com/2015/7/13/20568259/electrical-shock-killed-man-who-jumped-into-lake-powell-lawsuit-says/
+  - https://www.legacy.com/us/obituaries/deseretnews/name/alec-mcqueen-obituary?id=16191799
+- **Summary:** Alec McQueen, 22, of Salt Lake City, was electrocuted at Bullfrog Marina on Lake Powell. He jumped into the water from his boat's swim deck and was immediately overcome. A friend and two rescuers were also shocked. A boat in the adjacent slip had a 30-amp cord improperly inserted into a worn 50-amp outlet. McQueen's body was recovered two days later, 113 feet below the surface.
+
+## VA  (2 entries)
+
+### `ESD-2001-06-22-1.md` — Joseph Salute (15M) + Maxwell Casillas (11M) + Kyle Fisher (12M)
+
+- **Our date:** 2001-06-22
+- **ESDPA date listed:** 2001-05
+- **ESDPA date correct:** False
+- **ESDPA entry #:** #90 (Rev. 8/15/2025)
+- **Location:** Lake Montclair | Private dock, Timber Ridge Drive, Montclair community
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date listed as May 2001; correct date is June 22, 2001 per Washington Post and obituary
+- **Primary sources (up to 3):**
+  - https://www.washingtonpost.com/archive/local/2001/06/23/electrical-accident-kills-two-prince-william-boys/614873ff-46d9-4dd4-9967-3389773c63b2/
+  - https://www.washingtonpost.com/archive/local/2001/07/18/electrical-system-blamed-in-drownings-of-2-va-boys/e6c909d4-f838-483a-bc7e-006e2a89f693/
+  - https://www.mcall.com/2001/06/26/maxwell-s-casillas/
+- **Summary:** Joseph John Salute (15) and Maxwell 'Max' Scott Casillas (11) were electrocuted and drowned at approximately 3:45 PM on June 22, 2001, after jumping into Lake Montclair near a pontoon boat at a private dock. The boat's charging system was crudely rigged: an unapproved dock outlet, a spliced orange utility cord, and the cord plugged into the wrong outlet on the boat sent 117V directly into the alum
+
+### `ESD-2018-06-02-1.md` — Smith Mountain Lake
+
+- **Our date:** 2018-06-02
+- **ESDPA date listed:** 2018-06-05
+- **ESDPA date correct:** False
+- **ESDPA entry #:** (not recorded)
+- **Location:** Smith Mountain Lake | Private dock, Gills Creek area
+- **Verification:** VERIFIED (independent sources: 3)
+- **Deviations logged:**
+  - ESDPA date is June 5, 2018 — correct date is June 2, 2018 (Saturday)
+  - ESDPA states 'Smith Mountain Lake GA' — Smith Mountain Lake is in VIRGINIA (Bedford/Franklin/Pittsylvania counties), NOT Georgia
+- **Primary sources (up to 3):**
+  - https://www.wdbj7.com/content/news/Officials-Teen-girl-taken-to-hospital-after-electric-shock-at-Smith-Mountain-Lake-dock-484510931.html
+  - https://www.smithmountaineagle.com/news/stray-voltage-in-the-water/article_de1fb8dc-6f09-11e8-9d0a-b3f5070c0b25.html
+  - https://smithmountainlake.com/news/local/boat-lifts-a-common-source-of-stray-voltage-in-the-water/article_06cd2b25-a02f-510d-bd38-8046a5393b44.html
+- **Summary:** On Saturday, June 2, 2018, shortly after 3 p.m., a 17-year-old female from Franklin County was shocked at a dock in the Gills Creek area of Smith Mountain Lake, Virginia. She was holding a boat lift cable with her hand while her foot was in the water, becoming the path of least resistance. She fell into the lake after being shocked and was pulled from the water by another teen. She was transferred
+
+## WA  (2 entries)
+
+### `ESD-2014-08-02-1.md` — Madeline Roskie (18F)
+
+- **Our date:** 2014-08-02
+- **ESDPA date listed:** 2014-07-20
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2014-003 (project file)
+- **Location:** Puyallup River | Near 96th Street Bridge
+- **Verification:** CONFIRMED (independent sources: 5)
+- **Deviations logged:**
+  - ESDPA date listed as July 20; correct date is August 2, 2014
+- **Primary sources (up to 3):**
+  - https://www.seattletimes.com/seattle-news/family-sues-pse-saying-daughter-18-was-electrocuted-while-tubing-the-puyallup-river/
+  - https://www.legacy.com/obituaries/tribnet/obituary.aspx?pid=172054289
+- **Summary:** Madeline 'Maddy' Roskie, 18, died while inner-tubing on the Puyallup River. She complained of leg numbness then lost consciousness. Her boyfriend also felt tingling. Death certificate listed cause as 'undetermined,' though a PSE technician later found 280V from an ungrounded irrigation pump on adjacent property. Father Earl Roskie filed lawsuit against Puget Sound Energy.
+
+### `ESD-2017-08-10-1.md` — Cole Grad (15M)
+
+- **Our date:** 2017-08-10
+- **ESDPA date listed:** 2017-07-12
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2017-004 (project file)
+- **Location:** Columbia River | Old pump station, irrigation facility
+- **Verification:** VERIFIED (independent sources: 4)
+- **Deviations logged:**
+  - ESDPA date listed as July 12; correct date is August 10, 2017
+- **Primary sources (up to 3):**
+  - https://www.yakimaherald.com/news/local/lower_valley/pasco-teen-s-death-linked-to-faulty-pump-wiring/article_8b3523fe-a782-11e7-84ab-9fd82fda1f4c.html
+  - https://610kona.com/coroner-pasco-teen-electrocuted/
+- **Summary:** Cole R. Grad, 15, a Chiawana High School student, was electrocuted while swimming at a private irrigation pump station on the Columbia River. He contacted an energized pipe connected to a faulty pump system. Two firefighters were also shocked during rescue. Coroner ruled death accidental from low voltage electrocution.
+
+## WI  (1 entries)
+
+### `ESD-0000-00-00-1.md` — St. Croix River
+
+- **Our date:** 1986-06-08
+- **ESDPA date listed:** (not recorded)
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-XXXX-002 (project file, no date in ESDPA)
+- **Location:** St. Croix River | Unknown — near swim platform
+- **Verification:** UNVERIFIED (independent sources: 0)
+- **Deviations logged:**
+  - No date in ESDPA document; AuGres Maritime Museum suggests June 8, 1986 but unverified
+- **Summary:** A 44-year-old man reportedly disappeared while approaching a swim platform on the St. Croix River in Prescott, Wisconsin. A battery charger had faulted and no AC grounding wire was present. The AuGres Maritime Museum compilation suggests a date of June 8, 1986, but no independent primary sources (news, obituaries, official reports) have been found. The incident may predate digital archives.
+
+## WV  (1 entries)
+
+### `ESD-2010-05-29-1.md` — Michael Cunningham (15M)
+
+- **Our date:** 2010-05-29
+- **ESDPA date listed:** 2008-08-23
+- **ESDPA date correct:** False
+- **ESDPA entry #:** FI-2008-001 (project file)
+- **Location:** Stonewall Jackson Lake | Stonewall Jackson Lake Marina
+- **Verification:** VERIFIED (independent sources: 8)
+- **Deviations logged:**
+  - ESDPA date listed as August 23, 2008; correct date is May 29, 2010 per obituary, news, and legislation signing
+  - ESDPA says 'fell back in and drowned' but autopsy found no water in lungs — death was electrocution, not drowning
+  - Date error of nearly 2 years
+- **Primary sources (up to 3):**
+  - https://accidents.thedoanlawfirm.com/blog/2010/july/electric-shock-likely-cause-of-west-virginia-dro/
+  - https://www.poynter.org/reporting-editing/2010/electric-shock-danger-lurks-in-fresh-water/
+  - https://wvpublic.org/educating-about-electric-shock-drowning-one-moms-mission/
+- **Summary:** Michael Andrew Cunningham, 15, of Bridgeport, WV, a sophomore at Bridgeport High School, was electrocuted at Stonewall Jackson Lake Marina on Saturday, May 29, 2010. He was swimming with three other youths behind a docked boat. Cunningham had exited the water and was standing on the back of the boat when he touched the swim ladder and received an electric shock, falling into the water and disappea
+
