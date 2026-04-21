@@ -108,18 +108,18 @@
     <div class="row">
       <div>
         <label>Start</label>
-        <input type="date" id="start-date" value="1988-01-01" min="1981-01-01" max="2026-04-19">
+        <input type="date" id="start-date" value="1988-01-01" min="1981-01-01" max="2026-04-21">
       </div>
       <div>
         <label>End</label>
-        <input type="date" id="end-date" value="2026-04-19" min="1981-01-01" max="2026-04-19">
+        <input type="date" id="end-date" value="2026-04-21" min="1981-01-01" max="2026-04-21">
       </div>
     </div>
     <div class="quick">
-      <button data-start="1988-01-01" data-end="2026-04-19">1988–now</button>
-      <button data-start="2000-01-01" data-end="2026-04-19">2000–now</button>
-      <button data-start="2011-01-01" data-end="2026-04-19">2011–now (post-NEC)</button>
-      <button data-start="1981-01-01" data-end="2026-04-19">All</button>
+      <button data-start="1988-01-01" data-end="2026-04-21">1988–now</button>
+      <button data-start="2000-01-01" data-end="2026-04-21">2000–now</button>
+      <button data-start="2011-01-01" data-end="2026-04-21">2011–now (post-NEC)</button>
+      <button data-start="1981-01-01" data-end="2026-04-21">All</button>
     </div>
     <div class="count" id="count">Showing <b id="shown">—</b> of 197 incidents</div>
   </div>
@@ -161,8 +161,14 @@ function colorFor(cat) {
        : C_OTHER;
 }
 
-// Marker cluster groups per category
-const clusterOpts = { disableClusteringAtZoom: 9, spiderfyOnMaxZoom: true };
+// Marker cluster groups per category. Keep clustering gentle — smaller
+// radius and earlier disable so dots stay visible at moderate zoom.
+const clusterOpts = {
+  maxClusterRadius: 35,
+  disableClusteringAtZoom: 7,
+  spiderfyOnMaxZoom: true,
+  showCoverageOnHover: false,
+};
 const groups = {
   marina:  L.markerClusterGroup(clusterOpts),
   private: L.markerClusterGroup(clusterOpts),
@@ -181,19 +187,39 @@ const HEAT_GRADIENT = {
   0.85: '#E31A1C',
   1.0:  '#800026',
 };
-const heatOpts = {
-  radius: 32,
-  blur: 20,
-  minOpacity: 0.72,
-  max: 3.0,
-  maxZoom: 11,
-  gradient: HEAT_GRADIENT,
-};
+// Zoom-aware heatmap sizing. Leaflet.heat's radius is in pixels, so
+// the same point cloud looks dense when zoomed out (points pile up)
+// and sparse when zoomed in (points spread out). Scaling radius with
+// zoom keeps the heat tracking geography rather than pixel-space.
+const HEAT_BASE_ZOOM = 5;   // typical US overview
+const HEAT_BASE_R    = 26;
+const HEAT_SCALE     = 1.55;
+const HEAT_R_MIN     = 18;
+const HEAT_R_MAX     = 90;
+
+function heatRadiusFor(z) {
+  const raw = HEAT_BASE_R * Math.pow(HEAT_SCALE, z - HEAT_BASE_ZOOM);
+  return Math.min(HEAT_R_MAX, Math.max(HEAT_R_MIN, raw));
+}
+
+function heatOptsFor(z) {
+  const r = heatRadiusFor(z);
+  return {
+    radius: r,
+    blur: Math.round(r * 0.72),
+    minOpacity: 0.72,
+    max: 3.0,
+    maxZoom: 18,
+    gradient: HEAT_GRADIENT,
+  };
+}
+
+const initialHeatOpts = heatOptsFor(5);
 const heatLayers = {
-  all:     L.heatLayer([], heatOpts),
-  marina:  L.heatLayer([], heatOpts),
-  private: L.heatLayer([], heatOpts),
-  other:   L.heatLayer([], heatOpts),
+  all:     L.heatLayer([], initialHeatOpts),
+  marina:  L.heatLayer([], initialHeatOpts),
+  private: L.heatLayer([], initialHeatOpts),
+  other:   L.heatLayer([], initialHeatOpts),
 };
 
 // Build markers once; we'll add/remove by filter
@@ -258,6 +284,15 @@ const overlays = {
   'Heatmap: Other':              heatLayers.other,
 };
 L.control.layers(null, overlays, { collapsed: false, position: 'topright' }).addTo(map);
+
+// Keep heatmap radius in sync with zoom level so density reads as
+// geographic rather than pixel-dependent.
+map.on('zoomend', () => {
+  const opts = heatOptsFor(map.getZoom());
+  for (const hl of Object.values(heatLayers)) {
+    hl.setOptions(opts);
+  }
+});
 
 // Wire up filter
 document.getElementById('start-date').addEventListener('change', rebuild);
